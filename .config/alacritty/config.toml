@@ -1,0 +1,14 @@
+[font]
+    normal = { family = "0xProto Nerd Font Propo Regular 11" }
+    bold = { family = "0xProto Nerd Font Propo Bold 11" }
+    italic = { family = "0xProto Nerd Font Propo Italic 11" }
+    bold_italic = { family = "0xProto Nerd Font Propo Bold Italic 11" }
+
+[cursor]
+    shape = "Beam"
+
+[window]
+    padding = {
+        x = 5,
+        y = 5
+    }

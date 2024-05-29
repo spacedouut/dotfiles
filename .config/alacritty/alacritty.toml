@@ -1,0 +1,11 @@
+[font]
+    normal = { family = "JetBrainsMono Nerd Font" }
+    bold = { family = "JetBrainsMono Nerd Font" }
+    italic = { family = "JetBrainsMono Nerd Font" }
+    bold_italic = { family = "JetBrainsMono Nerd Font" }
+
+[cursor]
+    style = { shape = "Beam", blinking = "Off"}
+
+[window]
+    padding = { x = 5, y = 5 }

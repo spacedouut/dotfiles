@@ -1,0 +1,13 @@
+@import '/home/spaced/.cache/wal/colors-waybar.css';
+
+window#waybar {
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+#custom-cornerleft {
+    background-color: #000000;
+    padding: 10px;
+
+    padding-top: 20px;
+}
