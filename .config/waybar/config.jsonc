@@ -1,4 +1,0 @@
-// Waybar config file
-{
-    "include": "$HOME/.config/waybar/configs/wal/config.jsonc",
-}
