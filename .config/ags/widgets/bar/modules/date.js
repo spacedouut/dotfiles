@@ -8,14 +8,14 @@ const date = Variable("", {
 
 export function Time() {
     return Widget.Label({
-        className: "clock",
+        className: "bar-clock",
         label: time.bind()
     })
 }
 
 export function Date() {
     return Widget.Label({
-        className: "date",
+        className: "bar-date",
         label: date.bind()
     })
 }

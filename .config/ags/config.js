@@ -1,17 +1,39 @@
-import Gdk from 'gi://Gdk';
-import GLib from 'gi://GLib';
+import Gdk from "gi://Gdk";
+import GLib from "gi://GLib";
 
-import { Bar, BarCornerTopleft, BarCornerTopright } from "./widgets/bar/widget.js";
+import {
+  Bar,
+  BarCornerTopleft,
+  BarCornerTopright,
+} from "./widgets/bar/widget.js";
+import { MediaWidget } from "./widgets/media/widget.js";
+import { NotificationManager } from "./widgets/notifications/widget.js";
+
+export const COMPILED_STYLE_DIR = `${GLib.get_user_cache_dir()}/ags`;
+
+async function applyStyle() {
+  //Utils.exec(`rm -r ${COMPILED_STYLE_DIR}`);
+  Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+  Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+  Utils.exec(
+    `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+  );
+  App.resetCss();
+  App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+  console.log("[LOG] Styles loaded");
+}
+
+applyStyle().catch(print);
 
 App.config({
-    style: "./style.css",
-    windows: [
-        Bar(0),
-        Bar(1), 
-        BarCornerTopleft(0), 
-        BarCornerTopright(0),
-        BarCornerTopleft(1), 
-        BarCornerTopright(1)
-
-    ],
+  windows: [
+    Bar(0),
+    Bar(1),
+    BarCornerTopleft(0),
+    BarCornerTopright(0),
+    BarCornerTopleft(1),
+    BarCornerTopright(1),
+    MediaWidget(),
+    NotificationManager(),
+  ],
 });

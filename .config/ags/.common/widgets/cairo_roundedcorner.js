@@ -35,8 +35,6 @@ export const RoundedCorner = (place, props) =>
 
             cr.setOperator(Cairo.Operator.CLEAR)
             cr.paint();
-            console.log(cr.operatorSource)
-
 
             cr.setOperator(Cairo.Operator.OVER)
 
