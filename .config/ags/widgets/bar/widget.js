@@ -42,6 +42,7 @@ export function Bar(monitor = 0) {
             endWidget: right,
             className: 'bar-widgets'
         }),
+        setup: enableClickthrough
     });
 }
 
