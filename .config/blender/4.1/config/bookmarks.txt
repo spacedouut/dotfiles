@@ -1,5 +1,0 @@
-[Bookmarks]
-[Recent]
-!Home
-/home/spaced/
-/home/spaced/Documents/Blender/

@@ -3,6 +3,8 @@ import { enableClickthrough } from "../../.utils/clickthrough.js";
 import { Time, Date } from "./modules/date.js";
 import { ActiveWindow } from "./modules/window.js";
 import { Media } from "./modules/media.js";
+import { Tray } from "./modules/tray.js";
+import { Divider } from "./modules/divider.js";
 
 export function Bar(monitor = 0) {
     const left = Widget.Box({
@@ -23,7 +25,7 @@ export function Bar(monitor = 0) {
         hpack: "end",
         className: 'bar-widgets-right',
         spacing: 8,
-        children: [Date(), Time()],
+        children: [Tray(), Divider(), Date(), Time()],
     });
 
     return Widget.Window({

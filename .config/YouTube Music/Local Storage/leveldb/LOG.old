@@ -1,0 +1,6 @@
+2024/06/05-15:20:33.728 45b6e Reusing MANIFEST /home/spaced/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2024/06/05-15:20:33.729 45b6e Recovering log #3
+2024/06/05-15:20:33.729 45b6e Reusing old log /home/spaced/.config/YouTube Music/Local Storage/leveldb/000003.log 
+2024/06/05-15:57:34.276 45b6e Level-0 table #5: started
+2024/06/05-15:57:34.284 45b6e Level-0 table #5: 10707 bytes OK
+2024/06/05-15:57:34.287 45b6e Delete type=0 #3

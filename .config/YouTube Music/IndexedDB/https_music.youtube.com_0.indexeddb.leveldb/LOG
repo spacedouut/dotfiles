@@ -1,0 +1,21 @@
+2024/06/05-17:02:11.408 55cc3 Reusing MANIFEST /home/spaced/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/05-17:02:11.408 55cc3 Recovering log #19
+2024/06/05-17:02:11.414 55cc3 Reusing old log /home/spaced/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000019.log 
+2024/06/05-17:15:21.899 55cc5 Level-0 table #24: started
+2024/06/05-17:15:21.915 55cc5 Level-0 table #24: 1251277 bytes OK
+2024/06/05-17:15:21.917 55cc5 Delete type=0 #19
+2024/06/05-17:17:51.901 55cc3 Compacting 1@1 + 1@2 files
+2024/06/05-17:17:51.910 55cc3 Generated table #25@1: 998 keys, 55248 bytes
+2024/06/05-17:17:51.911 55cc3 Compacted 1@1 + 1@2 files => 55248 bytes
+2024/06/05-17:17:51.912 55cc3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/05-17:17:51.912 55cc3 Delete type=2 #21
+2024/06/05-17:17:51.912 55cc3 Delete type=2 #24
+2024/06/05-18:51:00.027 55cc5 Level-0 table #27: started
+2024/06/05-18:51:00.055 55cc5 Level-0 table #27: 1030842 bytes OK
+2024/06/05-18:51:00.058 55cc5 Delete type=0 #23
+2024/06/05-18:56:39.593 55cc6 Compacting 1@1 + 1@2 files
+2024/06/05-18:56:39.604 55cc6 Generated table #28@1: 1227 keys, 60223 bytes
+2024/06/05-18:56:39.604 55cc6 Compacted 1@1 + 1@2 files => 60223 bytes
+2024/06/05-18:56:39.605 55cc6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/05-18:56:39.605 55cc6 Delete type=2 #25
+2024/06/05-18:56:39.605 55cc6 Delete type=2 #27

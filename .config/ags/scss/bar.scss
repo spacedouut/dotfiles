@@ -34,13 +34,22 @@ window.bar {
 }
 
 .bar-media {
-    background-color: $color1;
-    border-radius: 500px;
+    background-color: transparentize($color1, 0.90);
+    border-radius: 50px;
     padding: 0px 7px 0px 7px;
     margin: 7px;
-    opacity: 0.5
 }
 
 .bar-media-text {
     opacity: 1
 }
+
+.bar-tray-content {
+    background-color: transparentize($color1, 0.75);
+    margin: 7px;
+    padding: 6px;
+    border-radius: 50px;
+    margin-right: 0px;
+}
+
+
