@@ -8,4 +8,5 @@
     style = { shape = "Beam", blinking = "Off"}
 
 [window]
-    padding = { x = 5, y = 5 }
+    padding = { x = 25, y = 25 }
+    opacity = 0.75

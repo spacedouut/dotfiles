@@ -14,6 +14,7 @@ const SysTrayItem = (item) => Widget.Button({
 export const Tray = (props = {}) => {
     const trayContent = Widget.Box({
         className: 'bar-tray-content',
+        spacing: 8,
         setup: (self) => self
             .hook(SystemTray, (self) => {
                 self.children = SystemTray.items.map(SysTrayItem);
@@ -28,7 +29,7 @@ export const Tray = (props = {}) => {
     });
     return Widget.Box({
         ...props,
-        spacing: 100,
+        spacing: 8,
         children: [trayRevealer],
     });
 }

@@ -1,55 +1,63 @@
 @import '/home/spaced/.cache/wal/colors.scss';
 
+@mixin set-size($size: 5px) {
+  min-width: $size;
+  min-height: $size;
+}
+
 * {
-    color: $foreground;
-    all: unset;
+  color: $foreground;
+  all: unset;
 }
 
 window.bar {
-    background-color: $background;
+  background-color: $background;
 }
 
 .corner {
-    background-color: $background;
-    border-radius: 25px;
-    padding: 50px
+  background-color: $background;
+  border-radius: 25px;
+  padding: 50px
 }
 
 .bar-widgets-left {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .bar-widgets-right {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-.bar-activewindow-top, .bar-activewindow-bottom {
-    font-size: 15px;
+.bar-activewindow-top,
+.bar-activewindow-bottom {
+  font-size: 15px;
 }
 
 .bar-activewindow-top {
-    font-size: 12px;
-    opacity: 0.5;
-    font-style: italic;
+  font-size: 12px;
+  opacity: 0.5;
+  font-style: italic;
 }
 
 .bar-media {
-    background-color: transparentize($color1, 0.90);
-    border-radius: 50px;
-    padding: 0px 7px 0px 7px;
-    margin: 7px;
+  background-color: transparentize($color1, 0.90);
+  border-radius: 50px;
+  padding: 0px 7px 0px 7px;
+  margin: 7px;
 }
 
 .bar-media-text {
-    opacity: 1
+  opacity: 1
 }
 
 .bar-tray-content {
-    background-color: transparentize($color1, 0.75);
-    margin: 7px;
-    padding: 6px;
-    border-radius: 50px;
-    margin-right: 0px;
+  background-color: transparentize($color1, 0.75);
+  margin: 7px;
+  padding: 6px;
+  border-radius: 50px;
+  margin-right: 0px;
 }
 
-
+.bar-tray-item {
+  
+}

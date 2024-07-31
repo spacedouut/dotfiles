@@ -33,7 +33,7 @@
 }
 
 .player scale.position trough {
-    background-color: rgba(44,44,44,0.5);
+    background-color: transparentize($color1, 0.75);
     border-radius: 5px;
     min-height: 8px;
 }

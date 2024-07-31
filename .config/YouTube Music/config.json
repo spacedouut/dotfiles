@@ -1,14 +1,14 @@
 {
 	"window-size": {
-		"width": 480,
-		"height": 316
+		"width": 960,
+		"height": 1040
 	},
 	"window-maximized": true,
 	"window-position": {
 		"x": 0,
 		"y": 0
 	},
-	"url": "https://music.youtube.com/watch?v=8VHHNLV4roc&list=PLM0zzhlPWL5wz8pxlcGqIopw5Hh69FmeP&index=0&sq=1",
+	"url": "https://music.youtube.com/watch?v=krtUj_4l0h8&list=PLM0zzhlPWL5wz8pxlcGqIopw5Hh69FmeP&index=0&sq=1",
 	"options": {
 		"tray": true,
 		"appVisible": false,

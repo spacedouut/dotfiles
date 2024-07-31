@@ -5,9 +5,12 @@ import {
   Bar,
   BarCornerTopleft,
   BarCornerTopright,
+  BarCornerBottomright,
+  BarCornerBottomleft
 } from "./widgets/bar/widget.js";
 import { MediaWidget } from "./widgets/media/widget.js";
 import { NotificationManager } from "./widgets/notifications/widget.js";
+import { Sidebar } from "./widgets/sidebar/widget.js";
 
 export const COMPILED_STYLE_DIR = `${GLib.get_user_cache_dir()}/ags`;
 
@@ -23,6 +26,12 @@ async function applyStyle() {
   console.log("[LOG] Styles loaded");
 }
 
+
+Utils.monitorFile(
+    `${App.configDir}/scss`,
+    applyStyle()
+)
+
 applyStyle().catch(print);
 
 App.config({
@@ -33,7 +42,12 @@ App.config({
     BarCornerTopright(0),
     BarCornerTopleft(1),
     BarCornerTopright(1),
+    BarCornerBottomleft(0),
+    BarCornerBottomright(0),
+    BarCornerBottomleft(1),
+    BarCornerBottomright(1),
     MediaWidget(),
-    NotificationManager(),
+    NotificationManager(), 
+    Sidebar()
   ],
 });
