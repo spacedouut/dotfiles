@@ -1,2 +1,26 @@
-.config/'Youtube Music'
+.config/Youtube*Music
+.config/VSCodium/
+.config/dconf/
+.config/Thunar/
+.config/OpenRGB/
+.config/gtk-4.0/
+.config/glib*/
+.config/goa*/
+.config/ibus/
+.config/xsettigsd/
+.config/menus/
+.config/gemini_history.json
+.config/.gsd-keyboard.settings-ported
+.config/mimeapps.list
+.config/monitors.xml
+.config/pavucontrol.ini
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/libvirt/
+.config/nwg-look/
+.config/vinegar/
+.config/presets/
+.config/procps/ 
+.config/qt*/
+.config/wallpapers/
 
