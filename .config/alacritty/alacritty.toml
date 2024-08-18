@@ -1,3 +1,5 @@
+import = ["~/.cache/matugen/compiled/alacritty.toml"]
+
 [font]
     normal = { family = "JetBrainsMono Nerd Font" }
     bold = { family = "JetBrainsMono Nerd Font" }
@@ -10,3 +12,4 @@
 [window]
     padding = { x = 25, y = 25 }
     opacity = 0.75
+

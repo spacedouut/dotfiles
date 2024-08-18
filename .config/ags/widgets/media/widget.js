@@ -143,10 +143,10 @@ function Media() {
 
 export function MediaWidget() {
     return Widget.Window({
-        name: "mpris",
+        name: "Media",
         anchor: ["top"],
         child: Media(),
-        visible: false
+        visible: true
     });
 }
 

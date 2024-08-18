@@ -1,4 +1,4 @@
-.config/Youtube*Music
+.config/Youtube*
 .config/VSCodium/
 .config/dconf/
 .config/Thunar/
@@ -10,7 +10,7 @@
 .config/xsettigsd/
 .config/menus/
 .config/gemini_history.json
-.config/.gsd-keyboard.settings-ported
+.config/.gsd-keyboard*
 .config/mimeapps.list
 .config/monitors.xml
 .config/pavucontrol.ini
@@ -23,4 +23,18 @@
 .config/procps/ 
 .config/qt*/
 .config/wallpapers/
-
+.config/yay/
+.config/xfce4/
+.config/xsettingsd/
+.config/sh.cider.classic/
+.config/Cider/
+.config/Electron/
+.config/Kvantum/
+.config/Ladybird/
+.config/neofetch/
+.config/chromium/
+.config/gnome-session/
+.config/evolution/
+.config/epiphany/
+.config/discord/
+.config/kitty/

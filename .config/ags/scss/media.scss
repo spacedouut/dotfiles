@@ -1,11 +1,11 @@
-@import '/home/spaced/.cache/wal/colors.scss';
+@import '/home/spaced/.cache/matugen/compiled/colors.scss';
 
 .player {
     padding: 10px;
     min-width: 400px;
     background-color: $background;
     border-radius: 13px;
-    color: $foreground;
+    color: $on_background;
     margin: 5px;
 }
 
@@ -33,18 +33,19 @@
 }
 
 .player scale.position trough {
-    background-color: transparentize($color1, 0.75);
+    background-color: $primary_container;
     border-radius: 5px;
     min-height: 8px;
 }
 
 .player scale.position highlight {
-    background-color: $color1;
+    background-color: $primary;
     border-radius: 5px;
 }
 
 .player scale.position slider {
     all: unset;
+    background-color: #ffffff
 }
 
 .player button {

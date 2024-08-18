@@ -12,7 +12,7 @@ export function Media() {
 
   return Widget.Button({
     class_name: "bar-media",
-    on_primary_click: () => App.toggleWindow("mpris"),
+    on_primary_click: () => App.toggleWindow("Media"),
     on_scroll_up: () => mpris.getPlayer("")?.next(),
     on_scroll_down: () => mpris.getPlayer("")?.previous(),
     child: Widget.Label({ label, className: "bar-media-text" }),
