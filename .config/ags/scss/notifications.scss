@@ -1,61 +1,64 @@
-@import '/home/spaced/.cache/matugen/compiled/colors.scss';
+@import "/home/spaced/.cache/matugen/compiled/colors.scss";
 
 window.notification-popups box.notifications {
-    padding: .5em;
+  padding: 0.5em;
 }
 
 .icon {
-    min-width: 24px;
-    min-height: 24px;
-}
-
-.icon image {
-    border-radius: 50px;
-    min-width: 15px;
-    min-height: 15px;
-    padding: 15px;
-    margin: 15px;
-    background-color: $primary;
-    color: $on_primary;
+  font-size: 10px;
 }
 
 .icon box {
-    min-width: 68px;
-    min-height: 68px;
-    border-radius:50px;
+  border-radius: 500px;
+  padding: 20px;
+  margin: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: $primary_container;
+  color: $primary;
+}
+.icon image {
+  font-size: 14px;
+  min-width: 10px;
+  min-width: 10px;
+  background-color: $primary_container;
+  color: $primary;
+  padding: 0px;
 }
 
 .notification {
-    min-width: 350px;
-    border-radius: 11px;
-    padding: 0px;
-    margin: .5em;
-    border: 1px solid $primary;
-    background-color: $background;
+  min-width: 400px;
+  border-radius: 20px;
+  padding: 0px;
+  margin: 10px;
+  border: 1px solid $primary;
+  background-color: $primary;
 }
 
 .notification.critical {
-    border: 1px solid lightcoral;
+  border: 1px solid lightcoral;
 }
 
 .title {
-    color: $on_background;
-    font-size: 1.4em;
+  color: $on_primary;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 .body {
-    color: $on_background;
+  font-size: 11px;
+  color: $on_primary;
+}
+
+.title .body {
+  margin-left: 10px;
 }
 
 .actions .action-button {
-    margin: 0 .4em;
-    margin-top: .8em;
-}
-
-.actions .action-button:first-child {
-    margin-left: 0;
-}
-
-.actions .action-button:last-child {
-    margin-right: 0;
+  margin: 7 7px;
+  margin-top: 0.8em;
+  background-color: $primary-container;
+  border-radius: 15px;
+  padding: 5px;
+  color: $primary;
 }

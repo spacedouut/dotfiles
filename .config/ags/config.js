@@ -26,18 +26,7 @@ async function applyStyle() {
     console.log("[LOG] Styles loaded");
 }
 
-globalThis["applyStyle"] = () => {
-    Utils.exec(`rm -r ${COMPILED_STYLE_DIR}`);
-    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
-    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
-    Utils.exec(
-        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
-    );
-    App.resetCss();
-    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
-    console.log("[LOG] Styles loaded");
-};
-
+globalThis["applyStyle"] = applyStyle
 Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
 
 applyStyle().catch(print);

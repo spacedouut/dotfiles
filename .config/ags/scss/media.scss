@@ -5,7 +5,7 @@
     min-width: 400px;
     background-color: $background;
     border-radius: 13px;
-    color: $on_background;
+    color: $primary;
     margin: 5px;
 }
 
@@ -20,6 +20,7 @@
 
 .player .title {
     font-size: 1.2em;
+    color: $primary
 }
 
 .player .artist {

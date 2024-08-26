@@ -14,10 +14,26 @@ window.bar {
   background-color: $background;
 }
 
+.bar-clock {
+  background-color: $primary_container;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px 25px 25px 5px;
+  padding: 5px
+}
+
+.bar-date {
+  background-color: $primary_container;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 25px 5px 5px 25px;
+  padding: 5px
+}
+
 .corner {
   background-color: $background;
   border-radius: 25px;
-  padding: 50px
+  padding: 50px;
 }
 
 .bar-widgets-left {
@@ -40,8 +56,8 @@ window.bar {
 }
 
 .bar-media {
-  background-color: $primary_container;
-  color: $on_primary_container;
+  background-color: $primary;
+  color: $on_primary;
   border-radius: 50px;
   padding: 0px 7px 0px 7px;
   margin: 7px;
@@ -52,8 +68,8 @@ window.bar {
 }
 
 .bar-tray-content {
-  background-color: $primary_container;
-  color: $on_primary_container;
+  background-color: $primary;
+  color: $on_primary;
   margin: 7px;
   padding: 6px;
   border-radius: 50px;
