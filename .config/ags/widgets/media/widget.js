@@ -146,7 +146,9 @@ export function MediaWidget() {
         name: "Media",
         anchor: ["top"],
         child: Media(),
-        visible: false
+        visible: false,
+        exclusivity: "ignore",
+        margins: [50, 0]
     });
 }
 

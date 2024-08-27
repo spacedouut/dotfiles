@@ -10,7 +10,7 @@ import {
 } from "./widgets/bar/widget.js";
 import { MediaWidget } from "./widgets/media/widget.js";
 import { NotificationManager } from "./widgets/notifications/widget.js";
-import { Sidebar } from "./widgets/sidebar/widget.js";
+import { SidebarL, SidebarR } from "./widgets/sidebar/widget.js";
 
 export const COMPILED_STYLE_DIR = `${GLib.get_user_cache_dir()}/ags`;
 
@@ -45,7 +45,10 @@ App.config({
         BarCornerBottomright(1),
         MediaWidget(),
         NotificationManager(),
-        //Sidebar(),
-        
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
     ],
 });
