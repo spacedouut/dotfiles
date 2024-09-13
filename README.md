@@ -1,4 +1,4 @@
-# spaced's Dotfiles
+# Dotfiles
 Personal dotfiles for Arch Linux
 
 ## Notes
@@ -12,4 +12,4 @@ Personal dotfiles for Arch Linux
 | Status Bar        | AGS       | https://github.com/Aylur/AGS       |
 | Browser           | Firefox   | https://firefox.com                |
 | Shell             | Bash      | https://www.gnu.org/software/bash/ |
-| Text/Code Editor  | Neovim    | https://neovim.io                  |
+| Text/Code Editor  | Neovide   |  https://neovide.dev               |
