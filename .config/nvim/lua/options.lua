@@ -17,4 +17,6 @@ if vim.g.neovide then
     vim.cmd("noremap <C-V> \"+p")
     vim.cmd("cnoremap <C-V> <C-r>+")
     vim.cmd("imap <C-v> <C-r>+")
+
+    vim.o.guifont = "JetBrainsMono Nerd Font:h14"
 end

@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "clangd", "tsserver", "html", "cssls", "jsonls", "marksman" },
+                ensure_installed = { "lua_ls", "clangd", "ts_ls", "html", "cssls", "jsonls", "marksman" },
             })
         end,
     },
@@ -19,7 +19,7 @@ return {
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
             local lspconfig = require("lspconfig")
             lspconfig.lua_ls.setup({ capabilities = capabilities })
-            lspconfig.tsserver.setup({ capabilities = capabilities })
+            lspconfig.ts_ls.setup({ capabilities = capabilities })
             lspconfig.clangd.setup({ capabilities = capabilities })
             lspconfig.html.setup({ capabilities = capabilities })
             lspconfig.cssls.setup({ capabilities = capabilities })
@@ -31,16 +31,5 @@ return {
                 require("tiny-code-action").code_action()
             end, { noremap = true, silent = true })
         end,
-    },
-    {
-        "rachartier/tiny-code-action.nvim",
-        dependencies = {
-            { "nvim-lua/plenary.nvim" },
-            { "nvim-telescope/telescope.nvim" },
-        },
-        event = "LspAttach",
-        config = function()
-            require("tiny-code-action").setup()
-        end,
-    },
+    }
 }

@@ -1,0 +1,19 @@
+2024-09-14 21:51:16.336 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-14 21:51:16.665 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-14 21:51:16.948 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-14 21:51:16.948 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-14 21:52:01.021 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:52:29.308 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:52:29.309 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:52:53.663 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:52:53.663 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:53:47.674 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:53:47.674 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/Cursor/languagepacks.json
+2024-09-14 21:54:04.258 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/main.scss
+2024-09-14 21:54:05.191 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/notifications.scss
+2024-09-14 21:54:05.831 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/sidebar.scss
+2024-09-14 21:54:07.636 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/options.scss
+2024-09-14 21:54:42.093 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/sidebar.scss
+2024-09-14 21:54:42.093 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/scss/sidebar.scss
+2024-09-14 21:55:51.386 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/config.js
+2024-09-14 21:57:14.309 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/spaced/.config/ags/widgets/sidebar/modules/overview.js

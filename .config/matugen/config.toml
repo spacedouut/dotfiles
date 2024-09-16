@@ -22,3 +22,4 @@ alacritty = { input_path = '~/.config/matugen/templates/alacritty.toml', output_
 css = { input_path = '~/.config/matugen/templates/colors.css', output_path = '~/.cache/matugen/compiled/colors.css' }
 sass = { input_path = '~/.config/matugen/templates/colors.scss', output_path = '~/.cache/matugen/compiled/colors.scss' }
 gradience = { input_path = '~/.config/matugen/templates/gradience.json', output_path = '~/.cache/matugen/compiled/gradience.json' }
+lua = { input_path = '~/.config/matugen/templates/colors.lua', output_path = '~/.cache/matugen/compiled/colors.lua' }

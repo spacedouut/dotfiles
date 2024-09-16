@@ -3,8 +3,8 @@
 .player {
     padding: 10px;
     min-width: 400px;
-    background-color: $background;
-    border-radius: 13px;
+    background-color: $primary_container;
+    border-radius: 15px;
     color: $primary;
     margin: 5px;
 }
@@ -14,7 +14,7 @@
     min-height: 100px;
     background-size: cover;
     background-position: center;
-    border-radius: 13px;
+    border-radius: 15px;
     margin-right: 1em;
 }
 

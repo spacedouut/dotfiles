@@ -1,0 +1,2859 @@
+2024-09-14 21:51:16.335 [info] CURSOR LOG: Finished creating provider!
+2024-09-14 21:54:48.594 [info] CURSOR LOG: creating client to https://us-only.gcpp.cursor.sh
+2024-09-14 21:54:48.594 [info] CURSOR LOG: restFunc initiated c8662606-2254-4ac7-8c60-12f743e6a27e
+2024-09-14 21:54:48.731 [info] CURSOR LOG: restFunc initiated ea3352d7-7f8b-4970-8f77-efae97f8de32
+2024-09-14 21:54:48.792 [info] CURSOR LOG: restFunc initiated b814cffd-3bd9-47f8-b6c2-acffcd96715d
+2024-09-14 21:54:48.867 [info] CURSOR LOG: Done streaming cpp with id c8662606-2254-4ac7-8c60-12f743e6a27e
+2024-09-14 21:54:48.867 [info] CPP RT LOG: Time taken for streaming cpp 273.8203125 with request c8662606-2254-4ac7-8c60-12f743e6a27e
+2024-09-14 21:54:48.867 [info] CPP Request Log with id c8662606-2254-4ac7-8c60-12f743e6a27e
+2024-09-14 21:54:48.867 [info] =======>Model input 
+2024-09-14 21:54:48.867 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+2024-09-14 21:54:48.867 [info] =======>Debug stream time 141.636945001781
+2024-09-14 21:54:48.867 [info] =======>Debug ttft time 84.11166900023818
+2024-09-14 21:54:48.872 [info] Average of latest 20 ttft time 84.11166900023818
+2024-09-14 21:54:48.872 [info] Average of latest 20 stream time 141.636945001781
+2024-09-14 21:54:48.872 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:48.872 [info] Average of latest 20 client time 273.8203125
+2024-09-14 21:54:48.872 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:48.872 [info] CPP RT LOG: All stats {"streamingtime":273.8203125,"actualTtftFromStart":273.68896484375,"timeTillServerRequest":54.759765625,"requestToTtft":218.92919921875,"totalTime":328.10009765625}
+2024-09-14 21:54:48.872 [info] CURSOR LOG: restFunc done c8662606-2254-4ac7-8c60-12f743e6a27e
+2024-09-14 21:54:48.898 [info] CURSOR LOG: Done streaming cpp with id ea3352d7-7f8b-4970-8f77-efae97f8de32
+2024-09-14 21:54:48.898 [info] CPP RT LOG: Time taken for streaming cpp 167.31201171875 with request ea3352d7-7f8b-4970-8f77-efae97f8de32
+2024-09-14 21:54:48.898 [info] CPP Request Log with id ea3352d7-7f8b-4970-8f77-efae97f8de32
+2024-09-14 21:54:48.898 [info] =======>Model input 
+2024-09-14 21:54:48.898 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 2px 5px;
+}
+
+2024-09-14 21:54:48.898 [info] =======>Debug stream time 118.33058199938387
+2024-09-14 21:54:48.898 [info] =======>Debug ttft time 77.11591599974781
+2024-09-14 21:54:48.898 [info] Average of latest 20 ttft time 80.613792499993
+2024-09-14 21:54:48.898 [info] Average of latest 20 stream time 129.98376350058243
+2024-09-14 21:54:48.898 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:48.898 [info] Average of latest 20 client time 220.566162109375
+2024-09-14 21:54:48.898 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:48.898 [info] CPP RT LOG: All stats {"streamingtime":167.31201171875,"actualTtftFromStart":181.767822265625,"timeTillServerRequest":63.89208984375,"requestToTtft":117.875732421875,"totalTime":231.167236328125}
+2024-09-14 21:54:48.898 [info] CURSOR LOG: restFunc done ea3352d7-7f8b-4970-8f77-efae97f8de32
+2024-09-14 21:54:48.957 [info] CURSOR LOG: Done streaming cpp with id b814cffd-3bd9-47f8-b6c2-acffcd96715d
+2024-09-14 21:54:48.957 [info] CPP RT LOG: Time taken for streaming cpp 165.295654296875 with request b814cffd-3bd9-47f8-b6c2-acffcd96715d
+2024-09-14 21:54:48.960 [info] CPP Request Log with id b814cffd-3bd9-47f8-b6c2-acffcd96715d
+2024-09-14 21:54:48.960 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/scss/sidebar.scss`):
+<file>
+@import '/home/spaced/.cache/matugen/compiled/colors.scss';
+
+.sidebar-container {
+  background-color: $background;
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+
+</file>
+
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+</diff_history>
+
+
+
+<area_around_code_to_rewrite>
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+  color: $on_background;
+  margin-right: 5px;
+
+<code_to_rewrite>
+  border-radius: 50px;
+  padding: 20px;
+}
+
+</code_to_rewrite>
+.sidebar-overview-greeting-power:hover,
+.sidebar-overview-greeting-reboot:hover {
+  color: $primary;
+  background-color: $primary_container,
+}
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:54:48.960 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px;
+}
+
+2024-09-14 21:54:48.960 [info] =======>Debug stream time 126.02475099265575
+2024-09-14 21:54:48.960 [info] =======>Debug ttft time 78.78715699911118
+2024-09-14 21:54:48.961 [info] Average of latest 20 ttft time 80.00491399969906
+2024-09-14 21:54:48.961 [info] Average of latest 20 stream time 128.66409266460687
+2024-09-14 21:54:48.961 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:48.961 [info] Average of latest 20 client time 202.14265950520834
+2024-09-14 21:54:48.961 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:48.961 [info] CPP RT LOG: All stats {"streamingtime":165.295654296875,"actualTtftFromStart":169.48583984375,"timeTillServerRequest":52.1376953125,"requestToTtft":117.34814453125,"totalTime":217.385498046875}
+2024-09-14 21:54:48.961 [info] CURSOR LOG: restFunc done b814cffd-3bd9-47f8-b6c2-acffcd96715d
+2024-09-14 21:54:49.148 [info] CURSOR LOG: restFunc initiated 21e30ca7-0810-4264-b612-58caa77b9562
+2024-09-14 21:54:49.298 [info] CURSOR LOG: Done streaming cpp with id 21e30ca7-0810-4264-b612-58caa77b9562
+2024-09-14 21:54:49.298 [info] CPP RT LOG: Time taken for streaming cpp 150.5791015625 with request 21e30ca7-0810-4264-b612-58caa77b9562
+2024-09-14 21:54:49.298 [info] CPP Request Log with id 21e30ca7-0810-4264-b612-58caa77b9562
+2024-09-14 21:54:49.298 [info] =======>Model input 
+2024-09-14 21:54:49.298 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:49.298 [info] =======>Debug stream time 115.35879899561405
+2024-09-14 21:54:49.298 [info] =======>Debug ttft time 69.68307599425316
+2024-09-14 21:54:49.299 [info] Average of latest 20 ttft time 77.42445449833758
+2024-09-14 21:54:49.299 [info] Average of latest 20 stream time 125.33776924735866
+2024-09-14 21:54:49.299 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:49.299 [info] Average of latest 20 client time 189.25177001953125
+2024-09-14 21:54:49.299 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:49.299 [info] CPP RT LOG: All stats {"streamingtime":150.5791015625,"actualTtftFromStart":156.3984375,"timeTillServerRequest":51.173583984375,"requestToTtft":105.224853515625,"totalTime":201.725341796875}
+2024-09-14 21:54:49.299 [info] CURSOR LOG: restFunc done 21e30ca7-0810-4264-b612-58caa77b9562
+2024-09-14 21:54:49.332 [info] CURSOR LOG: restFunc initiated 47d26a8a-c402-4788-a762-ec9e16bcfde5
+2024-09-14 21:54:49.464 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:49.464 [info] CURSOR LOG: restFunc done 47d26a8a-c402-4788-a762-ec9e16bcfde5
+2024-09-14 21:54:49.498 [info] CURSOR LOG: restFunc initiated 6f870e1b-2214-460d-b908-abd7448d767b
+2024-09-14 21:54:49.641 [info] CURSOR LOG: Done streaming cpp with id 6f870e1b-2214-460d-b908-abd7448d767b
+2024-09-14 21:54:49.641 [info] CPP RT LOG: Time taken for streaming cpp 144.021484375 with request 6f870e1b-2214-460d-b908-abd7448d767b
+2024-09-14 21:54:49.641 [info] CPP Request Log with id 6f870e1b-2214-460d-b908-abd7448d767b
+2024-09-14 21:54:49.641 [info] =======>Model input 
+2024-09-14 21:54:49.641 [info] =======>Model output 
+  padding: 20px;
+}
+
+2024-09-14 21:54:49.641 [info] =======>Debug stream time 105.45758099853992
+2024-09-14 21:54:49.642 [info] =======>Debug ttft time 82.56313300132751
+2024-09-14 21:54:49.642 [info] Average of latest 20 ttft time 78.45219019893557
+2024-09-14 21:54:49.642 [info] Average of latest 20 stream time 121.36173159759491
+2024-09-14 21:54:49.642 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:49.642 [info] Average of latest 20 client time 180.205712890625
+2024-09-14 21:54:49.642 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:49.642 [info] CPP RT LOG: All stats {"streamingtime":144.021484375,"actualTtftFromStart":171.629638671875,"timeTillServerRequest":50.391845703125,"requestToTtft":121.23779296875,"totalTime":194.380126953125}
+2024-09-14 21:54:49.642 [info] CURSOR LOG: restFunc done 6f870e1b-2214-460d-b908-abd7448d767b
+2024-09-14 21:54:50.002 [info] CURSOR LOG: creating client to https://us-only.gcpp.cursor.sh
+2024-09-14 21:54:50.002 [info] CURSOR LOG: restFunc initiated 737311e9-8f8c-4252-a10c-d1519a865679
+2024-09-14 21:54:50.101 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:50.102 [info] CURSOR LOG: restFunc done 737311e9-8f8c-4252-a10c-d1519a865679
+2024-09-14 21:54:50.156 [info] CURSOR LOG: restFunc initiated 479f6440-e583-4f04-bc9c-f620493c51c7
+2024-09-14 21:54:50.232 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:50.232 [info] CURSOR LOG: restFunc done 479f6440-e583-4f04-bc9c-f620493c51c7
+2024-09-14 21:54:50.287 [info] CURSOR LOG: restFunc initiated 32dc6da5-36ee-44ff-8267-7eea5ae05de2
+2024-09-14 21:54:50.450 [info] CURSOR LOG: Done streaming cpp with id 32dc6da5-36ee-44ff-8267-7eea5ae05de2
+2024-09-14 21:54:50.450 [info] CPP RT LOG: Time taken for streaming cpp 163.235595703125 with request 32dc6da5-36ee-44ff-8267-7eea5ae05de2
+2024-09-14 21:54:50.450 [info] CPP Request Log with id 32dc6da5-36ee-44ff-8267-7eea5ae05de2
+2024-09-14 21:54:50.450 [info] =======>Model input 
+2024-09-14 21:54:50.451 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:50.451 [info] =======>Debug stream time 116.40657700225711
+2024-09-14 21:54:50.451 [info] =======>Debug ttft time 74.4623770006001
+2024-09-14 21:54:50.452 [info] Average of latest 20 ttft time 77.78722133254632
+2024-09-14 21:54:50.452 [info] Average of latest 20 stream time 120.53587249837194
+2024-09-14 21:54:50.452 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:50.452 [info] Average of latest 20 client time 177.37736002604166
+2024-09-14 21:54:50.452 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:50.452 [info] CPP RT LOG: All stats {"streamingtime":163.235595703125,"actualTtftFromStart":176.43017578125,"timeTillServerRequest":53.0009765625,"requestToTtft":123.42919921875,"totalTime":216.12548828125}
+2024-09-14 21:54:50.452 [info] CURSOR LOG: restFunc done 32dc6da5-36ee-44ff-8267-7eea5ae05de2
+2024-09-14 21:54:50.534 [info] CURSOR LOG: restFunc initiated 80227299-f964-435f-9014-2ee8c69b3146
+2024-09-14 21:54:50.672 [info] CURSOR LOG: Done streaming cpp with id 80227299-f964-435f-9014-2ee8c69b3146
+2024-09-14 21:54:50.672 [info] CPP RT LOG: Time taken for streaming cpp 139.147216796875 with request 80227299-f964-435f-9014-2ee8c69b3146
+2024-09-14 21:54:50.672 [info] CPP Request Log with id 80227299-f964-435f-9014-2ee8c69b3146
+2024-09-14 21:54:50.672 [info] =======>Model input 
+2024-09-14 21:54:50.672 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px;
+}
+
+2024-09-14 21:54:50.672 [info] =======>Debug stream time 102.56577299535275
+2024-09-14 21:54:50.672 [info] =======>Debug ttft time 73.40347599983215
+2024-09-14 21:54:50.673 [info] Average of latest 20 ttft time 77.16097199930144
+2024-09-14 21:54:50.673 [info] Average of latest 20 stream time 117.96871542651206
+2024-09-14 21:54:50.673 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:50.673 [info] Average of latest 20 client time 171.91591099330358
+2024-09-14 21:54:50.673 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:50.673 [info] CPP RT LOG: All stats {"streamingtime":139.147216796875,"actualTtftFromStart":161.52392578125,"timeTillServerRequest":50.599609375,"requestToTtft":110.92431640625,"totalTime":189.70263671875}
+2024-09-14 21:54:50.673 [info] CURSOR LOG: restFunc done 80227299-f964-435f-9014-2ee8c69b3146
+2024-09-14 21:54:50.760 [info] CURSOR LOG: restFunc initiated 323f3453-7f3b-4f18-b5b8-d0a6ba5488e2
+2024-09-14 21:54:50.935 [info] CURSOR LOG: Done streaming cpp with id 323f3453-7f3b-4f18-b5b8-d0a6ba5488e2
+2024-09-14 21:54:50.935 [info] CPP RT LOG: Time taken for streaming cpp 174.959716796875 with request 323f3453-7f3b-4f18-b5b8-d0a6ba5488e2
+2024-09-14 21:54:50.935 [info] CPP Request Log with id 323f3453-7f3b-4f18-b5b8-d0a6ba5488e2
+2024-09-14 21:54:50.935 [info] =======>Model input 
+2024-09-14 21:54:50.935 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:50.935 [info] =======>Debug stream time 130.24675200879574
+2024-09-14 21:54:50.935 [info] =======>Debug ttft time 88.80762501060963
+2024-09-14 21:54:50.935 [info] Average of latest 20 ttft time 78.61680362571497
+2024-09-14 21:54:50.935 [info] Average of latest 20 stream time 119.50346999929752
+2024-09-14 21:54:50.935 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:50.935 [info] Average of latest 20 client time 172.29638671875
+2024-09-14 21:54:50.935 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:50.935 [info] CPP RT LOG: All stats {"streamingtime":174.959716796875,"actualTtftFromStart":202.432861328125,"timeTillServerRequest":50.05078125,"requestToTtft":152.382080078125,"totalTime":224.968017578125}
+2024-09-14 21:54:50.935 [info] CURSOR LOG: restFunc done 323f3453-7f3b-4f18-b5b8-d0a6ba5488e2
+2024-09-14 21:54:51.236 [info] CURSOR LOG: restFunc initiated 6632bb1c-3a7a-4952-8282-d88b409e2131
+2024-09-14 21:54:51.399 [info] CURSOR LOG: Done streaming cpp with id 6632bb1c-3a7a-4952-8282-d88b409e2131
+2024-09-14 21:54:51.399 [info] CPP RT LOG: Time taken for streaming cpp 164.251708984375 with request 6632bb1c-3a7a-4952-8282-d88b409e2131
+2024-09-14 21:54:51.400 [info] CPP Request Log with id 6632bb1c-3a7a-4952-8282-d88b409e2131
+2024-09-14 21:54:51.400 [info] =======>Model input 
+2024-09-14 21:54:51.400 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px;
+}
+
+2024-09-14 21:54:51.400 [info] =======>Debug stream time 111.91505099833012
+2024-09-14 21:54:51.400 [info] =======>Debug ttft time 72.4558580070734
+2024-09-14 21:54:51.401 [info] Average of latest 20 ttft time 77.93225411253258
+2024-09-14 21:54:51.401 [info] Average of latest 20 stream time 118.66031233252336
+2024-09-14 21:54:51.401 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:51.401 [info] Average of latest 20 client time 171.40253363715277
+2024-09-14 21:54:51.401 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:51.401 [info] CPP RT LOG: All stats {"streamingtime":164.251708984375,"actualTtftFromStart":192.39208984375,"timeTillServerRequest":50.865966796875,"requestToTtft":141.526123046875,"totalTime":215.07470703125}
+2024-09-14 21:54:51.401 [info] CURSOR LOG: restFunc done 6632bb1c-3a7a-4952-8282-d88b409e2131
+2024-09-14 21:54:51.576 [info] CURSOR LOG: restFunc initiated 8d109825-6e72-4817-bb46-488309edd711
+2024-09-14 21:54:51.733 [info] CURSOR LOG: Done streaming cpp with id 8d109825-6e72-4817-bb46-488309edd711
+2024-09-14 21:54:51.733 [info] CPP RT LOG: Time taken for streaming cpp 156.338134765625 with request 8d109825-6e72-4817-bb46-488309edd711
+2024-09-14 21:54:51.733 [info] CPP Request Log with id 8d109825-6e72-4817-bb46-488309edd711
+2024-09-14 21:54:51.733 [info] =======>Model input 
+2024-09-14 21:54:51.733 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:51.733 [info] =======>Debug stream time 112.11302000284195
+2024-09-14 21:54:51.733 [info] =======>Debug ttft time 69.46445699036121
+2024-09-14 21:54:51.733 [info] Average of latest 20 ttft time 77.08547440031543
+2024-09-14 21:54:51.733 [info] Average of latest 20 stream time 118.00558309955522
+2024-09-14 21:54:51.733 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:51.733 [info] Average of latest 20 client time 169.89609375
+2024-09-14 21:54:51.733 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:51.733 [info] CPP RT LOG: All stats {"streamingtime":156.338134765625,"actualTtftFromStart":169.6689453125,"timeTillServerRequest":56.2587890625,"requestToTtft":113.41015625,"totalTime":212.56689453125}
+2024-09-14 21:54:51.734 [info] CURSOR LOG: restFunc done 8d109825-6e72-4817-bb46-488309edd711
+2024-09-14 21:54:51.760 [info] CURSOR LOG: restFunc initiated 274a763e-8392-4753-b6ad-9115f7621d39
+2024-09-14 21:54:51.770 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:51.770 [info] CURSOR LOG: restFunc done 274a763e-8392-4753-b6ad-9115f7621d39
+2024-09-14 21:54:51.822 [info] CURSOR LOG: restFunc initiated 70d38a24-b5d2-431f-b075-125b3bf75ee1
+2024-09-14 21:54:51.972 [info] CURSOR LOG: Done streaming cpp with id 70d38a24-b5d2-431f-b075-125b3bf75ee1
+2024-09-14 21:54:51.972 [info] CPP RT LOG: Time taken for streaming cpp 150.44482421875 with request 70d38a24-b5d2-431f-b075-125b3bf75ee1
+2024-09-14 21:54:51.972 [info] CPP Request Log with id 70d38a24-b5d2-431f-b075-125b3bf75ee1
+2024-09-14 21:54:51.972 [info] =======>Model input 
+2024-09-14 21:54:51.972 [info] =======>Model output 
+  padding: 20px;
+}
+
+2024-09-14 21:54:51.972 [info] =======>Debug stream time 98.01980300247669
+2024-09-14 21:54:51.972 [info] =======>Debug ttft time 75.29016700387001
+2024-09-14 21:54:51.973 [info] Average of latest 20 ttft time 76.92226463700221
+2024-09-14 21:54:51.973 [info] Average of latest 20 stream time 116.18869399982081
+2024-09-14 21:54:51.973 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:51.973 [info] Average of latest 20 client time 168.12779651988637
+2024-09-14 21:54:51.973 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:51.973 [info] CPP RT LOG: All stats {"streamingtime":150.44482421875,"actualTtftFromStart":180.671142578125,"timeTillServerRequest":50.359619140625,"requestToTtft":130.3115234375,"totalTime":200.767333984375}
+2024-09-14 21:54:51.973 [info] CURSOR LOG: restFunc done 70d38a24-b5d2-431f-b075-125b3bf75ee1
+2024-09-14 21:54:54.049 [info] CURSOR LOG: restFunc initiated 4d71cf9d-dd03-4f3d-9335-ab1daf3121bf
+2024-09-14 21:54:54.153 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:54.153 [info] CURSOR LOG: restFunc done 4d71cf9d-dd03-4f3d-9335-ab1daf3121bf
+2024-09-14 21:54:54.208 [info] CURSOR LOG: restFunc initiated 480466d0-4014-4c98-bb38-32466db74465
+2024-09-14 21:54:54.422 [info] CURSOR LOG: Done streaming cpp with id 480466d0-4014-4c98-bb38-32466db74465
+2024-09-14 21:54:54.422 [info] CPP RT LOG: Time taken for streaming cpp 213.015869140625 with request 480466d0-4014-4c98-bb38-32466db74465
+2024-09-14 21:54:54.422 [info] CPP Request Log with id 480466d0-4014-4c98-bb38-32466db74465
+2024-09-14 21:54:54.422 [info] =======>Model input 
+2024-09-14 21:54:54.422 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:54.422 [info] =======>Debug stream time 167.05631399154663
+2024-09-14 21:54:54.422 [info] =======>Debug ttft time 125.53497099876404
+2024-09-14 21:54:54.423 [info] Average of latest 20 ttft time 80.97332350048237
+2024-09-14 21:54:54.423 [info] Average of latest 20 stream time 120.42766233246464
+2024-09-14 21:54:54.423 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:54.423 [info] Average of latest 20 client time 171.86846923828125
+2024-09-14 21:54:54.423 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:54.423 [info] CPP RT LOG: All stats {"streamingtime":213.015869140625,"actualTtftFromStart":225.063720703125,"timeTillServerRequest":51.97119140625,"requestToTtft":173.092529296875,"totalTime":264.947998046875}
+2024-09-14 21:54:54.423 [info] CURSOR LOG: restFunc done 480466d0-4014-4c98-bb38-32466db74465
+2024-09-14 21:54:54.580 [info] CURSOR LOG: restFunc initiated 71f893cc-2e84-47b3-af5b-493edcc9da65
+2024-09-14 21:54:54.747 [info] CURSOR LOG: Done streaming cpp with id 71f893cc-2e84-47b3-af5b-493edcc9da65
+2024-09-14 21:54:54.747 [info] CPP RT LOG: Time taken for streaming cpp 168.201904296875 with request 71f893cc-2e84-47b3-af5b-493edcc9da65
+2024-09-14 21:54:54.747 [info] CPP Request Log with id 71f893cc-2e84-47b3-af5b-493edcc9da65
+2024-09-14 21:54:54.747 [info] =======>Model input 
+2024-09-14 21:54:54.747 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+2024-09-14 21:54:54.747 [info] =======>Debug stream time 120.40456400811672
+2024-09-14 21:54:54.747 [info] =======>Debug ttft time 76.64013899862766
+2024-09-14 21:54:54.748 [info] Average of latest 20 ttft time 80.64000161572432
+2024-09-14 21:54:54.748 [info] Average of latest 20 stream time 120.42588553828402
+2024-09-14 21:54:54.748 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:54.748 [info] Average of latest 20 client time 171.58642578125
+2024-09-14 21:54:54.748 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:54.748 [info] CPP RT LOG: All stats {"streamingtime":168.201904296875,"actualTtftFromStart":176.548828125,"timeTillServerRequest":51.376708984375,"requestToTtft":125.172119140625,"totalTime":219.539794921875}
+2024-09-14 21:54:54.748 [info] CURSOR LOG: restFunc done 71f893cc-2e84-47b3-af5b-493edcc9da65
+2024-09-14 21:54:55.429 [info] CURSOR LOG: restFunc initiated 7f11b74c-175b-4f7c-97ac-aa17a8e85718
+2024-09-14 21:54:55.585 [info] CURSOR LOG: Done streaming cpp with id 7f11b74c-175b-4f7c-97ac-aa17a8e85718
+2024-09-14 21:54:55.586 [info] CPP RT LOG: Time taken for streaming cpp 155.260009765625 with request 7f11b74c-175b-4f7c-97ac-aa17a8e85718
+2024-09-14 21:54:55.586 [info] CPP Request Log with id 7f11b74c-175b-4f7c-97ac-aa17a8e85718
+2024-09-14 21:54:55.586 [info] =======>Model input 
+2024-09-14 21:54:55.586 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px;
+}
+
+2024-09-14 21:54:55.586 [info] =======>Debug stream time 107.28178499639034
+2024-09-14 21:54:55.586 [info] =======>Debug ttft time 75.42298400402069
+2024-09-14 21:54:55.587 [info] Average of latest 20 ttft time 80.26735750060263
+2024-09-14 21:54:55.587 [info] Average of latest 20 stream time 119.48702121386304
+2024-09-14 21:54:55.587 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:55.587 [info] Average of latest 20 client time 170.42025320870536
+2024-09-14 21:54:55.587 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:55.587 [info] CPP RT LOG: All stats {"streamingtime":155.260009765625,"actualTtftFromStart":176.138916015625,"timeTillServerRequest":51.791015625,"requestToTtft":124.347900390625,"totalTime":207.0302734375}
+2024-09-14 21:54:55.587 [info] CURSOR LOG: restFunc done 7f11b74c-175b-4f7c-97ac-aa17a8e85718
+2024-09-14 21:54:58.520 [info] CURSOR LOG: restFunc initiated 1c10d9c1-3a92-441b-9741-0454364ee810
+2024-09-14 21:54:58.559 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:54:58.560 [info] CURSOR LOG: restFunc done 1c10d9c1-3a92-441b-9741-0454364ee810
+2024-09-14 21:54:58.578 [info] CURSOR LOG: restFunc initiated f217af35-3a06-4b3a-b3ac-dd2d41caa94d
+2024-09-14 21:54:58.725 [info] CURSOR LOG: Done streaming cpp with id f217af35-3a06-4b3a-b3ac-dd2d41caa94d
+2024-09-14 21:54:58.725 [info] CPP RT LOG: Time taken for streaming cpp 145.710205078125 with request f217af35-3a06-4b3a-b3ac-dd2d41caa94d
+2024-09-14 21:54:58.726 [info] CPP Request Log with id f217af35-3a06-4b3a-b3ac-dd2d41caa94d
+2024-09-14 21:54:58.726 [info] =======>Model input 
+2024-09-14 21:54:58.726 [info] =======>Model output 
+  color: $on_background;
+  margin-right: 2px;
+  border-radius: 50px;
+  padding: 20px;
+2024-09-14 21:54:58.726 [info] =======>Debug stream time 95.98905700445175
+2024-09-14 21:54:58.726 [info] =======>Debug ttft time 90.9350930005312
+2024-09-14 21:54:58.733 [info] Average of latest 20 ttft time 80.97853986726453
+2024-09-14 21:54:58.733 [info] Average of latest 20 stream time 117.92049026656896
+2024-09-14 21:54:58.733 [info] Average of latest 20 total time NaN
+2024-09-14 21:54:58.733 [info] Average of latest 20 client time 168.77291666666667
+2024-09-14 21:54:58.733 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:54:58.733 [info] CPP RT LOG: All stats {"streamingtime":145.710205078125,"actualTtftFromStart":195.12744140625,"timeTillServerRequest":50.032958984375,"requestToTtft":145.094482421875,"totalTime":195.718994140625}
+2024-09-14 21:54:58.733 [info] CURSOR LOG: restFunc done f217af35-3a06-4b3a-b3ac-dd2d41caa94d
+2024-09-14 21:54:59.932 [info] CURSOR LOG: restFunc initiated 6e9b0ead-2e93-42bb-8b3e-fe13654ec8cd
+2024-09-14 21:55:00.060 [info] CURSOR LOG: Done streaming cpp with id 6e9b0ead-2e93-42bb-8b3e-fe13654ec8cd
+2024-09-14 21:55:00.060 [info] CPP RT LOG: Time taken for streaming cpp 126.2060546875 with request 6e9b0ead-2e93-42bb-8b3e-fe13654ec8cd
+2024-09-14 21:55:00.060 [info] CPP Request Log with id 6e9b0ead-2e93-42bb-8b3e-fe13654ec8cd
+2024-09-14 21:55:00.060 [info] =======>Model input 
+2024-09-14 21:55:00.061 [info] =======>Model output 
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+  color: $on_background;
+2024-09-14 21:55:00.061 [info] =======>Debug stream time 82.66104300320148
+2024-09-14 21:55:00.061 [info] =======>Debug ttft time 78.2279089987278
+2024-09-14 21:55:00.065 [info] Average of latest 20 ttft time 80.80662543798098
+2024-09-14 21:55:00.065 [info] Average of latest 20 stream time 115.71677481260849
+2024-09-14 21:55:00.065 [info] Average of latest 20 total time NaN
+2024-09-14 21:55:00.065 [info] Average of latest 20 client time 166.11248779296875
+2024-09-14 21:55:00.065 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:55:00.065 [info] CPP RT LOG: All stats {"streamingtime":126.2060546875,"actualTtftFromStart":176.923828125,"timeTillServerRequest":51.3505859375,"requestToTtft":125.5732421875,"totalTime":177.53515625}
+2024-09-14 21:55:00.065 [info] CURSOR LOG: restFunc done 6e9b0ead-2e93-42bb-8b3e-fe13654ec8cd
+2024-09-14 21:55:04.998 [info] CURSOR LOG: restFunc initiated b41ef2d1-052b-4aaf-a3dd-5d32d964eb31
+2024-09-14 21:55:05.111 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:55:05.111 [info] CURSOR LOG: restFunc done b41ef2d1-052b-4aaf-a3dd-5d32d964eb31
+2024-09-14 21:55:05.161 [info] CURSOR LOG: restFunc initiated a4b8a273-3f40-42f8-bc4f-ca3dd282fb2a
+2024-09-14 21:55:05.359 [info] CURSOR LOG: Done streaming cpp with id a4b8a273-3f40-42f8-bc4f-ca3dd282fb2a
+2024-09-14 21:55:05.359 [info] CPP RT LOG: Time taken for streaming cpp 198.267333984375 with request a4b8a273-3f40-42f8-bc4f-ca3dd282fb2a
+2024-09-14 21:55:05.359 [info] CPP Request Log with id a4b8a273-3f40-42f8-bc4f-ca3dd282fb2a
+2024-09-14 21:55:05.359 [info] =======>Model input 
+2024-09-14 21:55:05.359 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+2024-09-14 21:55:05.359 [info] =======>Debug stream time 121.510812997818
+2024-09-14 21:55:05.359 [info] =======>Debug ttft time 71.05841299891472
+2024-09-14 21:55:05.360 [info] Average of latest 20 ttft time 80.23320117685944
+2024-09-14 21:55:05.360 [info] Average of latest 20 stream time 116.05760058820906
+2024-09-14 21:55:05.360 [info] Average of latest 20 total time NaN
+2024-09-14 21:55:05.360 [info] Average of latest 20 client time 168.0039493336397
+2024-09-14 21:55:05.360 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:55:05.360 [info] CPP RT LOG: All stats {"streamingtime":198.267333984375,"actualTtftFromStart":248.362060546875,"timeTillServerRequest":50.2470703125,"requestToTtft":198.114990234375,"totalTime":248.48974609375}
+2024-09-14 21:55:05.360 [info] CURSOR LOG: restFunc done a4b8a273-3f40-42f8-bc4f-ca3dd282fb2a
+2024-09-14 21:55:05.725 [info] CURSOR LOG: restFunc initiated 6a92b417-dddc-43d1-92e9-472d11987fe9
+2024-09-14 21:55:05.830 [info] CURSOR LOG: Done streaming cpp with id 6a92b417-dddc-43d1-92e9-472d11987fe9
+2024-09-14 21:55:05.830 [info] CPP RT LOG: Time taken for streaming cpp 105.94921875 with request 6a92b417-dddc-43d1-92e9-472d11987fe9
+2024-09-14 21:55:05.830 [info] CPP Request Log with id 6a92b417-dddc-43d1-92e9-472d11987fe9
+2024-09-14 21:55:05.830 [info] =======>Model input 
+2024-09-14 21:55:05.830 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 15px;
+}
+
+2024-09-14 21:55:05.830 [info] =======>Debug stream time 70.97028701007366
+2024-09-14 21:55:05.830 [info] =======>Debug ttft time 65.63276500999928
+2024-09-14 21:55:05.832 [info] Average of latest 20 ttft time 79.4220658342561
+2024-09-14 21:55:05.832 [info] Average of latest 20 stream time 113.55274983386819
+2024-09-14 21:55:05.832 [info] Average of latest 20 total time NaN
+2024-09-14 21:55:05.832 [info] Average of latest 20 client time 164.55646430121527
+2024-09-14 21:55:05.832 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:55:05.832 [info] CPP RT LOG: All stats {"streamingtime":105.94921875,"actualTtftFromStart":152.433349609375,"timeTillServerRequest":50.385986328125,"requestToTtft":102.04736328125,"totalTime":156.308349609375}
+2024-09-14 21:55:05.832 [info] CURSOR LOG: restFunc done 6a92b417-dddc-43d1-92e9-472d11987fe9
+2024-09-14 21:55:09.983 [info] CURSOR LOG: restFunc initiated 704d5f7f-465b-408e-a25a-b30b60d4e05c
+2024-09-14 21:55:10.114 [info] CURSOR LOG: Done streaming cpp with id 704d5f7f-465b-408e-a25a-b30b60d4e05c
+2024-09-14 21:55:10.114 [info] CPP RT LOG: Time taken for streaming cpp 130.72607421875 with request 704d5f7f-465b-408e-a25a-b30b60d4e05c
+2024-09-14 21:55:10.114 [info] CPP Request Log with id 704d5f7f-465b-408e-a25a-b30b60d4e05c
+2024-09-14 21:55:10.114 [info] =======>Model input 
+2024-09-14 21:55:10.114 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 10px;
+}
+
+2024-09-14 21:55:10.114 [info] =======>Debug stream time 87.93572200089693
+2024-09-14 21:55:10.114 [info] =======>Debug ttft time 81.11434800177813
+2024-09-14 21:55:10.117 [info] Average of latest 20 ttft time 79.51113331675725
+2024-09-14 21:55:10.117 [info] Average of latest 20 stream time 112.20448521108024
+2024-09-14 21:55:10.117 [info] Average of latest 20 total time NaN
+2024-09-14 21:55:10.117 [info] Average of latest 20 client time 162.77591745476974
+2024-09-14 21:55:10.117 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:55:10.117 [info] CPP RT LOG: All stats {"streamingtime":130.72607421875,"actualTtftFromStart":176.84619140625,"timeTillServerRequest":52.18359375,"requestToTtft":124.66259765625,"totalTime":182.835205078125}
+2024-09-14 21:55:10.117 [info] CURSOR LOG: restFunc done 704d5f7f-465b-408e-a25a-b30b60d4e05c
+2024-09-14 21:55:16.529 [info] CURSOR LOG: restFunc initiated 3e576991-ba8b-49f9-8d10-c368b434c9c7
+2024-09-14 21:55:16.556 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:55:16.556 [info] CURSOR LOG: restFunc done 3e576991-ba8b-49f9-8d10-c368b434c9c7
+2024-09-14 21:55:16.580 [info] CURSOR LOG: restFunc initiated b94c02b2-8a58-4926-aec8-f7bc7828f000
+2024-09-14 21:55:16.700 [info] CURSOR LOG: Done streaming cpp with id b94c02b2-8a58-4926-aec8-f7bc7828f000
+2024-09-14 21:55:16.701 [info] CPP RT LOG: Time taken for streaming cpp 118.999267578125 with request b94c02b2-8a58-4926-aec8-f7bc7828f000
+2024-09-14 21:55:16.701 [info] CPP Request Log with id b94c02b2-8a58-4926-aec8-f7bc7828f000
+2024-09-14 21:55:16.701 [info] =======>Model input 
+2024-09-14 21:55:16.701 [info] =======>Model output 
+  border-radius: 50px;
+  padding: 12px;
+}
+
+2024-09-14 21:55:16.701 [info] =======>Debug stream time 85.09443899989128
+2024-09-14 21:55:16.701 [info] =======>Debug ttft time 78.29213699698448
+2024-09-14 21:55:16.703 [info] Average of latest 20 ttft time 79.45018350076862
+2024-09-14 21:55:16.703 [info] Average of latest 20 stream time 110.84898290052078
+2024-09-14 21:55:16.703 [info] Average of latest 20 total time NaN
+2024-09-14 21:55:16.703 [info] Average of latest 20 client time 160.5870849609375
+2024-09-14 21:55:16.703 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:55:16.703 [info] CPP RT LOG: All stats {"streamingtime":118.999267578125,"actualTtftFromStart":163.635498046875,"timeTillServerRequest":50.62158203125,"requestToTtft":113.013916015625,"totalTime":169.590087890625}
+2024-09-14 21:55:16.703 [info] CURSOR LOG: restFunc done b94c02b2-8a58-4926-aec8-f7bc7828f000
+2024-09-14 21:57:23.600 [info] CURSOR LOG: restFunc initiated 837b839b-e4fc-440d-a5d9-0d378b5efff4
+2024-09-14 21:57:23.838 [info] CURSOR LOG: Done streaming cpp with id 837b839b-e4fc-440d-a5d9-0d378b5efff4
+2024-09-14 21:57:23.838 [info] CPP RT LOG: Time taken for streaming cpp 239.343505859375 with request 837b839b-e4fc-440d-a5d9-0d378b5efff4
+2024-09-14 21:57:23.846 [info] CPP Request Log with id 837b839b-e4fc-440d-a5d9-0d378b5efff4
+2024-09-14 21:57:23.846 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+<snippet>
+(`ags/scss/sidebar.scss`)
+
+
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/widgets/sidebar/modules/overview.js`):
+<file>
+const username = Variable()
+
+Utils.execAsync('whoami')
+    .then(out => username.setValue(out))
+
+function GreetingModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-greeting-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-greeting-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-greeting-label', label: `Hello, ${username.value}` }),
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+            showWeekNumbers: false,
+            detail: (self, y, m, d) => {
+                return `<span color="white">${y}. ${m}. ${d}.</span>`
+            },
+            onDaySelected: ({ date: [y, m, d] }) => {
+                print(`${y}. ${m}. ${d}.`)
+            },
+        })
+    })
+}
+
+export function OverviewMenu() {
+    return Widget.Box({
+        vertical: true,
+        children: [GreetingModule()]
+    })
+}
+
+</file>
+
+Here are some snippets of code I just looked at:
+<recently_viewed_snippets>
+<snippet>
+(`ags/config.js`)
+
+
+    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+    Utils.exec(
+        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+    );
+    App.resetCss();
+    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+    console.log("[LOG] Styles loaded");
+}
+
+globalThis["applyStyle"] = applyStyle
+Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
+
+applyStyle().catch(print);
+
+App.config({
+    windows: [
+        Bar(0),
+        Bar(1),
+        BarCornerTopleft(0),
+        BarCornerTopright(0),
+        BarCornerTopleft(1),
+        BarCornerTopright(1),
+        BarCornerBottomleft(0),
+        BarCornerBottomright(0),
+        BarCornerBottomleft(1),
+        BarCornerBottomright(1),
+        MediaWidget(),
+        NotificationManager(),
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
+    ],
+});
+
+</snippet>
+</recently_viewed_snippets>
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+then
+46-|  margin-right: 5px;
+46+|  margin-right: 2px;
+then
+48-|  padding: 20px;
+48+|  padding: 12px;
+</diff_history>
+
+
+
+<area_around_code_to_rewrite>
+            Widget.Button({
+                className: 'sidebar-overview-greeting-power',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+            Widget.Button({
+                className: 'sidebar-overview-greeting-reboot',
+                on_clicked: () => Utils.exec('reboot'),
+                child: Widget.Icon("view-refresh")
+            })
+        ]
+    })
+
+<code_to_rewrite>
+}
+
+
+function CalendarModule() {
+</code_to_rewrite>
+    return Widget.Box({
+        child: Widget.Calendar({
+            showDayNames: true,
+            showDetails: false,
+            showHeading: true,
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/widgets/sidebar/modules/overview.js
+26+|
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:57:23.847 [info] =======>Model output 
+}
+
+function CalendarModule() {
+2024-09-14 21:57:23.847 [info] =======>Debug stream time 139.77053099870682
+2024-09-14 21:57:23.847 [info] =======>Debug ttft time 102.02994699776173
+2024-09-14 21:57:23.855 [info] Average of latest 20 ttft time 80.3460974006448
+2024-09-14 21:57:23.856 [info] Average of latest 20 stream time 110.75566220036708
+2024-09-14 21:57:23.856 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:23.856 [info] Average of latest 20 client time 158.86324462890624
+2024-09-14 21:57:23.856 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:23.856 [info] CPP RT LOG: All stats {"streamingtime":239.343505859375,"actualTtftFromStart":261.526611328125,"timeTillServerRequest":58.1904296875,"requestToTtft":203.336181640625,"totalTime":297.473388671875}
+2024-09-14 21:57:23.856 [info] CURSOR LOG: restFunc done 837b839b-e4fc-440d-a5d9-0d378b5efff4
+2024-09-14 21:57:24.040 [info] CURSOR LOG: restFunc initiated 2fa9be1e-7d84-4307-b9cd-75e2fb12c90f
+2024-09-14 21:57:24.219 [info] CURSOR LOG: Done streaming cpp with id 2fa9be1e-7d84-4307-b9cd-75e2fb12c90f
+2024-09-14 21:57:24.219 [info] CPP RT LOG: Time taken for streaming cpp 180.058349609375 with request 2fa9be1e-7d84-4307-b9cd-75e2fb12c90f
+2024-09-14 21:57:24.219 [info] CPP Request Log with id 2fa9be1e-7d84-4307-b9cd-75e2fb12c90f
+2024-09-14 21:57:24.219 [info] =======>Model input 
+2024-09-14 21:57:24.219 [info] =======>Model output 
+
+function CalendarModule() {
+2024-09-14 21:57:24.219 [info] =======>Debug stream time 97.99740201234818
+2024-09-14 21:57:24.219 [info] =======>Debug ttft time 78.04973700642586
+2024-09-14 21:57:24.219 [info] Average of latest 20 ttft time 80.3927884509787
+2024-09-14 21:57:24.219 [info] Average of latest 20 stream time 109.7390032010153
+2024-09-14 21:57:24.219 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:24.219 [info] Average of latest 20 client time 159.5005615234375
+2024-09-14 21:57:24.219 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:24.219 [info] CPP RT LOG: All stats {"streamingtime":180.058349609375,"actualTtftFromStart":238.591796875,"timeTillServerRequest":58.71337890625,"requestToTtft":179.87841796875,"totalTime":238.730712890625}
+2024-09-14 21:57:24.219 [info] CURSOR LOG: restFunc done 2fa9be1e-7d84-4307-b9cd-75e2fb12c90f
+2024-09-14 21:57:25.105 [info] CURSOR LOG: restFunc initiated 6628f766-8405-4e45-8952-360fd0b4cfec
+2024-09-14 21:57:25.208 [info] CURSOR LOG: restFunc initiated ac89a413-77c7-42c3-9fdc-81f4e34a5f8a
+2024-09-14 21:57:25.297 [info] CURSOR LOG: restFunc initiated 840cd709-e05c-4f87-b17b-06418b30b678
+2024-09-14 21:57:25.326 [info] CURSOR LOG: restFunc initiated a1b104d9-6ba9-435e-ae85-407f8c7f1a69
+2024-09-14 21:57:25.554 [info] CURSOR LOG: Done streaming cpp with id 6628f766-8405-4e45-8952-360fd0b4cfec
+2024-09-14 21:57:25.555 [info] CPP RT LOG: Time taken for streaming cpp 450.150390625 with request 6628f766-8405-4e45-8952-360fd0b4cfec
+2024-09-14 21:57:25.555 [info] CPP Request Log with id 6628f766-8405-4e45-8952-360fd0b4cfec
+2024-09-14 21:57:25.555 [info] =======>Model input 
+2024-09-14 21:57:25.555 [info] =======>Model output 
+
+function TimeModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-time-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-time-icon', label: "󰥔 " }),
+            Widget.Label({ className: 'sidebar-overview-time-label', label: `Hello, ${username.value}` }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:25.555 [info] =======>Debug stream time 374.9608210027218
+2024-09-14 21:57:25.555 [info] =======>Debug ttft time 95.9281760007143
+2024-09-14 21:57:25.556 [info] Average of latest 20 ttft time 81.24983940105885
+2024-09-14 21:57:25.556 [info] Average of latest 20 stream time 122.1858067015186
+2024-09-14 21:57:25.556 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:25.556 [info] Average of latest 20 client time 173.74329833984376
+2024-09-14 21:57:25.556 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:25.556 [info] CPP RT LOG: All stats {"streamingtime":450.150390625,"actualTtftFromStart":257.359619140625,"timeTillServerRequest":69.17236328125,"requestToTtft":188.187255859375,"totalTime":519.27880859375}
+2024-09-14 21:57:25.556 [info] CURSOR LOG: restFunc done 6628f766-8405-4e45-8952-360fd0b4cfec
+2024-09-14 21:57:25.561 [info] CURSOR LOG: restFunc initiated 3bef022f-85a5-44e6-94db-99571fa33808
+2024-09-14 21:57:25.693 [info] CURSOR LOG: Done streaming cpp with id a1b104d9-6ba9-435e-ae85-407f8c7f1a69
+2024-09-14 21:57:25.693 [info] CPP RT LOG: Time taken for streaming cpp 368.11962890625 with request a1b104d9-6ba9-435e-ae85-407f8c7f1a69
+2024-09-14 21:57:25.693 [info] CPP Request Log with id a1b104d9-6ba9-435e-ae85-407f8c7f1a69
+2024-09-14 21:57:25.693 [info] =======>Model input 
+2024-09-14 21:57:25.693 [info] =======>Model output 
+
+function TimeModule() {
+    return Widget.Box({
+        child: Widget.Label({
+            label: Utils.exec('date +%H:%M')
+        })
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:25.693 [info] =======>Debug stream time 313.66720800101757
+2024-09-14 21:57:25.693 [info] =======>Debug ttft time 93.73611000180244
+2024-09-14 21:57:25.694 [info] Average of latest 20 ttft time 82.45249110143632
+2024-09-14 21:57:25.694 [info] Average of latest 20 stream time 132.10122715178878
+2024-09-14 21:57:25.694 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:25.694 [info] Average of latest 20 client time 184.62032470703124
+2024-09-14 21:57:25.694 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:25.694 [info] CPP RT LOG: All stats {"streamingtime":368.11962890625,"actualTtftFromStart":281.582763671875,"timeTillServerRequest":83.2021484375,"requestToTtft":198.380615234375,"totalTime":451.279296875}
+2024-09-14 21:57:25.694 [info] CURSOR LOG: restFunc done a1b104d9-6ba9-435e-ae85-407f8c7f1a69
+2024-09-14 21:57:25.696 [info] CURSOR LOG: Done streaming cpp with id ac89a413-77c7-42c3-9fdc-81f4e34a5f8a
+2024-09-14 21:57:25.696 [info] CPP RT LOG: Time taken for streaming cpp 491.586669921875 with request ac89a413-77c7-42c3-9fdc-81f4e34a5f8a
+2024-09-14 21:57:25.696 [info] CPP Request Log with id ac89a413-77c7-42c3-9fdc-81f4e34a5f8a
+2024-09-14 21:57:25.696 [info] =======>Model input 
+2024-09-14 21:57:25.696 [info] =======>Model output 
+
+function TimeModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-time-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-time-icon', label: "󰥔 " }),
+            Widget.Label({ className: 'sidebar-overview-time-label', label: `Hello, ${username.value}` }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:25.696 [info] =======>Debug stream time 400.261042997241
+2024-09-14 21:57:25.696 [info] =======>Debug ttft time 102.5594819933176
+2024-09-14 21:57:25.698 [info] Average of latest 20 ttft time 83.45230855103583
+2024-09-14 21:57:25.698 [info] Average of latest 20 stream time 146.84140025172383
+2024-09-14 21:57:25.698 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:25.698 [info] Average of latest 20 client time 201.998583984375
+2024-09-14 21:57:25.698 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:25.698 [info] CPP RT LOG: All stats {"streamingtime":491.586669921875,"actualTtftFromStart":275.549072265625,"timeTillServerRequest":82.10009765625,"requestToTtft":193.448974609375,"totalTime":573.645751953125}
+2024-09-14 21:57:25.698 [info] CURSOR LOG: restFunc done ac89a413-77c7-42c3-9fdc-81f4e34a5f8a
+2024-09-14 21:57:25.749 [info] CURSOR LOG: Done streaming cpp with id 840cd709-e05c-4f87-b17b-06418b30b678
+2024-09-14 21:57:25.749 [info] CPP RT LOG: Time taken for streaming cpp 452.834228515625 with request 840cd709-e05c-4f87-b17b-06418b30b678
+2024-09-14 21:57:25.749 [info] CPP Request Log with id 840cd709-e05c-4f87-b17b-06418b30b678
+2024-09-14 21:57:25.749 [info] =======>Model input 
+2024-09-14 21:57:25.749 [info] =======>Model output 
+
+function TimeModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-time-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-time-icon', label: "󰥔 " }),
+            Widget.Label({ className: 'sidebar-overview-time-label', label: `Hello, ${username.value}` }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:25.749 [info] =======>Debug stream time 390.45077699422836
+2024-09-14 21:57:25.749 [info] =======>Debug ttft time 93.50593699514866
+2024-09-14 21:57:25.749 [info] Average of latest 20 ttft time 84.40448655076325
+2024-09-14 21:57:25.749 [info] Average of latest 20 stream time 160.54361025132238
+2024-09-14 21:57:25.749 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:25.749 [info] Average of latest 20 client time 216.478515625
+2024-09-14 21:57:25.749 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:25.749 [info] CPP RT LOG: All stats {"streamingtime":452.834228515625,"actualTtftFromStart":347.091552734375,"timeTillServerRequest":119.563720703125,"requestToTtft":227.52783203125,"totalTime":572.361328125}
+2024-09-14 21:57:25.749 [info] CURSOR LOG: restFunc done 840cd709-e05c-4f87-b17b-06418b30b678
+2024-09-14 21:57:25.872 [info] CURSOR LOG: Done streaming cpp with id 3bef022f-85a5-44e6-94db-99571fa33808
+2024-09-14 21:57:25.873 [info] CPP RT LOG: Time taken for streaming cpp 312.239501953125 with request 3bef022f-85a5-44e6-94db-99571fa33808
+2024-09-14 21:57:25.873 [info] CPP Request Log with id 3bef022f-85a5-44e6-94db-99571fa33808
+2024-09-14 21:57:25.873 [info] =======>Model input 
+2024-09-14 21:57:25.873 [info] =======>Model output 
+
+function TimeModule() {
+    return Widget.Box({
+        child: Widget.Label({
+            label: Utils.exec('date +%H:%M')
+        })
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:25.873 [info] =======>Debug stream time 274.69532100111246
+2024-09-14 21:57:25.873 [info] =======>Debug ttft time 85.06119500100613
+2024-09-14 21:57:25.874 [info] Average of latest 20 ttft time 84.98737250082195
+2024-09-14 21:57:25.874 [info] Average of latest 20 stream time 169.15008765161036
+2024-09-14 21:57:25.874 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:25.874 [info] Average of latest 20 client time 225.1331298828125
+2024-09-14 21:57:25.874 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:25.874 [info] CPP RT LOG: All stats {"streamingtime":312.239501953125,"actualTtftFromStart":179.534912109375,"timeTillServerRequest":56.157958984375,"requestToTtft":123.376953125,"totalTime":368.34912109375}
+2024-09-14 21:57:25.874 [info] CURSOR LOG: restFunc done 3bef022f-85a5-44e6-94db-99571fa33808
+2024-09-14 21:57:30.592 [info] CURSOR LOG: restFunc initiated 643dfb9f-6c48-4d2d-9080-806c48ec4482
+2024-09-14 21:57:30.712 [info] CURSOR LOG: restFunc initiated 38c5deca-351a-4a51-b660-cbe7b15d4b0a
+2024-09-14 21:57:30.796 [info] CURSOR LOG: restFunc initiated 249a9c0b-9465-4f72-a12f-af331f8b0671
+2024-09-14 21:57:30.824 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:30.824 [info] CURSOR LOG: restFunc done 249a9c0b-9465-4f72-a12f-af331f8b0671
+2024-09-14 21:57:30.854 [info] CURSOR LOG: restFunc initiated 0c4ec4a8-f9f2-444a-baf3-3a62e18c6999
+2024-09-14 21:57:30.920 [info] CURSOR LOG: Done streaming cpp with id 643dfb9f-6c48-4d2d-9080-806c48ec4482
+2024-09-14 21:57:30.920 [info] CPP RT LOG: Time taken for streaming cpp 325.94482421875 with request 643dfb9f-6c48-4d2d-9080-806c48ec4482
+2024-09-14 21:57:30.921 [info] CPP Request Log with id 643dfb9f-6c48-4d2d-9080-806c48ec4482
+2024-09-14 21:57:30.921 [info] =======>Model input 
+2024-09-14 21:57:30.921 [info] =======>Model output 
+
+function ClockModule() {
+    return Widget.Box({
+        child: Widget.Label({
+            label: new Date().toLocaleTimeString()
+        })
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:30.921 [info] =======>Debug stream time 281.6405079960823
+2024-09-14 21:57:30.921 [info] =======>Debug ttft time 90.10953100025654
+2024-09-14 21:57:30.922 [info] Average of latest 20 ttft time 85.0524678003043
+2024-09-14 21:57:30.922 [info] Average of latest 20 stream time 176.7197754509747
+2024-09-14 21:57:30.922 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:30.922 [info] Average of latest 20 client time 232.68238525390626
+2024-09-14 21:57:30.922 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:30.922 [info] CPP RT LOG: All stats {"streamingtime":325.94482421875,"actualTtftFromStart":217.362548828125,"timeTillServerRequest":80.85986328125,"requestToTtft":136.502685546875,"totalTime":406.765869140625}
+2024-09-14 21:57:30.922 [info] CURSOR LOG: restFunc done 643dfb9f-6c48-4d2d-9080-806c48ec4482
+2024-09-14 21:57:31.017 [info] CURSOR LOG: restFunc initiated 2926edf2-7145-4ac4-95ec-252e5306fc4f
+2024-09-14 21:57:31.021 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:31.021 [info] CURSOR LOG: restFunc done 2926edf2-7145-4ac4-95ec-252e5306fc4f
+2024-09-14 21:57:31.061 [info] CURSOR LOG: Done streaming cpp with id 38c5deca-351a-4a51-b660-cbe7b15d4b0a
+2024-09-14 21:57:31.061 [info] CPP RT LOG: Time taken for streaming cpp 350.1103515625 with request 38c5deca-351a-4a51-b660-cbe7b15d4b0a
+2024-09-14 21:57:31.067 [info] CPP Request Log with id 38c5deca-351a-4a51-b660-cbe7b15d4b0a
+2024-09-14 21:57:31.067 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+<snippet>
+(`ags/scss/sidebar.scss`)
+
+
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/widgets/sidebar/modules/overview.js`):
+<file>
+const username = Variable()
+
+Utils.execAsync('whoami')
+    .then(out => username.setValue(out))
+
+function GreetingModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-greeting-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-greeting-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-greeting-label', label: `Hello, ${username.value}` }),
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+            showWeekNumbers: false,
+            detail: (self, y, m, d) => {
+                return `<span color="white">${y}. ${m}. ${d}.</span>`
+            },
+            onDaySelected: ({ date: [y, m, d] }) => {
+                print(`${y}. ${m}. ${d}.`)
+            },
+        })
+    })
+}
+
+export function OverviewMenu() {
+    return Widget.Box({
+        vertical: true,
+        children: [GreetingModule()]
+    })
+}
+
+</file>
+
+Here are some snippets of code I just looked at:
+<recently_viewed_snippets>
+<snippet>
+(`ags/config.js`)
+
+
+    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+    Utils.exec(
+        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+    );
+    App.resetCss();
+    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+    console.log("[LOG] Styles loaded");
+}
+
+globalThis["applyStyle"] = applyStyle
+Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
+
+applyStyle().catch(print);
+
+App.config({
+    windows: [
+        Bar(0),
+        Bar(1),
+        BarCornerTopleft(0),
+        BarCornerTopright(0),
+        BarCornerTopleft(1),
+        BarCornerTopright(1),
+        BarCornerBottomleft(0),
+        BarCornerBottomright(0),
+        BarCornerBottomleft(1),
+        BarCornerBottomright(1),
+        MediaWidget(),
+        NotificationManager(),
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
+    ],
+});
+
+</snippet>
+</recently_viewed_snippets>
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+then
+46-|  margin-right: 5px;
+46+|  margin-right: 2px;
+then
+48-|  padding: 20px;
+48+|  padding: 12px;
+</diff_history>
+
+Here are some linter errors from the code that you will rewrite.
+
+<lint_error>
+
+function Co
+Err | Signature declarations can only be used in TypeScript files.
+
+function CalendarModule() {
+Err | Identifier expected. 'function' is a reserved word that cannot be used here.
+</lint_error>
+
+
+
+<area_around_code_to_rewrite>
+            Widget.Button({
+                className: 'sidebar-overview-greeting-power',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+            Widget.Button({
+                className: 'sidebar-overview-greeting-reboot',
+                on_clicked: () => Utils.exec('reboot'),
+                child: Widget.Icon("view-refresh")
+            })
+        ]
+    })
+}
+
+<code_to_rewrite>
+
+function Co
+
+function CalendarModule() {
+</code_to_rewrite>
+    return Widget.Box({
+        child: Widget.Calendar({
+            showDayNames: true,
+            showDetails: false,
+            showHeading: true,
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/widgets/sidebar/modules/overview.js
+26+|function Co
+27+|
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:57:31.068 [info] =======>Model output 
+
+function ClockModule() {
+    return Widget.Box({
+        child: Widget.Label({
+            label: new Date().toLocaleTimeString()
+        })
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:31.068 [info] =======>Debug stream time 293.3981020003557
+2024-09-14 21:57:31.068 [info] =======>Debug ttft time 83.21043699979782
+2024-09-14 21:57:31.068 [info] Average of latest 20 ttft time 85.59019674994052
+2024-09-14 21:57:31.068 [info] Average of latest 20 stream time 185.79392800107598
+2024-09-14 21:57:31.068 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:31.068 [info] Average of latest 20 client time 241.9753173828125
+2024-09-14 21:57:31.068 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:31.068 [info] CPP RT LOG: All stats {"streamingtime":350.1103515625,"actualTtftFromStart":203.03857421875,"timeTillServerRequest":58.6875,"requestToTtft":144.35107421875,"totalTime":408.75390625}
+2024-09-14 21:57:31.068 [info] CURSOR LOG: restFunc done 38c5deca-351a-4a51-b660-cbe7b15d4b0a
+2024-09-14 21:57:31.079 [info] CURSOR LOG: restFunc initiated 0392eb6f-9238-4258-a011-d68e0e7688e0
+2024-09-14 21:57:31.155 [info] CURSOR LOG: Done streaming cpp with id 0c4ec4a8-f9f2-444a-baf3-3a62e18c6999
+2024-09-14 21:57:31.155 [info] CPP RT LOG: Time taken for streaming cpp 303.672607421875 with request 0c4ec4a8-f9f2-444a-baf3-3a62e18c6999
+2024-09-14 21:57:31.155 [info] CPP Request Log with id 0c4ec4a8-f9f2-444a-baf3-3a62e18c6999
+2024-09-14 21:57:31.155 [info] =======>Model input 
+2024-09-14 21:57:31.155 [info] =======>Model output 
+
+function ControlModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-control-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-icon', label: "󰣇 " }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:31.155 [info] =======>Debug stream time 259.29377099871635
+2024-09-14 21:57:31.155 [info] =======>Debug ttft time 79.66588599979877
+2024-09-14 21:57:31.156 [info] Average of latest 20 ttft time 86.10026820041239
+2024-09-14 21:57:31.156 [info] Average of latest 20 stream time 193.1529655508697
+2024-09-14 21:57:31.156 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:31.156 [info] Average of latest 20 client time 249.342041015625
+2024-09-14 21:57:31.156 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:31.156 [info] CPP RT LOG: All stats {"streamingtime":303.672607421875,"actualTtftFromStart":176.93310546875,"timeTillServerRequest":55.2685546875,"requestToTtft":121.66455078125,"totalTime":358.895751953125}
+2024-09-14 21:57:31.156 [info] CURSOR LOG: restFunc done 0c4ec4a8-f9f2-444a-baf3-3a62e18c6999
+2024-09-14 21:57:31.436 [info] CURSOR LOG: Done streaming cpp with id 0392eb6f-9238-4258-a011-d68e0e7688e0
+2024-09-14 21:57:31.437 [info] CPP RT LOG: Time taken for streaming cpp 359.19384765625 with request 0392eb6f-9238-4258-a011-d68e0e7688e0
+2024-09-14 21:57:31.437 [info] CPP Request Log with id 0392eb6f-9238-4258-a011-d68e0e7688e0
+2024-09-14 21:57:31.437 [info] =======>Model input 
+2024-09-14 21:57:31.437 [info] =======>Model output 
+
+function ControlModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-control-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-control-label', label: `Hello, ${username.value}` }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:31.437 [info] =======>Debug stream time 314.3140760064125
+2024-09-14 21:57:31.437 [info] =======>Debug ttft time 86.40402600169182
+2024-09-14 21:57:31.438 [info] Average of latest 20 ttft time 86.65596115030348
+2024-09-14 21:57:31.438 [info] Average of latest 20 stream time 203.9676792010665
+2024-09-14 21:57:31.438 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:31.438 [info] Average of latest 20 client time 259.7794921875
+2024-09-14 21:57:31.438 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:31.438 [info] CPP RT LOG: All stats {"streamingtime":359.19384765625,"actualTtftFromStart":190.14599609375,"timeTillServerRequest":58.99951171875,"requestToTtft":131.146484375,"totalTime":418.146728515625}
+2024-09-14 21:57:31.438 [info] CURSOR LOG: restFunc done 0392eb6f-9238-4258-a011-d68e0e7688e0
+2024-09-14 21:57:31.805 [info] CURSOR LOG: restFunc initiated 3dff5983-7861-48aa-97d0-905be9630693
+2024-09-14 21:57:31.967 [info] CURSOR LOG: restFunc initiated 8538f25b-0605-4ef3-8b15-a7f9013a52a8
+2024-09-14 21:57:32.104 [info] CURSOR LOG: Done streaming cpp with id 3dff5983-7861-48aa-97d0-905be9630693
+2024-09-14 21:57:32.104 [info] CPP RT LOG: Time taken for streaming cpp 299.287353515625 with request 3dff5983-7861-48aa-97d0-905be9630693
+2024-09-14 21:57:32.105 [info] CPP Request Log with id 3dff5983-7861-48aa-97d0-905be9630693
+2024-09-14 21:57:32.105 [info] =======>Model input 
+2024-09-14 21:57:32.105 [info] =======>Model output 
+
+function ControlCenterModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-control-center-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:32.105 [info] =======>Debug stream time 254.00282000005245
+2024-09-14 21:57:32.105 [info] =======>Debug ttft time 72.19865499436855
+2024-09-14 21:57:32.111 [info] Average of latest 20 ttft time 83.9891453500837
+2024-09-14 21:57:32.111 [info] Average of latest 20 stream time 208.31500450149179
+2024-09-14 21:57:32.111 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:32.111 [info] Average of latest 20 client time 264.09306640625
+2024-09-14 21:57:32.111 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:32.111 [info] CPP RT LOG: All stats {"streamingtime":299.287353515625,"actualTtftFromStart":175.552490234375,"timeTillServerRequest":57.638916015625,"requestToTtft":117.91357421875,"totalTime":356.88671875}
+2024-09-14 21:57:32.111 [info] CURSOR LOG: restFunc done 3dff5983-7861-48aa-97d0-905be9630693
+2024-09-14 21:57:32.171 [info] CURSOR LOG: restFunc initiated cdf9a69c-1481-4445-b34e-997c7ec8f962
+2024-09-14 21:57:32.347 [info] CURSOR LOG: Done streaming cpp with id 8538f25b-0605-4ef3-8b15-a7f9013a52a8
+2024-09-14 21:57:32.347 [info] CPP RT LOG: Time taken for streaming cpp 380.205810546875 with request 8538f25b-0605-4ef3-8b15-a7f9013a52a8
+2024-09-14 21:57:32.347 [info] CPP Request Log with id 8538f25b-0605-4ef3-8b15-a7f9013a52a8
+2024-09-14 21:57:32.347 [info] =======>Model input 
+2024-09-14 21:57:32.347 [info] =======>Model output 
+
+function ControlCenterModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-control-center-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:32.347 [info] =======>Debug stream time 333.87462601065636
+2024-09-14 21:57:32.347 [info] =======>Debug ttft time 94.71492300927639
+2024-09-14 21:57:32.348 [info] Average of latest 20 ttft time 84.89288455061615
+2024-09-14 21:57:32.348 [info] Average of latest 20 stream time 218.98850760161878
+2024-09-14 21:57:32.348 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:32.348 [info] Average of latest 20 client time 274.69326171875
+2024-09-14 21:57:32.348 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:32.348 [info] CPP RT LOG: All stats {"streamingtime":380.205810546875,"actualTtftFromStart":205.5654296875,"timeTillServerRequest":60.03857421875,"requestToTtft":145.52685546875,"totalTime":440.1787109375}
+2024-09-14 21:57:32.348 [info] CURSOR LOG: restFunc done 8538f25b-0605-4ef3-8b15-a7f9013a52a8
+2024-09-14 21:57:32.476 [info] CURSOR LOG: Done streaming cpp with id cdf9a69c-1481-4445-b34e-997c7ec8f962
+2024-09-14 21:57:32.476 [info] CPP RT LOG: Time taken for streaming cpp 306.33935546875 with request cdf9a69c-1481-4445-b34e-997c7ec8f962
+2024-09-14 21:57:32.477 [info] CPP Request Log with id cdf9a69c-1481-4445-b34e-997c7ec8f962
+2024-09-14 21:57:32.477 [info] =======>Model input 
+2024-09-14 21:57:32.477 [info] =======>Model output 
+
+function ControlCenterModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-control-center-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+        ]
+    })
+}
+
+function CalendarModule() {
+2024-09-14 21:57:32.477 [info] =======>Debug stream time 263.2129209935665
+2024-09-14 21:57:32.477 [info] =======>Debug ttft time 73.7880059927702
+2024-09-14 21:57:32.478 [info] Average of latest 20 ttft time 84.81113565005361
+2024-09-14 21:57:32.478 [info] Average of latest 20 stream time 226.78506440147757
+2024-09-14 21:57:32.478 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:32.478 [info] Average of latest 20 client time 282.2472290039062
+2024-09-14 21:57:32.478 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:32.478 [info] CPP RT LOG: All stats {"streamingtime":306.33935546875,"actualTtftFromStart":183.78466796875,"timeTillServerRequest":67.1142578125,"requestToTtft":116.67041015625,"totalTime":373.403076171875}
+2024-09-14 21:57:32.478 [info] CURSOR LOG: restFunc done cdf9a69c-1481-4445-b34e-997c7ec8f962
+2024-09-14 21:57:41.560 [info] CURSOR LOG: restFunc initiated dc19285f-74fd-475a-a99c-e5ea422766b8
+2024-09-14 21:57:41.937 [info] CURSOR LOG: Done streaming cpp with id dc19285f-74fd-475a-a99c-e5ea422766b8
+2024-09-14 21:57:41.938 [info] CPP RT LOG: Time taken for streaming cpp 378.677490234375 with request dc19285f-74fd-475a-a99c-e5ea422766b8
+2024-09-14 21:57:41.938 [info] CPP Request Log with id dc19285f-74fd-475a-a99c-e5ea422766b8
+2024-09-14 21:57:41.938 [info] =======>Model input 
+2024-09-14 21:57:41.938 [info] =======>Model output 
+    return Widget.Box({
+        className: 'sidebar-overview-control-center-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+2024-09-14 21:57:41.938 [info] =======>Debug stream time 103.2991189956665
+2024-09-14 21:57:41.938 [info] =======>Debug ttft time 99.56971399486065
+2024-09-14 21:57:41.938 [info] Average of latest 20 ttft time 85.24286669977009
+2024-09-14 21:57:41.938 [info] Average of latest 20 stream time 227.15056750103832
+2024-09-14 21:57:41.938 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:41.938 [info] Average of latest 20 client time 293.8955932617188
+2024-09-14 21:57:41.938 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:41.938 [info] CPP RT LOG: All stats {"streamingtime":378.677490234375,"actualTtftFromStart":433.57666015625,"timeTillServerRequest":55.07275390625,"requestToTtft":378.50390625,"totalTime":433.71240234375}
+2024-09-14 21:57:41.938 [info] CURSOR LOG: restFunc done dc19285f-74fd-475a-a99c-e5ea422766b8
+2024-09-14 21:57:43.174 [info] CURSOR LOG: restFunc initiated 57dd7826-4721-4830-a49f-5b173a8c6c12
+2024-09-14 21:57:43.356 [info] CURSOR LOG: Done streaming cpp with id 57dd7826-4721-4830-a49f-5b173a8c6c12
+2024-09-14 21:57:43.356 [info] CPP RT LOG: Time taken for streaming cpp 182.5009765625 with request 57dd7826-4721-4830-a49f-5b173a8c6c12
+2024-09-14 21:57:43.357 [info] CPP Request Log with id 57dd7826-4721-4830-a49f-5b173a8c6c12
+2024-09-14 21:57:43.357 [info] =======>Model input 
+2024-09-14 21:57:43.357 [info] =======>Model output 
+    return Widget.Box({
+        className: 'sidebar-overview-controlcenter-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-controlcenter-icon', label: "󰣇 " }),
+2024-09-14 21:57:43.357 [info] =======>Debug stream time 129.38774400949478
+2024-09-14 21:57:43.357 [info] =======>Debug ttft time 103.24486300349236
+2024-09-14 21:57:43.357 [info] Average of latest 20 ttft time 86.49371440000832
+2024-09-14 21:57:43.357 [info] Average of latest 20 stream time 229.48690255135298
+2024-09-14 21:57:43.357 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:43.357 [info] Average of latest 20 client time 296.71033935546876
+2024-09-14 21:57:43.357 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:43.357 [info] CPP RT LOG: All stats {"streamingtime":182.5009765625,"actualTtftFromStart":212.22900390625,"timeTillServerRequest":55.94140625,"requestToTtft":156.28759765625,"totalTime":238.39892578125}
+2024-09-14 21:57:43.357 [info] CURSOR LOG: restFunc done 57dd7826-4721-4830-a49f-5b173a8c6c12
+2024-09-14 21:57:45.814 [info] CURSOR LOG: restFunc initiated 0210d347-6c62-4a5b-98f9-c07eca6086a6
+2024-09-14 21:57:45.976 [info] CURSOR LOG: Done streaming cpp with id 0210d347-6c62-4a5b-98f9-c07eca6086a6
+2024-09-14 21:57:45.976 [info] CPP RT LOG: Time taken for streaming cpp 162.285888671875 with request 0210d347-6c62-4a5b-98f9-c07eca6086a6
+2024-09-14 21:57:45.977 [info] CPP Request Log with id 0210d347-6c62-4a5b-98f9-c07eca6086a6
+2024-09-14 21:57:45.977 [info] =======>Model input 
+2024-09-14 21:57:45.977 [info] =======>Model output 
+        children: [
+            Widget.Label({ className: 'sidebar-overview-controlcenter-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-controlcenter-label', label: `Hello, ${username.value}` }),
+        ]
+2024-09-14 21:57:45.977 [info] =======>Debug stream time 122.51680600643158
+2024-09-14 21:57:45.977 [info] =======>Debug ttft time 88.80295599997044
+2024-09-14 21:57:45.977 [info] Average of latest 20 ttft time 87.38094155006111
+2024-09-14 21:57:45.977 [info] Average of latest 20 stream time 229.53720220178366
+2024-09-14 21:57:45.977 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:45.977 [info] Average of latest 20 client time 294.91126708984376
+2024-09-14 21:57:45.977 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:45.977 [info] CPP RT LOG: All stats {"streamingtime":162.285888671875,"actualTtftFromStart":184.6123046875,"timeTillServerRequest":57.16455078125,"requestToTtft":127.44775390625,"totalTime":219.41552734375}
+2024-09-14 21:57:45.977 [info] CURSOR LOG: restFunc done 0210d347-6c62-4a5b-98f9-c07eca6086a6
+2024-09-14 21:57:49.678 [info] CURSOR LOG: restFunc initiated eddc54e0-7ece-49b9-afa5-08419914ff3e
+2024-09-14 21:57:50.006 [info] CURSOR LOG: Done streaming cpp with id eddc54e0-7ece-49b9-afa5-08419914ff3e
+2024-09-14 21:57:50.006 [info] CPP RT LOG: Time taken for streaming cpp 327.27197265625 with request eddc54e0-7ece-49b9-afa5-08419914ff3e
+2024-09-14 21:57:50.006 [info] CPP Request Log with id eddc54e0-7ece-49b9-afa5-08419914ff3e
+2024-09-14 21:57:50.006 [info] =======>Model input 
+2024-09-14 21:57:50.006 [info] =======>Model output 
+        children: [
+            Widget.Button({
+                className: 'sidebar-overview-controlcenter-icon',
+                on_clicked: () => Utils.exec('pavucontrol'),
+                child: Widget.Icon("audio-volume-high")
+            }),
+        ]
+    })
+2024-09-14 21:57:50.006 [info] =======>Debug stream time 277.31031300127506
+2024-09-14 21:57:50.006 [info] =======>Debug ttft time 72.96057198941708
+2024-09-14 21:57:50.007 [info] Average of latest 20 ttft time 87.74733189903199
+2024-09-14 21:57:50.007 [info] Average of latest 20 stream time 239.85420350134373
+2024-09-14 21:57:50.007 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:50.007 [info] Average of latest 20 client time 305.97740478515624
+2024-09-14 21:57:50.007 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:50.007 [info] CPP RT LOG: All stats {"streamingtime":327.27197265625,"actualTtftFromStart":181.3671875,"timeTillServerRequest":57.853759765625,"requestToTtft":123.513427734375,"totalTime":385.088134765625}
+2024-09-14 21:57:50.007 [info] CURSOR LOG: restFunc done eddc54e0-7ece-49b9-afa5-08419914ff3e
+2024-09-14 21:57:51.210 [info] CURSOR LOG: restFunc initiated 02b7186d-ae7a-4072-ae9c-ad51637fc60a
+2024-09-14 21:57:51.547 [info] CURSOR LOG: Done streaming cpp with id 02b7186d-ae7a-4072-ae9c-ad51637fc60a
+2024-09-14 21:57:51.547 [info] CPP RT LOG: Time taken for streaming cpp 337.45654296875 with request 02b7186d-ae7a-4072-ae9c-ad51637fc60a
+2024-09-14 21:57:51.547 [info] CPP Request Log with id 02b7186d-ae7a-4072-ae9c-ad51637fc60a
+2024-09-14 21:57:51.547 [info] =======>Model input 
+2024-09-14 21:57:51.547 [info] =======>Model output 
+        children: [
+            Widget.Button({
+                className: 'sidebar-overview-controlcenter-icon',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+        ]
+    })
+2024-09-14 21:57:51.547 [info] =======>Debug stream time 294.0592429935932
+2024-09-14 21:57:51.547 [info] =======>Debug ttft time 93.26992300152779
+2024-09-14 21:57:51.547 [info] Average of latest 20 ttft time 88.35511064901948
+2024-09-14 21:57:51.547 [info] Average of latest 20 stream time 250.16037955097855
+2024-09-14 21:57:51.547 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:51.547 [info] Average of latest 20 client time 316.3139282226563
+2024-09-14 21:57:51.547 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:51.547 [info] CPP RT LOG: All stats {"streamingtime":337.45654296875,"actualTtftFromStart":194.9580078125,"timeTillServerRequest":58.029541015625,"requestToTtft":136.928466796875,"totalTime":395.451904296875}
+2024-09-14 21:57:51.547 [info] CURSOR LOG: restFunc done 02b7186d-ae7a-4072-ae9c-ad51637fc60a
+2024-09-14 21:57:55.074 [info] CURSOR LOG: restFunc initiated 63a5edfc-6d39-4c76-9246-2deb877a1fc6
+2024-09-14 21:57:55.245 [info] CURSOR LOG: restFunc initiated f031f7e2-e958-48f7-9d20-57ac07d072fd
+2024-09-14 21:57:55.376 [info] CURSOR LOG: Done streaming cpp with id 63a5edfc-6d39-4c76-9246-2deb877a1fc6
+2024-09-14 21:57:55.376 [info] CPP RT LOG: Time taken for streaming cpp 302.0908203125 with request 63a5edfc-6d39-4c76-9246-2deb877a1fc6
+2024-09-14 21:57:55.376 [info] CPP Request Log with id 63a5edfc-6d39-4c76-9246-2deb877a1fc6
+2024-09-14 21:57:55.376 [info] =======>Model input 
+2024-09-14 21:57:55.376 [info] =======>Model output 
+        children: [
+           Widget.Button({
+            className: 'sidebar-overview-controlcenter-icon',
+            on_clicked: () => Utils.exec('shutdown'),
+            child: Widget.Icon("system-shutdown")
+           })
+        ]
+    })
+2024-09-14 21:57:55.376 [info] =======>Debug stream time 258.4090399965644
+2024-09-14 21:57:55.377 [info] =======>Debug ttft time 79.08805400133133
+2024-09-14 21:57:55.377 [info] Average of latest 20 ttft time 88.39490649923682
+2024-09-14 21:57:55.377 [info] Average of latest 20 stream time 258.8261096008122
+2024-09-14 21:57:55.377 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:55.377 [info] Average of latest 20 client time 325.468505859375
+2024-09-14 21:57:55.377 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:55.377 [info] CPP RT LOG: All stats {"streamingtime":302.0908203125,"actualTtftFromStart":212.885986328125,"timeTillServerRequest":89.436279296875,"requestToTtft":123.44970703125,"totalTime":391.4873046875}
+2024-09-14 21:57:55.377 [info] CURSOR LOG: restFunc done 63a5edfc-6d39-4c76-9246-2deb877a1fc6
+2024-09-14 21:57:55.555 [info] CURSOR LOG: Done streaming cpp with id f031f7e2-e958-48f7-9d20-57ac07d072fd
+2024-09-14 21:57:55.555 [info] CPP RT LOG: Time taken for streaming cpp 312.183837890625 with request f031f7e2-e958-48f7-9d20-57ac07d072fd
+2024-09-14 21:57:55.555 [info] CPP Request Log with id f031f7e2-e958-48f7-9d20-57ac07d072fd
+2024-09-14 21:57:55.555 [info] =======>Model input 
+2024-09-14 21:57:55.555 [info] =======>Model output 
+        children: [
+           Widget.Button({
+            className: 'sidebar-overview-controlcenter-icon',
+            on_clicked: () => Utils.exec('shutdown'),
+            child: Widget.Icon("system-shutdown")
+           })
+        ]
+    })
+2024-09-14 21:57:55.555 [info] =======>Debug stream time 268.7161639928818
+2024-09-14 21:57:55.555 [info] =======>Debug ttft time 87.7723809927702
+2024-09-14 21:57:55.555 [info] Average of latest 20 ttft time 87.68202819898724
+2024-09-14 21:57:55.555 [info] Average of latest 20 stream time 265.27339125052094
+2024-09-14 21:57:55.555 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:55.555 [info] Average of latest 20 client time 329.1105224609375
+2024-09-14 21:57:55.555 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:55.555 [info] CPP RT LOG: All stats {"streamingtime":312.183837890625,"actualTtftFromStart":184.61474609375,"timeTillServerRequest":54.134033203125,"requestToTtft":130.480712890625,"totalTime":366.287353515625}
+2024-09-14 21:57:55.555 [info] CURSOR LOG: restFunc done f031f7e2-e958-48f7-9d20-57ac07d072fd
+2024-09-14 21:57:56.815 [info] CURSOR LOG: restFunc initiated 72447af0-9326-496a-bc0e-5c37b2b9d1d1
+2024-09-14 21:57:56.921 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:56.921 [info] CURSOR LOG: restFunc done 72447af0-9326-496a-bc0e-5c37b2b9d1d1
+2024-09-14 21:57:56.968 [info] CURSOR LOG: restFunc initiated 49fc02e7-f68f-43fb-881d-de319b840db6
+2024-09-14 21:57:57.049 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:57.050 [info] CURSOR LOG: restFunc done 49fc02e7-f68f-43fb-881d-de319b840db6
+2024-09-14 21:57:57.106 [info] CURSOR LOG: restFunc initiated f0201e98-42c0-4f0f-a3aa-e95bfb37dd67
+2024-09-14 21:57:57.197 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:57.197 [info] CURSOR LOG: restFunc done f0201e98-42c0-4f0f-a3aa-e95bfb37dd67
+2024-09-14 21:57:57.264 [info] CURSOR LOG: restFunc initiated fb10b5d7-0c1b-4201-a7fe-b0739c6872e9
+2024-09-14 21:57:57.330 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:57.330 [info] CURSOR LOG: restFunc done fb10b5d7-0c1b-4201-a7fe-b0739c6872e9
+2024-09-14 21:57:57.397 [info] CURSOR LOG: restFunc initiated 2cf8ecb0-625e-4041-b59e-76c008c36e5b
+2024-09-14 21:57:57.459 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:57.460 [info] CURSOR LOG: restFunc done 2cf8ecb0-625e-4041-b59e-76c008c36e5b
+2024-09-14 21:57:57.520 [info] CURSOR LOG: restFunc initiated d3c8ed89-6d47-41a2-bd20-7df6f58f84af
+2024-09-14 21:57:57.583 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:57:57.583 [info] CURSOR LOG: restFunc done d3c8ed89-6d47-41a2-bd20-7df6f58f84af
+2024-09-14 21:57:57.638 [info] CURSOR LOG: restFunc initiated 614c3bc3-32de-4fb1-82f7-8f20df139bbe
+2024-09-14 21:57:57.905 [info] CURSOR LOG: Done streaming cpp with id 614c3bc3-32de-4fb1-82f7-8f20df139bbe
+2024-09-14 21:57:57.905 [info] CPP RT LOG: Time taken for streaming cpp 266.52587890625 with request 614c3bc3-32de-4fb1-82f7-8f20df139bbe
+2024-09-14 21:57:57.905 [info] CPP Request Log with id 614c3bc3-32de-4fb1-82f7-8f20df139bbe
+2024-09-14 21:57:57.905 [info] =======>Model input 
+2024-09-14 21:57:57.905 [info] =======>Model output 
+        children: [
+            Widget.Button({
+                className: 'sidebar-overview-controlcenter-icon',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+        ]
+    })
+2024-09-14 21:57:57.905 [info] =======>Debug stream time 225.40215399861336
+2024-09-14 21:57:57.905 [info] =======>Debug ttft time 84.95977300405502
+2024-09-14 21:57:57.906 [info] Average of latest 20 ttft time 88.0275299988687
+2024-09-14 21:57:57.906 [info] Average of latest 20 stream time 271.6436288498342
+2024-09-14 21:57:57.906 [info] Average of latest 20 total time NaN
+2024-09-14 21:57:57.906 [info] Average of latest 20 client time 333.43389892578125
+2024-09-14 21:57:57.906 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:57:57.906 [info] CPP RT LOG: All stats {"streamingtime":266.52587890625,"actualTtftFromStart":224.708740234375,"timeTillServerRequest":55.32177734375,"requestToTtft":169.386962890625,"totalTime":321.801025390625}
+2024-09-14 21:57:57.906 [info] CURSOR LOG: restFunc done 614c3bc3-32de-4fb1-82f7-8f20df139bbe
+2024-09-14 21:58:10.490 [info] CURSOR LOG: restFunc initiated d2c882c8-1533-4ec4-aee9-c22012ea260b
+2024-09-14 21:58:10.710 [info] CURSOR LOG: Done streaming cpp with id d2c882c8-1533-4ec4-aee9-c22012ea260b
+2024-09-14 21:58:10.710 [info] CPP RT LOG: Time taken for streaming cpp 221.059326171875 with request d2c882c8-1533-4ec4-aee9-c22012ea260b
+2024-09-14 21:58:10.711 [info] CPP Request Log with id d2c882c8-1533-4ec4-aee9-c22012ea260b
+2024-09-14 21:58:10.711 [info] =======>Model input 
+2024-09-14 21:58:10.711 [info] =======>Model output 
+
+
+function ControlCenterModule() {
+    return Widget.Box({
+2024-09-14 21:58:10.711 [info] =======>Debug stream time 97.82485100626945
+2024-09-14 21:58:10.711 [info] =======>Debug ttft time 89.47149500250816
+2024-09-14 21:58:10.711 [info] Average of latest 20 ttft time 87.7046959489584
+2024-09-14 21:58:10.711 [info] Average of latest 20 stream time 257.7868303500116
+2024-09-14 21:58:10.711 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:10.711 [info] Average of latest 20 client time 321.979345703125
+2024-09-14 21:58:10.711 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:10.711 [info] CPP RT LOG: All stats {"streamingtime":221.059326171875,"actualTtftFromStart":274.658203125,"timeTillServerRequest":53.72607421875,"requestToTtft":220.93212890625,"totalTime":274.76025390625}
+2024-09-14 21:58:10.711 [info] CURSOR LOG: restFunc done d2c882c8-1533-4ec4-aee9-c22012ea260b
+2024-09-14 21:58:11.155 [info] CURSOR LOG: restFunc initiated d7bcdf94-19b6-4b2f-9e5c-bdad14b9cbcd
+2024-09-14 21:58:11.325 [info] CURSOR LOG: restFunc initiated 56e6b241-97ac-440e-8510-cb0ab1e5663f
+2024-09-14 21:58:11.325 [info] CURSOR LOG: Done streaming cpp with id d7bcdf94-19b6-4b2f-9e5c-bdad14b9cbcd
+2024-09-14 21:58:11.325 [info] CPP RT LOG: Time taken for streaming cpp 171.710693359375 with request d7bcdf94-19b6-4b2f-9e5c-bdad14b9cbcd
+2024-09-14 21:58:11.325 [info] CPP Request Log with id d7bcdf94-19b6-4b2f-9e5c-bdad14b9cbcd
+2024-09-14 21:58:11.325 [info] =======>Model input 
+2024-09-14 21:58:11.325 [info] =======>Model output 
+}
+function ControlCenterModule() {
+2024-09-14 21:58:11.325 [info] =======>Debug stream time 108.43515199422836
+2024-09-14 21:58:11.325 [info] =======>Debug ttft time 80.82413299381733
+2024-09-14 21:58:11.326 [info] Average of latest 20 ttft time 87.05909709855914
+2024-09-14 21:58:11.326 [info] Average of latest 20 stream time 247.52522754967214
+2024-09-14 21:58:11.326 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:11.326 [info] Average of latest 20 client time 312.1588989257813
+2024-09-14 21:58:11.326 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:11.326 [info] CPP RT LOG: All stats {"streamingtime":171.710693359375,"actualTtftFromStart":228.435302734375,"timeTillServerRequest":56.935546875,"requestToTtft":171.499755859375,"totalTime":228.612548828125}
+2024-09-14 21:58:11.326 [info] CURSOR LOG: restFunc done d7bcdf94-19b6-4b2f-9e5c-bdad14b9cbcd
+2024-09-14 21:58:11.421 [info] CURSOR LOG: restFunc initiated e866d68a-3530-4a89-a96a-c05a4fbe44f7
+2024-09-14 21:58:11.718 [info] CURSOR LOG: Done streaming cpp with id 56e6b241-97ac-440e-8510-cb0ab1e5663f
+2024-09-14 21:58:11.718 [info] CPP RT LOG: Time taken for streaming cpp 393.339599609375 with request 56e6b241-97ac-440e-8510-cb0ab1e5663f
+2024-09-14 21:58:11.718 [info] CPP Request Log with id 56e6b241-97ac-440e-8510-cb0ab1e5663f
+2024-09-14 21:58:11.718 [info] =======>Model input 
+2024-09-14 21:58:11.718 [info] =======>Model output 
+}
+function ControlCenterButton() {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => Utils.exec('pavucontrol'),
+        child: Widget.Icon("audio-volume-high")
+    })
+}
+
+function ControlCenterModule() {
+2024-09-14 21:58:11.718 [info] =======>Debug stream time 350.6890099942684
+2024-09-14 21:58:11.718 [info] =======>Debug ttft time 73.42304798960686
+2024-09-14 21:58:11.718 [info] Average of latest 20 ttft time 85.6022753983736
+2024-09-14 21:58:11.718 [info] Average of latest 20 stream time 245.0466258995235
+2024-09-14 21:58:11.718 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:11.718 [info] Average of latest 20 client time 307.2465454101563
+2024-09-14 21:58:11.718 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:11.718 [info] CPP RT LOG: All stats {"streamingtime":393.339599609375,"actualTtftFromStart":174.077880859375,"timeTillServerRequest":58.5576171875,"requestToTtft":115.520263671875,"totalTime":451.865478515625}
+2024-09-14 21:58:11.718 [info] CURSOR LOG: restFunc done 56e6b241-97ac-440e-8510-cb0ab1e5663f
+2024-09-14 21:58:11.846 [info] CURSOR LOG: Done streaming cpp with id e866d68a-3530-4a89-a96a-c05a4fbe44f7
+2024-09-14 21:58:11.846 [info] CPP RT LOG: Time taken for streaming cpp 425.2890625 with request e866d68a-3530-4a89-a96a-c05a4fbe44f7
+2024-09-14 21:58:11.868 [info] CPP Request Log with id e866d68a-3530-4a89-a96a-c05a4fbe44f7
+2024-09-14 21:58:11.868 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+<snippet>
+(`ags/scss/sidebar.scss`)
+
+
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/widgets/sidebar/modules/overview.js`):
+<file>
+const username = Variable()
+
+Utils.execAsync('whoami')
+    .then(out => username.setValue(out))
+
+function GreetingModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-greeting-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-greeting-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-greeting-label', label: `Hello, ${username.value}` }),
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+            showWeekNumbers: false,
+            detail: (self, y, m, d) => {
+                return `<span color="white">${y}. ${m}. ${d}.</span>`
+            },
+            onDaySelected: ({ date: [y, m, d] }) => {
+                print(`${y}. ${m}. ${d}.`)
+            },
+        })
+    })
+}
+
+export function OverviewMenu() {
+    return Widget.Box({
+        vertical: true,
+        children: [GreetingModule()]
+    })
+}
+
+</file>
+
+Here are some snippets of code I just looked at:
+<recently_viewed_snippets>
+<snippet>
+(`ags/config.js`)
+
+
+    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+    Utils.exec(
+        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+    );
+    App.resetCss();
+    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+    console.log("[LOG] Styles loaded");
+}
+
+globalThis["applyStyle"] = applyStyle
+Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
+
+applyStyle().catch(print);
+
+App.config({
+    windows: [
+        Bar(0),
+        Bar(1),
+        BarCornerTopleft(0),
+        BarCornerTopright(0),
+        BarCornerTopleft(1),
+        BarCornerTopright(1),
+        BarCornerBottomleft(0),
+        BarCornerBottomright(0),
+        BarCornerBottomleft(1),
+        BarCornerBottomright(1),
+        MediaWidget(),
+        NotificationManager(),
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
+    ],
+});
+
+</snippet>
+</recently_viewed_snippets>
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+then
+46-|  margin-right: 5px;
+46+|  margin-right: 2px;
+then
+48-|  padding: 20px;
+48+|  padding: 12px;
+ags/widgets/sidebar/modules/overview.js
+26+|function ControlCenterModule() {
+27+|    return Widget.Box({
+28+|        className: 'sidebar-overview-control-center-container',
+29+|        children: [
+30+|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31+|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+32+|        ]
+33+|    })
+34+|}
+35+|
+then
+28-|        className: 'sidebar-overview-control-center-container',
+28+|        className: 'sidebar-overview-controlcenter-container',
+then
+30-|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31-|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+30+|            
+31 |        ]
+32 |    })
+33 |}
+34 |
+35 |function CalendarModule() {
+36 |    return Widget.Box({
+37 |        child: Widget.Calendar({
+38 |            showDayNames: true,
+39 |            showDetails: false,
+40 |            showHeading: true,
+41 |            showWeekNumbers: false,
+42 |            detail: (self, y, m, d) => {
+43 |                return `<span color="white">${y}. ${m}. ${d}.</span>`
+44 |            },
+45 |            onDaySelected: ({ date: [y, m, d] }) => {
+46 |                print(`${y}. ${m}. ${d}.`)
+47 |            },
+48 |        })
+49 |    })
+50 |}
+51 |
+52 |export function OverviewMenu() {
+53 |    return Widget.Box({
+54 |        vertical: true,
+56-|        children: [GreetingModule()]
+55+|        children: [GreetingModule()]
+56+|    })
+</diff_history>
+
+
+
+<area_around_code_to_rewrite>
+            Widget.Button({
+                className: 'sidebar-overview-greeting-power',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+            Widget.Button({
+                className: 'sidebar-overview-greeting-reboot',
+                on_clicked: () => Utils.exec('reboot'),
+                child: Widget.Icon("view-refresh")
+            })
+        ]
+    })
+
+<code_to_rewrite>
+}
+func
+
+function ControlCenterModule() {
+</code_to_rewrite>
+    return Widget.Box({
+        className: 'sidebar-overview-controlcenter-container',
+        children: [
+            
+        ]
+    })
+}
+
+function CalendarModule() {
+    return Widget.Box({
+        child: Widget.Calendar({
+            showDayNames: true,
+            showDetails: false,
+            showHeading: true,
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/widgets/sidebar/modules/overview.js
+25+|func
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:58:11.868 [info] =======>Model output 
+}
+function ControlCenterButton() {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => Utils.exec('pavucontrol'),
+        child: Widget.Icon("audio-volume-high")
+    })
+}
+
+function ControlCenterModule() {
+2024-09-14 21:58:11.868 [info] =======>Debug stream time 381.88489899784327
+2024-09-14 21:58:11.868 [info] =======>Debug ttft time 79.95645499974489
+2024-09-14 21:58:11.869 [info] Average of latest 20 ttft time 84.92480129860341
+2024-09-14 21:58:11.869 [info] Average of latest 20 stream time 244.61833199970425
+2024-09-14 21:58:11.869 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:11.869 [info] Average of latest 20 client time 305.869287109375
+2024-09-14 21:58:11.869 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:11.869 [info] CPP RT LOG: All stats {"streamingtime":425.2890625,"actualTtftFromStart":178.03662109375,"timeTillServerRequest":53.83837890625,"requestToTtft":124.1982421875,"totalTime":479.099365234375}
+2024-09-14 21:58:11.869 [info] CURSOR LOG: restFunc done e866d68a-3530-4a89-a96a-c05a4fbe44f7
+2024-09-14 21:58:19.224 [info] CURSOR LOG: restFunc initiated 44461396-6e1d-45ef-8595-08a8dadaa806
+2024-09-14 21:58:19.518 [info] CURSOR LOG: Done streaming cpp with id 44461396-6e1d-45ef-8595-08a8dadaa806
+2024-09-14 21:58:19.518 [info] CPP RT LOG: Time taken for streaming cpp 294.407470703125 with request 44461396-6e1d-45ef-8595-08a8dadaa806
+2024-09-14 21:58:19.518 [info] CPP Request Log with id 44461396-6e1d-45ef-8595-08a8dadaa806
+2024-09-14 21:58:19.518 [info] =======>Model input 
+2024-09-14 21:58:19.518 [info] =======>Model output 
+}
+function ControlCenterButton() {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:19.518 [info] =======>Debug stream time 105.31567600369453
+2024-09-14 21:58:19.518 [info] =======>Debug ttft time 101.03744500875473
+2024-09-14 21:58:19.519 [info] Average of latest 20 ttft time 85.72361379899084
+2024-09-14 21:58:19.519 [info] Average of latest 20 stream time 236.14934974983333
+2024-09-14 21:58:19.519 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:19.519 [info] Average of latest 20 client time 304.977685546875
+2024-09-14 21:58:19.519 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:19.519 [info] CPP RT LOG: All stats {"streamingtime":294.407470703125,"actualTtftFromStart":351.669189453125,"timeTillServerRequest":57.424072265625,"requestToTtft":294.2451171875,"totalTime":351.807373046875}
+2024-09-14 21:58:19.519 [info] CURSOR LOG: restFunc done 44461396-6e1d-45ef-8595-08a8dadaa806
+2024-09-14 21:58:30.218 [info] CURSOR LOG: restFunc initiated a67cb517-b425-4eba-955c-18d755c2e758
+2024-09-14 21:58:30.367 [info] CURSOR LOG: Done streaming cpp with id a67cb517-b425-4eba-955c-18d755c2e758
+2024-09-14 21:58:30.367 [info] CPP RT LOG: Time taken for streaming cpp 148.26708984375 with request a67cb517-b425-4eba-955c-18d755c2e758
+2024-09-14 21:58:30.371 [info] CPP Request Log with id a67cb517-b425-4eba-955c-18d755c2e758
+2024-09-14 21:58:30.371 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+<snippet>
+(`ags/scss/sidebar.scss`)
+
+
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+</snippet>
+<snippet>
+(`ags/config.js`)
+
+
+    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+    Utils.exec(
+        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+    );
+    App.resetCss();
+    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+    console.log("[LOG] Styles loaded");
+}
+
+globalThis["applyStyle"] = applyStyle
+Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
+
+applyStyle().catch(print);
+
+App.config({
+    windows: [
+        Bar(0),
+        Bar(1),
+        BarCornerTopleft(0),
+        BarCornerTopright(0),
+        BarCornerTopleft(1),
+        BarCornerTopright(1),
+        BarCornerBottomleft(0),
+        BarCornerBottomright(0),
+        BarCornerBottomleft(1),
+        BarCornerBottomright(1),
+        MediaWidget(),
+        NotificationManager(),
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
+    ],
+});
+
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/widgets/sidebar/modules/overview.js`):
+<file>
+const username = Variable()
+
+Utils.execAsync('whoami')
+    .then(out => username.setValue(out))
+
+function GreetingModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-greeting-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-greeting-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-greeting-label', label: `Hello, ${username.value}` }),
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+function ControlCenterModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-controlcenter-container',
+        children: [
+            
+        ]
+    })
+}
+
+function CalendarModule() {
+    return Widget.Box({
+        child: Widget.Calendar({
+            showDayNames: true,
+            showDetails: false,
+            showHeading: true,
+            showWeekNumbers: false,
+            detail: (self, y, m, d) => {
+                return `<span color="white">${y}. ${m}. ${d}.</span>`
+            },
+            onDaySelected: ({ date: [y, m, d] }) => {
+                print(`${y}. ${m}. ${d}.`)
+            },
+        })
+    })
+}
+
+export function OverviewMenu() {
+    return Widget.Box({
+        vertical: true,
+        children: [GreetingModule()]
+    })
+}
+
+</file>
+
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+then
+46-|  margin-right: 5px;
+46+|  margin-right: 2px;
+then
+48-|  padding: 20px;
+48+|  padding: 12px;
+ags/widgets/sidebar/modules/overview.js
+26+|function ControlCenterModule() {
+27+|    return Widget.Box({
+28+|        className: 'sidebar-overview-control-center-container',
+29+|        children: [
+30+|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31+|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+32+|        ]
+33+|    })
+34+|}
+35+|
+then
+28-|        className: 'sidebar-overview-control-center-container',
+28+|        className: 'sidebar-overview-controlcenter-container',
+then
+30-|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31-|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+30+|            
+31 |        ]
+32 |    })
+33 |}
+34 |
+35 |function CalendarModule() {
+36 |    return Widget.Box({
+37 |        child: Widget.Calendar({
+38 |            showDayNames: true,
+39 |            showDetails: false,
+40 |            showHeading: true,
+41 |            showWeekNumbers: false,
+42 |            detail: (self, y, m, d) => {
+43 |                return `<span color="white">${y}. ${m}. ${d}.</span>`
+44 |            },
+45 |            onDaySelected: ({ date: [y, m, d] }) => {
+46 |                print(`${y}. ${m}. ${d}.`)
+47 |            },
+48 |        })
+49 |    })
+50 |}
+51 |
+52 |export function OverviewMenu() {
+53 |    return Widget.Box({
+54 |        vertical: true,
+56-|        children: [GreetingModule()]
+55+|        children: [GreetingModule()]
+56+|    })
+</diff_history>
+
+
+
+<area_around_code_to_rewrite>
+            Widget.Button({
+                className: 'sidebar-overview-greeting-power',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+            Widget.Button({
+                className: 'sidebar-overview-greeting-reboot',
+                on_clicked: () => Utils.exec('reboot'),
+                child: Widget.Icon("view-refresh")
+            })
+        ]
+    })
+}
+function ControlCenterButton() {
+    return Widget.Button({
+
+<code_to_rewrite>
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => Utils.exec('pavucontrol'),
+        child: Widget.Icon("audio-volume-high")
+    })
+</code_to_rewrite>
+}
+
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/widgets/sidebar/modules/overview.js
+25+|function ControlCenterButton() {
+26+|    return Widget.Button({
+27+|        className: 'sidebar-overview-controlcenter-button',
+28+|        on_clicked: () => Utils.exec('pavucontrol'),
+29+|        child: Widget.Icon("audio-volume-high")
+30+|    })
+31+|}
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:58:30.371 [info] =======>Model output 
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => Utils.exec('pavucontrol'),
+        child: Widget.Icon("audio-volume-high")
+    })
+2024-09-14 21:58:30.371 [info] =======>Debug stream time 106.57905699312687
+2024-09-14 21:58:30.371 [info] =======>Debug ttft time 85.18534299731255
+2024-09-14 21:58:30.373 [info] Average of latest 20 ttft time 85.47740439884365
+2024-09-14 21:58:30.373 [info] Average of latest 20 stream time 227.39627719968558
+2024-09-14 21:58:30.373 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:30.373 [info] Average of latest 20 client time 296.093798828125
+2024-09-14 21:58:30.373 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:30.373 [info] CPP RT LOG: All stats {"streamingtime":148.26708984375,"actualTtftFromStart":185.037841796875,"timeTillServerRequest":55.749267578125,"requestToTtft":129.28857421875,"totalTime":203.982177734375}
+2024-09-14 21:58:30.373 [info] CURSOR LOG: restFunc done a67cb517-b425-4eba-955c-18d755c2e758
+2024-09-14 21:58:31.411 [info] CURSOR LOG: restFunc initiated b6f71656-b6f4-4e40-a434-735c8b219ad8
+2024-09-14 21:58:31.601 [info] CURSOR LOG: Done streaming cpp with id b6f71656-b6f4-4e40-a434-735c8b219ad8
+2024-09-14 21:58:31.601 [info] CPP RT LOG: Time taken for streaming cpp 190.438232421875 with request b6f71656-b6f4-4e40-a434-735c8b219ad8
+2024-09-14 21:58:31.601 [info] CPP Request Log with id b6f71656-b6f4-4e40-a434-735c8b219ad8
+2024-09-14 21:58:31.601 [info] =======>Model input 
+2024-09-14 21:58:31.601 [info] =======>Model output 
+}
+function ControlCenterButton() {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:31.601 [info] =======>Debug stream time 94.83502800762653
+2024-09-14 21:58:31.601 [info] =======>Debug ttft time 91.46642799675465
+2024-09-14 21:58:31.601 [info] Average of latest 20 ttft time 85.8902039486915
+2024-09-14 21:58:31.601 [info] Average of latest 20 stream time 217.4681235000491
+2024-09-14 21:58:31.601 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:31.601 [info] Average of latest 20 client time 288.1101928710938
+2024-09-14 21:58:31.601 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:31.601 [info] CPP RT LOG: All stats {"streamingtime":190.438232421875,"actualTtftFromStart":248.009033203125,"timeTillServerRequest":57.727294921875,"requestToTtft":190.28173828125,"totalTime":248.138427734375}
+2024-09-14 21:58:31.601 [info] CURSOR LOG: restFunc done b6f71656-b6f4-4e40-a434-735c8b219ad8
+2024-09-14 21:58:38.200 [info] CURSOR LOG: restFunc initiated 565603e6-97f5-4e75-b3a2-4d3fa324e3c6
+2024-09-14 21:58:38.285 [info] CURSOR LOG: restFunc initiated 1049ad52-4973-48eb-b203-0d5533b3269b
+2024-09-14 21:58:38.312 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:38.312 [info] CURSOR LOG: restFunc done 1049ad52-4973-48eb-b203-0d5533b3269b
+2024-09-14 21:58:38.347 [info] CURSOR LOG: restFunc initiated 3e9b0cf0-d7b9-4fce-81af-7ce8db52322f
+2024-09-14 21:58:38.371 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:38.371 [info] CURSOR LOG: restFunc done 3e9b0cf0-d7b9-4fce-81af-7ce8db52322f
+2024-09-14 21:58:38.382 [info] CURSOR LOG: Done streaming cpp with id 565603e6-97f5-4e75-b3a2-4d3fa324e3c6
+2024-09-14 21:58:38.382 [info] CPP RT LOG: Time taken for streaming cpp 181.6171875 with request 565603e6-97f5-4e75-b3a2-4d3fa324e3c6
+2024-09-14 21:58:38.382 [info] CPP Request Log with id 565603e6-97f5-4e75-b3a2-4d3fa324e3c6
+2024-09-14 21:58:38.382 [info] =======>Model input 
+2024-09-14 21:58:38.382 [info] =======>Model output 
+}
+function ControlCenterButton(icon) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:38.382 [info] =======>Debug stream time 135.00359699130058
+2024-09-14 21:58:38.382 [info] =======>Debug ttft time 76.44195300340652
+2024-09-14 21:58:38.382 [info] Average of latest 20 ttft time 85.72900729887188
+2024-09-14 21:58:38.382 [info] Average of latest 20 stream time 211.25361479967833
+2024-09-14 21:58:38.382 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:38.382 [info] Average of latest 20 client time 282.007421875
+2024-09-14 21:58:38.382 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:38.382 [info] CPP RT LOG: All stats {"streamingtime":181.6171875,"actualTtftFromStart":177.21728515625,"timeTillServerRequest":55.593994140625,"requestToTtft":121.623291015625,"totalTime":237.16845703125}
+2024-09-14 21:58:38.382 [info] CURSOR LOG: restFunc done 565603e6-97f5-4e75-b3a2-4d3fa324e3c6
+2024-09-14 21:58:38.408 [info] CURSOR LOG: restFunc initiated ce84bcef-9575-436b-84b0-77f076f7108b
+2024-09-14 21:58:38.554 [info] CURSOR LOG: Done streaming cpp with id ce84bcef-9575-436b-84b0-77f076f7108b
+2024-09-14 21:58:38.554 [info] CPP RT LOG: Time taken for streaming cpp 146.502197265625 with request ce84bcef-9575-436b-84b0-77f076f7108b
+2024-09-14 21:58:38.554 [info] CPP Request Log with id ce84bcef-9575-436b-84b0-77f076f7108b
+2024-09-14 21:58:38.554 [info] =======>Model input 
+2024-09-14 21:58:38.554 [info] =======>Model output 
+}
+function ControlCenterButton(icon) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:38.554 [info] =======>Debug stream time 98.4246369972825
+2024-09-14 21:58:38.554 [info] =======>Debug ttft time 88.51044099777937
+2024-09-14 21:58:38.554 [info] Average of latest 20 ttft time 85.83432804867626
+2024-09-14 21:58:38.554 [info] Average of latest 20 stream time 200.45914284922182
+2024-09-14 21:58:38.554 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:38.554 [info] Average of latest 20 client time 271.3728393554687
+2024-09-14 21:58:38.554 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:38.554 [info] CPP RT LOG: All stats {"streamingtime":146.502197265625,"actualTtftFromStart":190.13427734375,"timeTillServerRequest":52.840576171875,"requestToTtft":137.293701171875,"totalTime":199.304931640625}
+2024-09-14 21:58:38.554 [info] CURSOR LOG: restFunc done ce84bcef-9575-436b-84b0-77f076f7108b
+2024-09-14 21:58:38.648 [info] CURSOR LOG: restFunc initiated a1565b63-0457-46c5-b9ca-b2320b9872f1
+2024-09-14 21:58:38.685 [info] CURSOR LOG: restFunc initiated db5bed0e-67f0-4fbc-ab2e-6de0f5ccdce3
+2024-09-14 21:58:38.705 [info] CURSOR LOG: restFunc initiated 6ef7d6cc-cd56-4bac-88ab-114a4ec79d13
+2024-09-14 21:58:38.737 [info] CURSOR LOG: Done streaming cpp with id db5bed0e-67f0-4fbc-ab2e-6de0f5ccdce3
+2024-09-14 21:58:38.737 [info] CPP RT LOG: Time taken for streaming cpp 53.1083984375 with request db5bed0e-67f0-4fbc-ab2e-6de0f5ccdce3
+2024-09-14 21:58:38.737 [info] CPP Request Log with id db5bed0e-67f0-4fbc-ab2e-6de0f5ccdce3
+2024-09-14 21:58:38.737 [info] =======>Model input 
+2024-09-14 21:58:38.737 [info] =======>Model output 
+
+2024-09-14 21:58:38.737 [info] =======>Debug stream time 6.308092996478081
+2024-09-14 21:58:38.738 [info] CURSOR LOG: Error in streaming cpp [aborted] Request debounced
+2024-09-14 21:58:38.738 [info] CURSOR LOG: restFunc done db5bed0e-67f0-4fbc-ab2e-6de0f5ccdce3
+2024-09-14 21:58:38.861 [info] CURSOR LOG: Done streaming cpp with id a1565b63-0457-46c5-b9ca-b2320b9872f1
+2024-09-14 21:58:38.861 [info] CPP RT LOG: Time taken for streaming cpp 214.82080078125 with request a1565b63-0457-46c5-b9ca-b2320b9872f1
+2024-09-14 21:58:38.861 [info] CPP Request Log with id a1565b63-0457-46c5-b9ca-b2320b9872f1
+2024-09-14 21:58:38.861 [info] =======>Model input 
+2024-09-14 21:58:38.861 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:38.861 [info] =======>Debug stream time 152.65539799630642
+2024-09-14 21:58:38.861 [info] =======>Debug ttft time 87.96111099421978
+2024-09-14 21:58:38.862 [info] Average of latest 20 ttft time 86.62245084866882
+2024-09-14 21:58:38.862 [info] Average of latest 20 stream time 179.0134450983256
+2024-09-14 21:58:38.862 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:38.862 [info] Average of latest 20 client time 267.14951171875
+2024-09-14 21:58:38.862 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:38.862 [info] CPP RT LOG: All stats {"streamingtime":214.82080078125,"actualTtftFromStart":255.750732421875,"timeTillServerRequest":104.56005859375,"requestToTtft":151.190673828125,"totalTime":319.3291015625}
+2024-09-14 21:58:38.862 [info] CURSOR LOG: restFunc done a1565b63-0457-46c5-b9ca-b2320b9872f1
+2024-09-14 21:58:38.908 [info] CURSOR LOG: Done streaming cpp with id 6ef7d6cc-cd56-4bac-88ab-114a4ec79d13
+2024-09-14 21:58:38.908 [info] CPP RT LOG: Time taken for streaming cpp 204.120361328125 with request 6ef7d6cc-cd56-4bac-88ab-114a4ec79d13
+2024-09-14 21:58:38.908 [info] CPP Request Log with id 6ef7d6cc-cd56-4bac-88ab-114a4ec79d13
+2024-09-14 21:58:38.908 [info] =======>Model input 
+2024-09-14 21:58:38.908 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:38.908 [info] =======>Debug stream time 160.14188998937607
+2024-09-14 21:58:38.908 [info] =======>Debug ttft time 85.83751699328423
+2024-09-14 21:58:38.909 [info] Average of latest 20 ttft time 86.1785805478692
+2024-09-14 21:58:38.909 [info] Average of latest 20 stream time 173.85989354811608
+2024-09-14 21:58:38.909 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:38.909 [info] Average of latest 20 client time 258.3452392578125
+2024-09-14 21:58:38.909 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:38.909 [info] CPP RT LOG: All stats {"streamingtime":204.120361328125,"actualTtftFromStart":186.361083984375,"timeTillServerRequest":55.787353515625,"requestToTtft":130.57373046875,"totalTime":259.869384765625}
+2024-09-14 21:58:38.909 [info] CURSOR LOG: restFunc done 6ef7d6cc-cd56-4bac-88ab-114a4ec79d13
+2024-09-14 21:58:39.223 [info] CURSOR LOG: restFunc initiated 51ca3dbf-c8e8-45ae-bfc0-b4484db89b73
+2024-09-14 21:58:39.324 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:39.324 [info] CURSOR LOG: restFunc done 51ca3dbf-c8e8-45ae-bfc0-b4484db89b73
+2024-09-14 21:58:39.385 [info] CURSOR LOG: restFunc initiated 462f9a65-2318-4a50-afc5-66ab72a83835
+2024-09-14 21:58:39.496 [info] CURSOR LOG: restFunc initiated 637b073f-d999-4284-9cc4-43d162d29132
+2024-09-14 21:58:39.589 [info] CURSOR LOG: Done streaming cpp with id 462f9a65-2318-4a50-afc5-66ab72a83835
+2024-09-14 21:58:39.589 [info] CPP RT LOG: Time taken for streaming cpp 204.789306640625 with request 462f9a65-2318-4a50-afc5-66ab72a83835
+2024-09-14 21:58:39.590 [info] CPP Request Log with id 462f9a65-2318-4a50-afc5-66ab72a83835
+2024-09-14 21:58:39.590 [info] =======>Model input 
+2024-09-14 21:58:39.590 [info] =======>Model output 
+}
+function ControlCenterButton(icon) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:39.590 [info] =======>Debug stream time 140.73233999311924
+2024-09-14 21:58:39.590 [info] =======>Debug ttft time 79.28567400574684
+2024-09-14 21:58:39.590 [info] Average of latest 20 ttft time 86.45346394851803
+2024-09-14 21:58:39.590 [info] Average of latest 20 stream time 175.73155459798872
+2024-09-14 21:58:39.590 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:39.590 [info] Average of latest 20 client time 253.26773681640626
+2024-09-14 21:58:39.590 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:39.590 [info] CPP RT LOG: All stats {"streamingtime":204.789306640625,"actualTtftFromStart":202.821533203125,"timeTillServerRequest":60.878662109375,"requestToTtft":141.94287109375,"totalTime":265.644287109375}
+2024-09-14 21:58:39.590 [info] CURSOR LOG: restFunc done 462f9a65-2318-4a50-afc5-66ab72a83835
+2024-09-14 21:58:39.682 [info] CURSOR LOG: Done streaming cpp with id 637b073f-d999-4284-9cc4-43d162d29132
+2024-09-14 21:58:39.682 [info] CPP RT LOG: Time taken for streaming cpp 185.8876953125 with request 637b073f-d999-4284-9cc4-43d162d29132
+2024-09-14 21:58:39.682 [info] CPP Request Log with id 637b073f-d999-4284-9cc4-43d162d29132
+2024-09-14 21:58:39.682 [info] =======>Model input 
+2024-09-14 21:58:39.682 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:39.682 [info] =======>Debug stream time 138.4382500052452
+2024-09-14 21:58:39.682 [info] =======>Debug ttft time 72.96565100550652
+2024-09-14 21:58:39.683 [info] Average of latest 20 ttft time 85.12326079905033
+2024-09-14 21:58:39.683 [info] Average of latest 20 stream time 176.18407989777626
+2024-09-14 21:58:39.683 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:39.683 [info] Average of latest 20 client time 243.6282470703125
+2024-09-14 21:58:39.683 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:39.683 [info] CPP RT LOG: All stats {"streamingtime":185.8876953125,"actualTtftFromStart":178.225830078125,"timeTillServerRequest":57.439453125,"requestToTtft":120.786376953125,"totalTime":243.300048828125}
+2024-09-14 21:58:39.683 [info] CURSOR LOG: restFunc done 637b073f-d999-4284-9cc4-43d162d29132
+2024-09-14 21:58:39.759 [info] CURSOR LOG: restFunc initiated 5863aa21-f4ab-4184-82f1-c7b613ff2d45
+2024-09-14 21:58:39.874 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:39.874 [info] CURSOR LOG: restFunc done 5863aa21-f4ab-4184-82f1-c7b613ff2d45
+2024-09-14 21:58:39.930 [info] CURSOR LOG: restFunc initiated 171765e9-a860-44bc-9e26-70a6d474c22c
+2024-09-14 21:58:39.940 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:39.940 [info] CURSOR LOG: restFunc done 171765e9-a860-44bc-9e26-70a6d474c22c
+2024-09-14 21:58:39.995 [info] CURSOR LOG: restFunc initiated 9f3ae6a3-888e-4d97-b0dc-c0f70a414d77
+2024-09-14 21:58:40.177 [info] CURSOR LOG: restFunc initiated 49d5a4a8-a6ac-4abc-917a-27de2627c148
+2024-09-14 21:58:40.188 [info] CURSOR LOG: Done streaming cpp with id 9f3ae6a3-888e-4d97-b0dc-c0f70a414d77
+2024-09-14 21:58:40.188 [info] CPP RT LOG: Time taken for streaming cpp 193.7646484375 with request 9f3ae6a3-888e-4d97-b0dc-c0f70a414d77
+2024-09-14 21:58:40.189 [info] CPP Request Log with id 9f3ae6a3-888e-4d97-b0dc-c0f70a414d77
+2024-09-14 21:58:40.189 [info] =======>Model input 
+2024-09-14 21:58:40.189 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:40.189 [info] =======>Debug stream time 148.5811940021813
+2024-09-14 21:58:40.189 [info] =======>Debug ttft time 76.36979800090194
+2024-09-14 21:58:40.190 [info] Average of latest 20 ttft time 83.7795075489208
+2024-09-14 21:58:40.190 [info] Average of latest 20 stream time 177.48729929756374
+2024-09-14 21:58:40.190 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:40.190 [info] Average of latest 20 client time 244.1914306640625
+2024-09-14 21:58:40.190 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:40.190 [info] CPP RT LOG: All stats {"streamingtime":193.7646484375,"actualTtftFromStart":177.21435546875,"timeTillServerRequest":55.33740234375,"requestToTtft":121.876953125,"totalTime":249.06640625}
+2024-09-14 21:58:40.190 [info] CURSOR LOG: restFunc done 9f3ae6a3-888e-4d97-b0dc-c0f70a414d77
+2024-09-14 21:58:40.370 [info] CURSOR LOG: Done streaming cpp with id 49d5a4a8-a6ac-4abc-917a-27de2627c148
+2024-09-14 21:58:40.370 [info] CPP RT LOG: Time taken for streaming cpp 193.041748046875 with request 49d5a4a8-a6ac-4abc-917a-27de2627c148
+2024-09-14 21:58:40.370 [info] CPP Request Log with id 49d5a4a8-a6ac-4abc-917a-27de2627c148
+2024-09-14 21:58:40.370 [info] =======>Model input 
+2024-09-14 21:58:40.370 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:40.370 [info] =======>Debug stream time 147.8698260039091
+2024-09-14 21:58:40.370 [info] =======>Debug ttft time 82.57485400140285
+2024-09-14 21:58:40.370 [info] Average of latest 20 ttft time 83.46810244899243
+2024-09-14 21:58:40.370 [info] Average of latest 20 stream time 171.01527494769545
+2024-09-14 21:58:40.370 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:40.370 [info] Average of latest 20 client time 245.7292236328125
+2024-09-14 21:58:40.370 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:40.370 [info] CPP RT LOG: All stats {"streamingtime":193.041748046875,"actualTtftFromStart":190.876708984375,"timeTillServerRequest":63.179443359375,"requestToTtft":127.697265625,"totalTime":256.1875}
+2024-09-14 21:58:40.370 [info] CURSOR LOG: restFunc done 49d5a4a8-a6ac-4abc-917a-27de2627c148
+2024-09-14 21:58:46.316 [info] CURSOR LOG: restFunc initiated e31b4b66-4e92-41f0-8bea-1d4e399f8c80
+2024-09-14 21:58:46.504 [info] CURSOR LOG: Done streaming cpp with id e31b4b66-4e92-41f0-8bea-1d4e399f8c80
+2024-09-14 21:58:46.504 [info] CPP RT LOG: Time taken for streaming cpp 187.935546875 with request e31b4b66-4e92-41f0-8bea-1d4e399f8c80
+2024-09-14 21:58:46.504 [info] CPP Request Log with id e31b4b66-4e92-41f0-8bea-1d4e399f8c80
+2024-09-14 21:58:46.504 [info] =======>Model input 
+2024-09-14 21:58:46.504 [info] =======>Model output 
+}
+function ControlCenterButton(icon, on_clicked) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:46.504 [info] =======>Debug stream time 137.40296299755573
+2024-09-14 21:58:46.504 [info] =======>Debug ttft time 79.98438100516796
+2024-09-14 21:58:46.505 [info] Average of latest 20 ttft time 83.81929289977998
+2024-09-14 21:58:46.505 [info] Average of latest 20 stream time 163.18246094789356
+2024-09-14 21:58:46.505 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:46.506 [info] Average of latest 20 client time 238.76240234375
+2024-09-14 21:58:46.506 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:46.506 [info] CPP RT LOG: All stats {"streamingtime":187.935546875,"actualTtftFromStart":199.823486328125,"timeTillServerRequest":69.20068359375,"requestToTtft":130.622802734375,"totalTime":257.08984375}
+2024-09-14 21:58:46.506 [info] CURSOR LOG: restFunc done e31b4b66-4e92-41f0-8bea-1d4e399f8c80
+2024-09-14 21:58:46.668 [info] CURSOR LOG: restFunc initiated 2f2d8f86-85fb-4ce2-8d0d-1fd91d24dbcb
+2024-09-14 21:58:46.791 [info] CURSOR LOG: restFunc initiated df22be32-6c14-4d5d-8cac-659224c9f334
+2024-09-14 21:58:46.861 [info] CURSOR LOG: Done streaming cpp with id 2f2d8f86-85fb-4ce2-8d0d-1fd91d24dbcb
+2024-09-14 21:58:46.861 [info] CPP RT LOG: Time taken for streaming cpp 193.737060546875 with request 2f2d8f86-85fb-4ce2-8d0d-1fd91d24dbcb
+2024-09-14 21:58:46.861 [info] CPP Request Log with id 2f2d8f86-85fb-4ce2-8d0d-1fd91d24dbcb
+2024-09-14 21:58:46.861 [info] =======>Model input 
+2024-09-14 21:58:46.861 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:46.861 [info] =======>Debug stream time 144.43850700557232
+2024-09-14 21:58:46.861 [info] =======>Debug ttft time 79.15979500114918
+2024-09-14 21:58:46.861 [info] Average of latest 20 ttft time 83.11378649976105
+2024-09-14 21:58:46.861 [info] Average of latest 20 stream time 157.48393429834397
+2024-09-14 21:58:46.861 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:46.861 [info] Average of latest 20 client time 231.57642822265626
+2024-09-14 21:58:46.861 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:46.861 [info] CPP RT LOG: All stats {"streamingtime":193.737060546875,"actualTtftFromStart":180.114013671875,"timeTillServerRequest":53.158935546875,"requestToTtft":126.955078125,"totalTime":246.866455078125}
+2024-09-14 21:58:46.861 [info] CURSOR LOG: restFunc done 2f2d8f86-85fb-4ce2-8d0d-1fd91d24dbcb
+2024-09-14 21:58:46.890 [info] CURSOR LOG: restFunc initiated dd5a5298-94f8-49fe-9f5d-444c054b2959
+2024-09-14 21:58:46.970 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:46.970 [info] CURSOR LOG: restFunc done df22be32-6c14-4d5d-8cac-659224c9f334
+2024-09-14 21:58:47.106 [info] CURSOR LOG: Done streaming cpp with id dd5a5298-94f8-49fe-9f5d-444c054b2959
+2024-09-14 21:58:47.106 [info] CPP RT LOG: Time taken for streaming cpp 217.04150390625 with request dd5a5298-94f8-49fe-9f5d-444c054b2959
+2024-09-14 21:58:47.109 [info] CURSOR LOG: restFunc initiated b057dc66-e942-46c6-a085-8280a875cbc0
+2024-09-14 21:58:47.119 [info] CPP Request Log with id dd5a5298-94f8-49fe-9f5d-444c054b2959
+2024-09-14 21:58:47.119 [info] =======>Model input <｜begin▁of▁sentence｜>You are an intelligent programmer named CursorBot. You are an expert at coding. Your goal is to help your colleague finish a code change.
+
+User: Help me finish a coding change. In particular, you will see a series of snippets from files I've recently viewed, the file I am editing, then a history of my recent codebase changes, then current compiler and linter errors. You will then rewrite the <code_to_rewrite>, to match what you think I would do next in the codebase. Note: I might have stopped in the middle of typing.
+
+Here are some snippets of code I've recently looked at, roughly from oldest to newest. It's possible these aren't entirely relevant to my code change.
+<recently_viewed_snippets>
+<snippet>
+(`Cursor/languagepacks.json`)
+
+
+{}
+</snippet>
+<snippet>
+(`ags/scss/sidebar.scss`)
+
+
+  padding: 10px;
+
+}
+
+.sidebar-applauncher-item {
+  background-color: $primary-container;
+  color: $primary;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.sidebar-applauncher-item-title {
+  margin-left: 10px;
+}
+
+.sidebar-applauncher-entry {
+  background-color: $primary-container;
+  color: $primary;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+
+.sidebar-overview-greeting-container {
+  color: $on_background;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.sidebar-overview-greeting-icon {
+  font-size: 25px;
+}
+
+.sidebar-overview-greeting-label {
+  margin-right: 150px;
+}
+
+.sidebar-overview-greeting-power,
+.sidebar-overview-greeting-reboot {
+  font-size: 20px;
+</snippet>
+<snippet>
+(`ags/config.js`)
+
+
+    Utils.exec(`mkdir -p ${COMPILED_STYLE_DIR}`);
+    Utils.exec(`touch ${COMPILED_STYLE_DIR}/style.css`);
+    Utils.exec(
+        `sass ${App.configDir}/scss/main.scss ${COMPILED_STYLE_DIR}/style.css`,
+    );
+    App.resetCss();
+    App.applyCss(`${COMPILED_STYLE_DIR}/style.css`);
+    console.log("[LOG] Styles loaded");
+}
+
+globalThis["applyStyle"] = applyStyle
+Utils.monitorFile(`${App.configDir}/scss`, applyStyle);
+
+applyStyle().catch(print);
+
+App.config({
+    windows: [
+        Bar(0),
+        Bar(1),
+        BarCornerTopleft(0),
+        BarCornerTopright(0),
+        BarCornerTopleft(1),
+        BarCornerTopright(1),
+        BarCornerBottomleft(0),
+        BarCornerBottomright(0),
+        BarCornerBottomleft(1),
+        BarCornerBottomright(1),
+        MediaWidget(),
+        NotificationManager(),
+        SidebarL(0),
+        SidebarR(0),
+        SidebarL(1),
+        SidebarR(1)
+
+    ],
+});
+
+</snippet>
+</recently_viewed_snippets>
+
+
+Here is the file that I'm looking at (`ags/widgets/sidebar/modules/overview.js`):
+<file>
+const username = Variable()
+
+Utils.execAsync('whoami')
+    .then(out => username.setValue(out))
+
+function GreetingModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-greeting-container',
+        children: [
+            Widget.Label({ className: 'sidebar-overview-greeting-icon', label: "󰣇 " }),
+            Widget.Label({ className: 'sidebar-overview-greeting-label', label: `Hello, ${username.value}` }),
+<<<AREA_AROUND_CODE_TO_REWRITE_WILL_BE_INSERTED_HERE>>>
+function ControlCenterModule() {
+    return Widget.Box({
+        className: 'sidebar-overview-controlcenter-container',
+        children: [
+            
+        ]
+    })
+}
+
+function CalendarModule() {
+    return Widget.Box({
+        child: Widget.Calendar({
+            showDayNames: true,
+            showDetails: false,
+            showHeading: true,
+            showWeekNumbers: false,
+            detail: (self, y, m, d) => {
+                return `<span color="white">${y}. ${m}. ${d}.</span>`
+            },
+            onDaySelected: ({ date: [y, m, d] }) => {
+                print(`${y}. ${m}. ${d}.`)
+            },
+        })
+    })
+}
+
+export function OverviewMenu() {
+    return Widget.Box({
+        vertical: true,
+        children: [GreetingModule()]
+    })
+}
+
+</file>
+
+
+Here is my recent series of edits from oldest to newest.
+<diff_history>
+ags/scss/sidebar.scss
+48-|  padding: 7px;
+48+|  padding: 20px;
+then
+46-|  margin-right: 5px;
+46+|  margin-right: 2px;
+then
+48-|  padding: 20px;
+48+|  padding: 12px;
+ags/widgets/sidebar/modules/overview.js
+26+|function ControlCenterModule() {
+27+|    return Widget.Box({
+28+|        className: 'sidebar-overview-control-center-container',
+29+|        children: [
+30+|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31+|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+32+|        ]
+33+|    })
+34+|}
+35+|
+then
+28-|        className: 'sidebar-overview-control-center-container',
+28+|        className: 'sidebar-overview-controlcenter-container',
+then
+30-|            Widget.Label({ className: 'sidebar-overview-control-center-icon', label: "󰣇 " }),
+31-|            Widget.Label({ className: 'sidebar-overview-control-center-label', label: `Hello, ${username.value}` }),
+30+|            
+31 |        ]
+32 |    })
+33 |}
+34 |
+35 |function CalendarModule() {
+36 |    return Widget.Box({
+37 |        child: Widget.Calendar({
+38 |            showDayNames: true,
+39 |            showDetails: false,
+40 |            showHeading: true,
+41 |            showWeekNumbers: false,
+42 |            detail: (self, y, m, d) => {
+43 |                return `<span color="white">${y}. ${m}. ${d}.</span>`
+44 |            },
+45 |            onDaySelected: ({ date: [y, m, d] }) => {
+46 |                print(`${y}. ${m}. ${d}.`)
+47 |            },
+48 |        })
+49 |    })
+50 |}
+51 |
+52 |export function OverviewMenu() {
+53 |    return Widget.Box({
+54 |        vertical: true,
+56-|        children: [GreetingModule()]
+55+|        children: [GreetingModule()]
+56+|    })
+then
+25+|function ControlCenterButton() {
+26+|    return Widget.Button({
+27+|        className: 'sidebar-overview-controlcenter-button',
+28+|        on_clicked: () => Utils.exec('pavucontrol'),
+29+|        child: Widget.Icon("audio-volume-high")
+30+|    })
+31+|}
+</diff_history>
+
+
+
+<area_around_code_to_rewrite>
+            Widget.Button({
+                className: 'sidebar-overview-greeting-power',
+                on_clicked: () => Utils.exec('shutdown'),
+                child: Widget.Icon("system-shutdown")
+            }),
+            Widget.Button({
+                className: 'sidebar-overview-greeting-reboot',
+                on_clicked: () => Utils.exec('reboot'),
+                child: Widget.Icon("view-refresh")
+            })
+        ]
+    })
+
+<code_to_rewrite>
+}
+function ControlCenterButton(icon, to) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+</code_to_rewrite>
+        on_clicked: () => Utils.exec('pavucontrol'),
+        child: Widget.Icon("audio-volume-high")
+    })
+}
+
+
+</area_around_code_to_rewrite>
+
+
+<diff_history>
+ags/widgets/sidebar/modules/overview.js
+25-|function ControlCenterButton() {
+25+|function ControlCenterButton(icon, to) {
+</diff_history>
+
+Now, continue where I left off and finish my change by rewriting "code_to_rewrite":
+
+
+
+
+Assistant: 
+2024-09-14 21:58:47.119 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:47.119 [info] =======>Debug stream time 171.07816399633884
+2024-09-14 21:58:47.119 [info] =======>Debug ttft time 80.53774799406528
+2024-09-14 21:58:47.119 [info] Average of latest 20 ttft time 83.18627119939774
+2024-09-14 21:58:47.119 [info] Average of latest 20 stream time 152.6020342985168
+2024-09-14 21:58:47.119 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:47.119 [info] Average of latest 20 client time 227.32396240234374
+2024-09-14 21:58:47.119 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:47.119 [info] CPP RT LOG: All stats {"streamingtime":217.04150390625,"actualTtftFromStart":187.04150390625,"timeTillServerRequest":59.42822265625,"requestToTtft":127.61328125,"totalTime":276.4423828125}
+2024-09-14 21:58:47.119 [info] CURSOR LOG: restFunc done dd5a5298-94f8-49fe-9f5d-444c054b2959
+2024-09-14 21:58:47.254 [info] CURSOR LOG: restFunc initiated 4b89c070-17e9-4015-9f33-c4c86924e40f
+2024-09-14 21:58:47.321 [info] CURSOR LOG: Done streaming cpp with id b057dc66-e942-46c6-a085-8280a875cbc0
+2024-09-14 21:58:47.321 [info] CPP RT LOG: Time taken for streaming cpp 212.4814453125 with request b057dc66-e942-46c6-a085-8280a875cbc0
+2024-09-14 21:58:47.321 [info] CPP Request Log with id b057dc66-e942-46c6-a085-8280a875cbc0
+2024-09-14 21:58:47.321 [info] =======>Model input 
+2024-09-14 21:58:47.321 [info] =======>Model output 
+}
+function ControlCenterButton(icon, toggle = false) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:47.321 [info] =======>Debug stream time 166.86868698894978
+2024-09-14 21:58:47.321 [info] =======>Debug ttft time 87.01618298888206
+2024-09-14 21:58:47.322 [info] Average of latest 20 ttft time 83.14846129920333
+2024-09-14 21:58:47.322 [info] Average of latest 20 stream time 149.67536094803364
+2024-09-14 21:58:47.322 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:47.322 [info] Average of latest 20 client time 222.3388427734375
+2024-09-14 21:58:47.322 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:47.322 [info] CPP RT LOG: All stats {"streamingtime":212.4814453125,"actualTtftFromStart":205.802490234375,"timeTillServerRequest":57.30419921875,"requestToTtft":148.498291015625,"totalTime":269.7451171875}
+2024-09-14 21:58:47.322 [info] CURSOR LOG: restFunc done b057dc66-e942-46c6-a085-8280a875cbc0
+2024-09-14 21:58:47.345 [info] CURSOR LOG: restFunc initiated c94644e0-6fe7-475d-9df4-c05b0bad46f3
+2024-09-14 21:58:47.472 [info] CURSOR LOG: Done streaming cpp with id 4b89c070-17e9-4015-9f33-c4c86924e40f
+2024-09-14 21:58:47.472 [info] CPP RT LOG: Time taken for streaming cpp 219.589111328125 with request 4b89c070-17e9-4015-9f33-c4c86924e40f
+2024-09-14 21:58:47.472 [info] CPP Request Log with id 4b89c070-17e9-4015-9f33-c4c86924e40f
+2024-09-14 21:58:47.472 [info] =======>Model input 
+2024-09-14 21:58:47.472 [info] =======>Model output 
+}
+function ControlCenterButton(icon, toggle = false) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:47.472 [info] =======>Debug stream time 169.98883099853992
+2024-09-14 21:58:47.472 [info] =======>Debug ttft time 81.39842100441456
+2024-09-14 21:58:47.473 [info] Average of latest 20 ttft time 82.97039369922132
+2024-09-14 21:58:47.473 [info] Average of latest 20 stream time 153.28355994764715
+2024-09-14 21:58:47.473 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:47.473 [info] Average of latest 20 client time 219.99200439453125
+2024-09-14 21:58:47.473 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:47.473 [info] CPP RT LOG: All stats {"streamingtime":219.589111328125,"actualTtftFromStart":184.38330078125,"timeTillServerRequest":55.2236328125,"requestToTtft":129.15966796875,"totalTime":274.78466796875}
+2024-09-14 21:58:47.473 [info] CURSOR LOG: restFunc done 4b89c070-17e9-4015-9f33-c4c86924e40f
+2024-09-14 21:58:47.558 [info] CURSOR LOG: Done streaming cpp with id c94644e0-6fe7-475d-9df4-c05b0bad46f3
+2024-09-14 21:58:47.558 [info] CPP RT LOG: Time taken for streaming cpp 214.082763671875 with request c94644e0-6fe7-475d-9df4-c05b0bad46f3
+2024-09-14 21:58:47.559 [info] CPP Request Log with id c94644e0-6fe7-475d-9df4-c05b0bad46f3
+2024-09-14 21:58:47.559 [info] =======>Model input 
+2024-09-14 21:58:47.559 [info] =======>Model output 
+}
+function ControlCenterButton(icon, toggle = false) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:47.559 [info] =======>Debug stream time 168.49490700662136
+2024-09-14 21:58:47.559 [info] =======>Debug ttft time 88.55304500460625
+2024-09-14 21:58:47.559 [info] Average of latest 20 ttft time 82.92447119932622
+2024-09-14 21:58:47.559 [info] Average of latest 20 stream time 156.28654769826682
+2024-09-14 21:58:47.559 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:47.559 [info] Average of latest 20 client time 219.64317626953124
+2024-09-14 21:58:47.559 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:47.559 [info] CPP RT LOG: All stats {"streamingtime":214.082763671875,"actualTtftFromStart":188.291259765625,"timeTillServerRequest":54.265625,"requestToTtft":134.025634765625,"totalTime":268.318359375}
+2024-09-14 21:58:47.559 [info] CURSOR LOG: restFunc done c94644e0-6fe7-475d-9df4-c05b0bad46f3
+2024-09-14 21:58:47.984 [info] CURSOR LOG: restFunc initiated dfc17875-f066-4682-a30e-edf41c4a4983
+2024-09-14 21:58:48.178 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:48.178 [info] CURSOR LOG: restFunc done dfc17875-f066-4682-a30e-edf41c4a4983
+2024-09-14 21:58:48.216 [info] CURSOR LOG: restFunc initiated 7a59ecc5-59c2-4434-a187-9d54d1ef8e84
+2024-09-14 21:58:48.357 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:48.357 [info] CURSOR LOG: restFunc done 7a59ecc5-59c2-4434-a187-9d54d1ef8e84
+2024-09-14 21:58:48.411 [info] CURSOR LOG: restFunc initiated 09d3d7e1-7512-4e27-ac93-4aee1cca208d
+2024-09-14 21:58:48.548 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:48.548 [info] CURSOR LOG: restFunc done 09d3d7e1-7512-4e27-ac93-4aee1cca208d
+2024-09-14 21:58:48.603 [info] CURSOR LOG: restFunc initiated 975adc6b-b7e3-4cc7-a53c-c6f96ee05493
+2024-09-14 21:58:48.711 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:48.711 [info] CURSOR LOG: restFunc done 975adc6b-b7e3-4cc7-a53c-c6f96ee05493
+2024-09-14 21:58:48.773 [info] CURSOR LOG: restFunc initiated 1bb22ddf-abc8-4cd0-8d26-dfc547c58bf7
+2024-09-14 21:58:48.902 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-09-14 21:58:48.902 [info] CURSOR LOG: restFunc done 1bb22ddf-abc8-4cd0-8d26-dfc547c58bf7
+2024-09-14 21:58:48.956 [info] CURSOR LOG: restFunc initiated 8799e9cc-3d51-4c5f-9425-1c19a06a5ac8
+2024-09-14 21:58:49.137 [info] CURSOR LOG: Done streaming cpp with id 8799e9cc-3d51-4c5f-9425-1c19a06a5ac8
+2024-09-14 21:58:49.137 [info] CPP RT LOG: Time taken for streaming cpp 180.99072265625 with request 8799e9cc-3d51-4c5f-9425-1c19a06a5ac8
+2024-09-14 21:58:49.137 [info] CPP Request Log with id 8799e9cc-3d51-4c5f-9425-1c19a06a5ac8
+2024-09-14 21:58:49.137 [info] =======>Model input 
+2024-09-14 21:58:49.137 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:49.137 [info] =======>Debug stream time 140.008740991354
+2024-09-14 21:58:49.137 [info] =======>Debug ttft time 74.6553819924593
+2024-09-14 21:58:49.137 [info] Average of latest 20 ttft time 82.61603364925831
+2024-09-14 21:58:49.137 [info] Average of latest 20 stream time 145.7525342481211
+2024-09-14 21:58:49.137 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:49.137 [info] Average of latest 20 client time 220.107177734375
+2024-09-14 21:58:49.137 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:49.137 [info] CPP RT LOG: All stats {"streamingtime":180.99072265625,"actualTtftFromStart":170.25537109375,"timeTillServerRequest":54.172607421875,"requestToTtft":116.082763671875,"totalTime":235.126953125}
+2024-09-14 21:58:49.137 [info] CURSOR LOG: restFunc done 8799e9cc-3d51-4c5f-9425-1c19a06a5ac8
+2024-09-14 21:58:54.579 [info] CURSOR LOG: restFunc initiated 702c2dfb-337c-4061-aa05-23e323b79f57
+2024-09-14 21:58:54.735 [info] CURSOR LOG: restFunc initiated 5de0ea8c-2853-42d1-8603-4078ccbb9387
+2024-09-14 21:58:54.792 [info] CURSOR LOG: Done streaming cpp with id 702c2dfb-337c-4061-aa05-23e323b79f57
+2024-09-14 21:58:54.792 [info] CPP RT LOG: Time taken for streaming cpp 213.095703125 with request 702c2dfb-337c-4061-aa05-23e323b79f57
+2024-09-14 21:58:54.792 [info] CPP Request Log with id 702c2dfb-337c-4061-aa05-23e323b79f57
+2024-09-14 21:58:54.792 [info] =======>Model input 
+2024-09-14 21:58:54.792 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:54.792 [info] =======>Debug stream time 153.93328501284122
+2024-09-14 21:58:54.792 [info] =======>Debug ttft time 96.50904101133347
+2024-09-14 21:58:54.792 [info] Average of latest 20 ttft time 83.77033330034465
+2024-09-14 21:58:54.792 [info] Average of latest 20 stream time 134.35495354887098
+2024-09-14 21:58:54.792 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:54.792 [info] Average of latest 20 client time 211.09498291015626
+2024-09-14 21:58:54.792 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:54.793 [info] CPP RT LOG: All stats {"streamingtime":213.095703125,"actualTtftFromStart":220.34423828125,"timeTillServerRequest":60.67578125,"requestToTtft":159.66845703125,"totalTime":273.710693359375}
+2024-09-14 21:58:54.793 [info] CURSOR LOG: restFunc done 702c2dfb-337c-4061-aa05-23e323b79f57
+2024-09-14 21:58:54.922 [info] CURSOR LOG: Done streaming cpp with id 5de0ea8c-2853-42d1-8603-4078ccbb9387
+2024-09-14 21:58:54.922 [info] CPP RT LOG: Time taken for streaming cpp 187.622802734375 with request 5de0ea8c-2853-42d1-8603-4078ccbb9387
+2024-09-14 21:58:54.922 [info] CPP Request Log with id 5de0ea8c-2853-42d1-8603-4078ccbb9387
+2024-09-14 21:58:54.922 [info] =======>Model input 
+2024-09-14 21:58:54.922 [info] =======>Model output 
+}
+function ControlCenterButton(icon, command) {
+    return Widget.Button({
+        className: 'sidebar-overview-controlcenter-button',
+2024-09-14 21:58:54.922 [info] =======>Debug stream time 141.4790640026331
+2024-09-14 21:58:54.922 [info] =======>Debug ttft time 82.68861300498247
+2024-09-14 21:58:54.923 [info] Average of latest 20 ttft time 83.90694120060652
+2024-09-14 21:58:54.923 [info] Average of latest 20 stream time 136.16312294881791
+2024-09-14 21:58:54.923 [info] Average of latest 20 total time NaN
+2024-09-14 21:58:54.923 [info] Average of latest 20 client time 199.211669921875
+2024-09-14 21:58:54.923 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:58:54.923 [info] CPP RT LOG: All stats {"streamingtime":187.622802734375,"actualTtftFromStart":186.7509765625,"timeTillServerRequest":58.50390625,"requestToTtft":128.2470703125,"totalTime":246.085693359375}
+2024-09-14 21:58:54.923 [info] CURSOR LOG: restFunc done 5de0ea8c-2853-42d1-8603-4078ccbb9387
+2024-09-14 21:59:29.824 [info] CURSOR LOG: restFunc initiated 05a3ec06-3714-4a8a-97e6-65cd2a8bcd6e
+2024-09-14 21:59:29.989 [info] CURSOR LOG: restFunc initiated 732245d8-1123-4e12-9f15-9f0b696b1e7b
+2024-09-14 21:59:30.052 [info] CURSOR LOG: Done streaming cpp with id 05a3ec06-3714-4a8a-97e6-65cd2a8bcd6e
+2024-09-14 21:59:30.052 [info] CPP RT LOG: Time taken for streaming cpp 227.40478515625 with request 05a3ec06-3714-4a8a-97e6-65cd2a8bcd6e
+2024-09-14 21:59:30.052 [info] CPP Request Log with id 05a3ec06-3714-4a8a-97e6-65cd2a8bcd6e
+2024-09-14 21:59:30.053 [info] =======>Model input 
+2024-09-14 21:59:30.053 [info] =======>Model output 
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => command,
+        child: Widget.Icon(icon)
+    })
+2024-09-14 21:59:30.053 [info] =======>Debug stream time 158.21768899261951
+2024-09-14 21:59:30.053 [info] =======>Debug ttft time 85.69996899366379
+2024-09-14 21:59:30.054 [info] Average of latest 20 ttft time 83.14006739985197
+2024-09-14 21:59:30.054 [info] Average of latest 20 stream time 138.74505454879255
+2024-09-14 21:59:30.054 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:30.054 [info] Average of latest 20 client time 195.86153564453124
+2024-09-14 21:59:30.054 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:30.054 [info] CPP RT LOG: All stats {"streamingtime":227.40478515625,"actualTtftFromStart":229.4189453125,"timeTillServerRequest":59.595947265625,"requestToTtft":169.822998046875,"totalTime":286.971923828125}
+2024-09-14 21:59:30.054 [info] CURSOR LOG: restFunc done 05a3ec06-3714-4a8a-97e6-65cd2a8bcd6e
+2024-09-14 21:59:30.158 [info] CURSOR LOG: restFunc initiated 8f8f953f-9407-4303-bf76-b4d8b8e9f1e1
+2024-09-14 21:59:30.183 [info] CURSOR LOG: Done streaming cpp with id 732245d8-1123-4e12-9f15-9f0b696b1e7b
+2024-09-14 21:59:30.183 [info] CPP RT LOG: Time taken for streaming cpp 194.451416015625 with request 732245d8-1123-4e12-9f15-9f0b696b1e7b
+2024-09-14 21:59:30.183 [info] CPP Request Log with id 732245d8-1123-4e12-9f15-9f0b696b1e7b
+2024-09-14 21:59:30.183 [info] =======>Model input 
+2024-09-14 21:59:30.183 [info] =======>Model output 
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => command,
+        child: Widget.Icon(icon)
+    })
+2024-09-14 21:59:30.183 [info] =======>Debug stream time 151.87041199207306
+2024-09-14 21:59:30.183 [info] =======>Debug ttft time 80.51824699342251
+2024-09-14 21:59:30.184 [info] Average of latest 20 ttft time 82.90671259965748
+2024-09-14 21:59:30.184 [info] Average of latest 20 stream time 141.59682374801486
+2024-09-14 21:59:30.184 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:30.184 [info] Average of latest 20 client time 198.170751953125
+2024-09-14 21:59:30.184 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:30.184 [info] CPP RT LOG: All stats {"streamingtime":194.451416015625,"actualTtftFromStart":178.428955078125,"timeTillServerRequest":55.54150390625,"requestToTtft":122.887451171875,"totalTime":249.961181640625}
+2024-09-14 21:59:30.184 [info] CURSOR LOG: restFunc done 732245d8-1123-4e12-9f15-9f0b696b1e7b
+2024-09-14 21:59:30.344 [info] CURSOR LOG: Done streaming cpp with id 8f8f953f-9407-4303-bf76-b4d8b8e9f1e1
+2024-09-14 21:59:30.345 [info] CPP RT LOG: Time taken for streaming cpp 187.354736328125 with request 8f8f953f-9407-4303-bf76-b4d8b8e9f1e1
+2024-09-14 21:59:30.345 [info] CPP Request Log with id 8f8f953f-9407-4303-bf76-b4d8b8e9f1e1
+2024-09-14 21:59:30.345 [info] =======>Model input 
+2024-09-14 21:59:30.345 [info] =======>Model output 
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => command,
+        child: Widget.Icon(icon)
+    })
+2024-09-14 21:59:30.345 [info] =======>Debug stream time 144.98712699860334
+2024-09-14 21:59:30.345 [info] =======>Debug ttft time 72.69843100011349
+2024-09-14 21:59:30.348 [info] Average of latest 20 ttft time 81.96831274982542
+2024-09-14 21:59:30.348 [info] Average of latest 20 stream time 142.09600024838
+2024-09-14 21:59:30.348 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:30.348 [info] Average of latest 20 client time 198.0165771484375
+2024-09-14 21:59:30.348 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:30.348 [info] CPP RT LOG: All stats {"streamingtime":187.354736328125,"actualTtftFromStart":194.435546875,"timeTillServerRequest":79.189208984375,"requestToTtft":115.246337890625,"totalTime":266.505126953125}
+2024-09-14 21:59:30.348 [info] CURSOR LOG: restFunc done 8f8f953f-9407-4303-bf76-b4d8b8e9f1e1
+2024-09-14 21:59:31.030 [info] CURSOR LOG: restFunc initiated 9b8e1b4e-4296-464d-aad4-982f109f7850
+2024-09-14 21:59:31.190 [info] CURSOR LOG: Done streaming cpp with id 9b8e1b4e-4296-464d-aad4-982f109f7850
+2024-09-14 21:59:31.190 [info] CPP RT LOG: Time taken for streaming cpp 160.79931640625 with request 9b8e1b4e-4296-464d-aad4-982f109f7850
+2024-09-14 21:59:31.191 [info] CPP Request Log with id 9b8e1b4e-4296-464d-aad4-982f109f7850
+2024-09-14 21:59:31.191 [info] =======>Model input 
+2024-09-14 21:59:31.191 [info] =======>Model output 
+        className: 'sidebar-overview-controlcenter-button',
+        on_clicked: () => command(),
+        child: Widget.Icon(icon)
+    })
+2024-09-14 21:59:31.191 [info] =======>Debug stream time 112.48268200457096
+2024-09-14 21:59:31.191 [info] =======>Debug ttft time 79.91029800474644
+2024-09-14 21:59:31.191 [info] Average of latest 20 ttft time 82.14172999989242
+2024-09-14 21:59:31.191 [info] Average of latest 20 stream time 142.79890249874444
+2024-09-14 21:59:31.191 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:31.191 [info] Average of latest 20 client time 196.97568359375
+2024-09-14 21:59:31.191 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:31.191 [info] CPP RT LOG: All stats {"streamingtime":160.79931640625,"actualTtftFromStart":192.4326171875,"timeTillServerRequest":63.985107421875,"requestToTtft":128.447509765625,"totalTime":224.717529296875}
+2024-09-14 21:59:31.191 [info] CURSOR LOG: restFunc done 9b8e1b4e-4296-464d-aad4-982f109f7850
+2024-09-14 21:59:34.415 [info] CURSOR LOG: restFunc initiated 4f9b8b7d-692a-4766-817f-b8ac319b015d
+2024-09-14 21:59:34.609 [info] CURSOR LOG: Done streaming cpp with id 4f9b8b7d-692a-4766-817f-b8ac319b015d
+2024-09-14 21:59:34.609 [info] CPP RT LOG: Time taken for streaming cpp 194.14208984375 with request 4f9b8b7d-692a-4766-817f-b8ac319b015d
+2024-09-14 21:59:34.609 [info] CPP Request Log with id 4f9b8b7d-692a-4766-817f-b8ac319b015d
+2024-09-14 21:59:34.609 [info] =======>Model input 
+2024-09-14 21:59:34.609 [info] =======>Model output 
+        on_clicked: () => command(),
+        child: Widget.Icon(icon)
+    })
+}
+2024-09-14 21:59:34.609 [info] =======>Debug stream time 139.20691500604153
+2024-09-14 21:59:34.609 [info] =======>Debug ttft time 101.82601800560951
+2024-09-14 21:59:34.610 [info] Average of latest 20 ttft time 82.80750885028392
+2024-09-14 21:59:34.610 [info] Average of latest 20 stream time 149.4438435992226
+2024-09-14 21:59:34.610 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:34.610 [info] Average of latest 20 client time 199.35767822265626
+2024-09-14 21:59:34.610 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:34.610 [info] CPP RT LOG: All stats {"streamingtime":194.14208984375,"actualTtftFromStart":211.837890625,"timeTillServerRequest":54.775390625,"requestToTtft":157.0625,"totalTime":248.8876953125}
+2024-09-14 21:59:34.610 [info] CURSOR LOG: restFunc done 4f9b8b7d-692a-4766-817f-b8ac319b015d
+2024-09-14 21:59:35.721 [info] CURSOR LOG: restFunc initiated 4b80e5df-6ea6-4c25-a2da-c48858f71a25
+2024-09-14 21:59:35.914 [info] CURSOR LOG: Done streaming cpp with id 4b80e5df-6ea6-4c25-a2da-c48858f71a25
+2024-09-14 21:59:35.915 [info] CPP RT LOG: Time taken for streaming cpp 192.260986328125 with request 4b80e5df-6ea6-4c25-a2da-c48858f71a25
+2024-09-14 21:59:35.915 [info] CPP Request Log with id 4b80e5df-6ea6-4c25-a2da-c48858f71a25
+2024-09-14 21:59:35.915 [info] =======>Model input 
+2024-09-14 21:59:35.915 [info] =======>Model output 
+        on_clicked: () => command(),
+        child: Widget.Icon(icon)
+    })
+}
+2024-09-14 21:59:35.915 [info] =======>Debug stream time 118.19597999751568
+2024-09-14 21:59:35.915 [info] =======>Debug ttft time 82.47241300344467
+2024-09-14 21:59:35.916 [info] Average of latest 20 ttft time 82.53307395074516
+2024-09-14 21:59:35.916 [info] Average of latest 20 stream time 147.72087269928306
+2024-09-14 21:59:35.916 [info] Average of latest 20 total time NaN
+2024-09-14 21:59:35.916 [info] Average of latest 20 client time 198.2296875
+2024-09-14 21:59:35.916 [info] Average of latest 20 discrepencies NaN
+2024-09-14 21:59:35.916 [info] CPP RT LOG: All stats {"streamingtime":192.260986328125,"actualTtftFromStart":246.83642578125,"timeTillServerRequest":54.80712890625,"requestToTtft":192.029296875,"totalTime":247.0439453125}
+2024-09-14 21:59:35.916 [info] CURSOR LOG: restFunc done 4b80e5df-6ea6-4c25-a2da-c48858f71a25
+2024-09-14 22:02:16.040 [info] CURSOR LOG: restFunc initiated c28ee4b4-2f94-4a14-9a15-363b6a835303
+2024-09-14 22:02:16.279 [info] CURSOR LOG: Done streaming cpp with id c28ee4b4-2f94-4a14-9a15-363b6a835303
+2024-09-14 22:02:16.279 [info] CPP RT LOG: Time taken for streaming cpp 238.93310546875 with request c28ee4b4-2f94-4a14-9a15-363b6a835303
+2024-09-14 22:02:16.280 [info] CPP Request Log with id c28ee4b4-2f94-4a14-9a15-363b6a835303
+2024-09-14 22:02:16.280 [info] =======>Model input 
+2024-09-14 22:02:16.280 [info] =======>Model output 
+        on_clicked: () => command(),
+        child: Widget.Icon(icon)
+    })
+}
+2024-09-14 22:02:16.280 [info] =======>Debug stream time 105.57967300713062
+2024-09-14 22:02:16.280 [info] =======>Debug ttft time 100.88362801074982
+2024-09-14 22:02:16.285 [info] Average of latest 20 ttft time 83.28537950161845
+2024-09-14 22:02:16.285 [info] Average of latest 20 stream time 144.99276185017078
+2024-09-14 22:02:16.285 [info] Average of latest 20 total time NaN
+2024-09-14 22:02:16.285 [info] Average of latest 20 client time 199.97032470703124
+2024-09-14 22:02:16.285 [info] Average of latest 20 discrepencies NaN
+2024-09-14 22:02:16.285 [info] CPP RT LOG: All stats {"streamingtime":238.93310546875,"actualTtftFromStart":305.0078125,"timeTillServerRequest":70.033447265625,"requestToTtft":234.974365234375,"totalTime":308.88232421875}
+2024-09-14 22:02:16.285 [info] CURSOR LOG: restFunc done c28ee4b4-2f94-4a14-9a15-363b6a835303

@@ -1,0 +1,748 @@
+2024-09-14 21:51:15.163 [info] Extension host with pid 164976 started
+2024-09-14 21:51:15.164 [info] Skipping acquiring lock for /home/spaced/.config/Cursor/User/workspaceStorage/cdf517695c62a7f89a66f5f8a756cdfb.
+2024-09-14 21:51:15.174 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-14 21:51:15.207 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-14 21:51:15.210 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-14 21:51:15.265 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-14 21:51:15.337 [info] Eager extensions activated
+2024-09-14 21:51:15.355 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:15.566 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:15.718 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:15.753 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:15.911 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:15.915 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 21:51:16.121 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 21:51:16.130 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 21:51:16.140 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 21:51:16.182 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 21:51:16.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 889
+2024-09-14 21:51:16.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 894
+2024-09-14 21:51:17.343 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:17.561 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:31.754 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:51:32.766 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:36.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:51:37.834 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:41.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:51:42.930 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:46.985 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:51:47.989 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:51:58.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1035
+2024-09-14 21:51:59.310 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:13.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1035
+2024-09-14 21:52:14.361 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:18.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1035
+2024-09-14 21:52:19.395 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:23.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1035
+2024-09-14 21:52:24.438 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:25.818 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-14 21:52:28.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1036
+2024-09-14 21:52:29.502 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:33.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1036
+2024-09-14 21:52:34.542 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:38.582 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1036
+2024-09-14 21:52:39.584 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:43.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:52:44.618 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:48.649 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:52:49.653 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:52:53.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:52:54.710 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:25.245 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:53:26.250 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:30.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:53:31.290 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:35.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1037
+2024-09-14 21:53:36.328 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:42.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:53:43.003 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:47.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:53:48.031 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:52.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:53:53.159 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:53:57.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:53:58.192 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:02.221 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:54:03.224 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:04.271 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2024-09-14 21:54:07.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1038
+2024-09-14 21:54:08.264 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:40.403 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1039
+2024-09-14 21:54:41.407 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:45.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1039
+2024-09-14 21:54:46.883 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:50.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1039
+2024-09-14 21:54:51.955 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:54:56.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:54:57.080 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:02.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:55:03.501 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:08.639 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:09.642 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:13.979 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:14.981 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:20.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:21.229 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:37.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:38.674 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:42.798 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:43.808 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:47.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1040
+2024-09-14 21:55:48.845 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:52.872 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:55:53.876 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:55:57.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:55:58.906 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:56:02.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:56:03.954 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:56:09.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:56:10.210 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:56:14.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:56:15.325 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:56:54.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:56:55.985 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:00.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:57:01.014 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:05.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:57:06.098 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:10.165 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:57:11.170 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:15.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:57:16.204 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:20.257 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1041
+2024-09-14 21:57:21.262 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:25.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1042
+2024-09-14 21:57:26.374 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:30.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:31.442 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:35.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:36.497 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:40.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:41.539 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:45.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:46.593 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:50.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:51.639 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:57:55.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:57:56.685 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:00.720 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:01.723 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:05.759 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:06.762 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:10.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:11.795 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:15.823 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:16.826 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:20.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:21.858 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:29.089 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:30.092 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:34.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:35.193 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:39.238 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:40.240 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:44.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:45.333 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:49.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:50.363 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:58:54.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:58:55.394 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:18.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:19.245 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:23.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:24.295 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:28.339 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:29.342 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:33.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:34.405 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:38.443 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:39.448 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 21:59:43.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 21:59:44.490 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 22:02:09.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 22:02:10.985 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 22:02:15.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1043
+2024-09-14 22:02:16.078 [error] Error: No such branch: main.
+	at F.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:937255)
+	at async T.retryRun (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031971)
+	at async T.run (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1031575)
+	at async T.getBranch (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1019895)
+	at async T.getBranchBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1020181)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:947847)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:942079)
+2024-09-14 22:02:16.760 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-14 22:02:16.815 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at c.O [as value] (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:951419)
+	at r.B (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-14 22:02:16.816 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at set hasGitHubRepositories (/tmp/.mount_cursordzULlQ/resources/app/extensions/github/dist/extension.js:2:322968)
+	at /tmp/.mount_cursordzULlQ/resources/app/extensions/github/dist/extension.js:2:323927
+	at c.value (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:1059794)
+	at r.B (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursordzULlQ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-14 22:02:16.827 [info] Extension host with pid 164976 exiting with code 0

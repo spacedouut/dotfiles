@@ -1,0 +1,134 @@
+2024-09-14 18:26:07.845 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-14 18:26:07.845 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-14 18:26:07.845 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-14 18:26:07.884 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.884 [warning] Missing property "chatDisplayVariant3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.884 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.884 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.884 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.884 [warning] Missing property "autopilotFeatureEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "bigCmdKEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.885 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "hfUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.886 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "contextAstPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "compressComposerEdits" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "hallucinatedFunctionsPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.887 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "chunkedStreamingEnabledV2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "cppCachedTypeaheadEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.888 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "SPECIAL_KEY_lastUpdatedTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "aiHyperModeUXType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "isFileSyncEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "isAiReviewInputExpanded" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.889 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "aiDocAgentEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "isCursorSmallEnabledForTheFirstTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "aiReviewPersistentStorage" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.890 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.891 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.891 [warning] Missing property "persistentThoughtAnnotationState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.891 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.891 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:07.891 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-09-14 18:26:08.065 [error] [uncaught exception in main]: SQLITE_CANTOPEN: unable to open database file: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-14 18:26:08.084 [error] Unable to resolve nonexistent file '/home/spaced/.vscode/extensions': Error: Unable to resolve nonexistent file '/home/spaced/.vscode/extensions'
+    at a.resolve (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:1108:20459)
+    at async me (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:23273:24341)
+2024-09-14 18:26:08.102 [info] Started local extension host with pid 27409.
+2024-09-14 18:26:08.132 [info] Started initializing default profile extensions in extensions installation folder. file:///home/spaced/.cursor/extensions
+2024-09-14 18:26:08.297 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/spaced/.cursor/extensions
+2024-09-14 18:26:10.582 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.V [as unary] (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:22791:11460)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:266:113456)
+    at async at.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:23340:12926)
+    at async at.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:23355:837)
+2024-09-14 18:26:11.508 [info] [perf] Render performance baseline is 59ms
+2024-09-14 18:27:08.948 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.V [as unary] (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:22791:11460)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:266:113456)
+    at async at.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:23340:12926)
+    at async at.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorDq2Lzh/resources/app/out/vs/workbench/workbench.desktop.main.js:23355:837)
+2024-09-14 18:27:50.179 [info] Starting polling for login
+2024-09-14 18:27:50.379 [info] Beginning of Login Poll
+2024-09-14 18:27:50.579 [info] Beginning of Login Poll
+2024-09-14 18:27:50.601 [info] Got login result 404
+2024-09-14 18:27:50.637 [info] Got login result 404
+2024-09-14 18:27:50.779 [info] Beginning of Login Poll
+2024-09-14 18:27:50.805 [info] Got login result 404
+2024-09-14 18:27:50.979 [info] Beginning of Login Poll
+2024-09-14 18:27:51.009 [info] Got login result 404
+2024-09-14 18:27:51.179 [info] Beginning of Login Poll
+2024-09-14 18:27:51.216 [info] Got login result 404
+2024-09-14 18:27:51.380 [info] Beginning of Login Poll
+2024-09-14 18:27:51.415 [info] Got login result 404
+2024-09-14 18:27:51.579 [info] Beginning of Login Poll
+2024-09-14 18:27:51.608 [info] Got login result 404
+2024-09-14 18:27:51.780 [info] Beginning of Login Poll
+2024-09-14 18:27:51.810 [info] Got login result 404
+2024-09-14 18:27:51.980 [info] Beginning of Login Poll
+2024-09-14 18:27:52.009 [info] Got login result 404
+2024-09-14 18:27:52.179 [info] Beginning of Login Poll
+2024-09-14 18:27:52.203 [info] Got login result 404
+2024-09-14 18:27:52.379 [info] Beginning of Login Poll
+2024-09-14 18:27:52.407 [info] Got login result 404
+2024-09-14 18:27:52.580 [info] Beginning of Login Poll
+2024-09-14 18:27:52.612 [info] Got login result 404
+2024-09-14 18:27:52.780 [info] Beginning of Login Poll
+2024-09-14 18:27:52.816 [info] Got login result 404
+2024-09-14 18:27:52.979 [info] Beginning of Login Poll
+2024-09-14 18:27:53.011 [info] Got login result 404
+2024-09-14 18:27:53.148 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2024-09-14 18:27:53.149 [error] [File Watcher (universal)] restarting watcher after unexpected error: terminated by itself unexpectedly with code 2, signal: unknown (ETERM)
+2024-09-14 18:27:53.152 [error] Extension host (LocalProcess pid: 27409) terminated unexpectedly. No extensions were activated.
+2024-09-14 18:27:53.152 [info] Automatically restarting the extension host.
+2024-09-14 18:27:53.170 [info] Started local extension host with pid 28565.
