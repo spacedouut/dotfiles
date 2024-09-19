@@ -2,8 +2,8 @@
 Personal dotfiles for Arch Linux
 
 ## Notes
- - My monitors are set to 75Hz! If your monitors are below that, make sure you change the refresh rate in the hyprland config
- - Gitconfig is using SSH
+ - Make sure your monitors are at the right refresh rate in the hyprland config
+ - My git config is only really in here for me, so id suggest not using it
 ## Programs
 | **App**           | **Name**  | **Link**                           |
 |-------------------|-----------|------------------------------------|
