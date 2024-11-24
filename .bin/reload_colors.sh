@@ -1,4 +1,7 @@
-matugen image ~/.cache/current_wallpaper.jpg --mode $(cat ~/.cache/user_active_theme)
+if [[ $# -eq 0 || ! $(grep -q noregen <<< "$*") ]]; then
+    echo 'Colors will be regenerated from current wallpaper!'
+    ~/.bin/generate_colors.sh
+fi
 
 ags --run-js "applyStyle();"
-gradience-cli apply -p ~/.cache/matugen/compiled/gradience.json --gtk both
+gradience-cli apply -p ~/.cache/matugen/compiled/gradience.json 

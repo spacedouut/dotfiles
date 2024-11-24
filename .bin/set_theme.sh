@@ -13,16 +13,7 @@ toggle_gtk_theme() {
         new_theme="dark"
     fi
 
-    # Set the GTK theme only if it's different
-    if [[ "$new_theme" != "$current_theme" ]]; then
-        if [[ "$new_theme" == "dark" ]]; then
-            gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme  
- 'prefer-dark'
-        else
-            gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set org.gnome.desktop.interface color-scheme 'default'  
 
-        fi
-    fi
 
     echo "$new_theme" > ~/.cache/user_active_theme
 }
@@ -31,16 +22,6 @@ toggle_gtk_theme() {
 if [[ $# -eq 0 ]]; then
     toggle_gtk_theme
 elif [[ "$1" == "dark" || "$1" == "light" ]]; then
-    # Set the GTK theme only if it's different
-    if [[ "$1" != "$(cat ~/.cache/user_active_theme)" ]]; then
-        if [[ "$1" == "dark" ]]; then
-            gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme  
- 'prefer-dark'
-        else
-            gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set org.gnome.desktop.interface color-scheme 'default'  
-
-        fi
-    fi
 
     echo "$1" > ~/.cache/user_active_theme
 else

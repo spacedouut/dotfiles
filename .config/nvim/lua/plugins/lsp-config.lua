@@ -28,7 +28,6 @@ return {
             vim.keymap.set("n", "T", vim.lsp.buf.hover, {})
             vim.keymap.set("n", "Y", vim.lsp.buf.definition, {})
             vim.keymap.set({ "n", "v" }, "<leader>ca", function()
-                require("tiny-code-action").code_action()
             end, { noremap = true, silent = true })
         end,
     }

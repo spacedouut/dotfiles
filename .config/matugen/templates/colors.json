@@ -1,0 +1,6 @@
+{
+<* for name, value in colors *>
+    "{{name}}": "{{value.default.hex}}",
+<* endfor *>
+    "finalVal": "This is a final value so JSON formatting wont get upset"
+}

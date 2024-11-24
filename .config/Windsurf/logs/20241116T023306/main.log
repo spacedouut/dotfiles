@@ -1,0 +1,13 @@
+2024-11-16 02:33:06.143 [info] update#setState idle
+2024-11-16 02:33:07.173 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/index.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2&origin=e5237803-f22d-4387-a73e-9fee82dd5c4d&swVersion=4&extensionId=codeium.windsurf&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&purpose=webviewView
+2024-11-16 02:33:08.472 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:08.483 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:08.493 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:08.503 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:08.513 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:08.523 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=95017d28-c26b-4500-a67d-05582d8f5bb2
+2024-11-16 02:33:36.146 [info] update#setState checking for updates
+2024-11-16 02:33:36.193 [info] update#setState idle
+2024-11-16 02:34:09.296 [error] Allowed vscode-webview request vscode-webview://177gjitt3u71rgbpoechg8p5hursjo6mm2iell94sks3fcfkf7p9/index.html?id=230636b6-2f58-4e92-a89f-8032ffe49801&origin=9fd0f379-7d93-4485-af07-ddb1fc590b95&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&disableServiceWorker=true
+2024-11-16 02:34:09.333 [error] Allowed vscode-webview request vscode-webview://177gjitt3u71rgbpoechg8p5hursjo6mm2iell94sks3fcfkf7p9/fake.html?id=230636b6-2f58-4e92-a89f-8032ffe49801
+2024-11-16 02:35:11.689 [info] Extension host with pid 18977 exited with code: 0, signal: unknown.

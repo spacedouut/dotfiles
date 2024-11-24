@@ -1,0 +1,28 @@
+2024-11-16 02:08:00.155 [error] Cannot read properties of undefined (reading 'label'): TypeError: Cannot read properties of undefined (reading 'label')
+    at D6e.eb (vscode-file://vscode-app/home/spaced/Downloads/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:784:15875)
+    at D6e.db (vscode-file://vscode-app/home/spaced/Downloads/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:784:14270)
+2024-11-16 02:08:00.168 [info] Started local extension host with pid 4426.
+2024-11-16 02:08:00.231 [info] Started initializing default profile extensions in extensions installation folder. file:///home/spaced/.windsurf/extensions
+2024-11-16 02:08:00.343 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/spaced/.windsurf/extensions
+2024-11-16 02:08:03.132 [info] [perf] Render performance baseline is 22ms
+2024-11-16 02:09:45.635 [error] process is not defined: ReferenceError: process is not defined
+    at snt.q (vscode-file://vscode-app/home/spaced/Downloads/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:3067:29352)
+    at HTMLElement.<anonymous> (vscode-file://vscode-app/home/spaced/Downloads/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:3067:27482)
+2024-11-16 02:09:46.900 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:09:46.900 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:09:46.907 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:09:46.907 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Downloads/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:10:48.158 [info] Started local extension host with pid 5358.
+2024-11-16 02:10:50.872 [info] [perf] Render performance baseline is 54ms

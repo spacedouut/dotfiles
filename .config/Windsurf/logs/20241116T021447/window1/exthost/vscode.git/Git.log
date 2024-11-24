@@ -1,0 +1,25 @@
+2024-11-16 02:14:49.151 [info] [main] Log level: Info
+2024-11-16 02:14:49.151 [info] [main] Validating found git in: "git"
+2024-11-16 02:14:49.151 [info] [main] Using git "2.47.0" from "git"
+2024-11-16 02:14:49.151 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 02:14:49.151 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-16 02:14:49.151 [info] > git rev-parse --path-format=relative --show-toplevel [6ms]
+2024-11-16 02:14:49.151 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 02:14:49.152 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.161 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 02:14:49.167 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.180 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-16 02:14:49.189 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.200 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 02:14:49.206 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.214 [info] > git rev-parse --show-toplevel [0ms]
+2024-11-16 02:14:49.219 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.225 [info] > git rev-parse --show-toplevel [0ms]
+2024-11-16 02:14:49.231 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.234 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2024-11-16 02:14:49.239 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 02:14:49.244 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-11-16 02:14:49.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 02:14:49.257 [info] > git rev-parse --path-format=relative --show-toplevel [0ms]
+2024-11-16 02:14:50.945 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 02:14:50.950 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]

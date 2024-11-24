@@ -1,0 +1,650 @@
+2024-11-16 02:35:13.043 [info] Started local extension host with pid 19825.
+2024-11-16 02:35:15.069 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:35:15.069 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:35:16.042 [info] [perf] Render performance baseline is 56ms
+2024-11-16 02:35:55.889 [warning] [backup tracker] suspended, ignoring unregister event file:///home/spaced/.config/hypr/hyprland/misc.conf 
+2024-11-16 02:35:56.396 [info] Started local extension host with pid 20155.
+2024-11-16 02:35:58.348 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:35:58.348 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:35:59.360 [info] [perf] Render performance baseline is 51ms
+2024-11-16 02:43:43.190 [info] Started local extension host with pid 20561.
+2024-11-16 02:43:45.164 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:43:45.164 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:44:10.480 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:11.283 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:11.584 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:11.661 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:11.868 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:15.205 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:15.702 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:17.786 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:38.285 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:38.436 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:38.805 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:41.293 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:41.734 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:43.213 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:45.394 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:46.588 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:47.494 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:49.077 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:49.313 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:49.503 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:49.999 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:56.050 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:56.454 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:56.853 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:57.509 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:57.733 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:57.918 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:58.154 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:58.359 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:58.615 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:58.879 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:59.240 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:44:59.640 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:48:59.394 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:49:42.466 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2024-11-16 02:49:46.886 [info] [lifecycle]: Shutdown was prevented (id: veto.untitledWorkspace)
+2024-11-16 02:49:52.843 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-16 02:49:53.007 [info] Started local extension host with pid 21217.
+2024-11-16 02:49:53.608 [error] No registered selector for ID: ms-vscode.npm-command
+2024-11-16 02:49:54.804 [warning] [backup tracker] suspended, ignoring register event vscode-userdata:/home/spaced/.config/Windsurf/User/settings.json 
+2024-11-16 02:49:54.817 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/spaced/.config/Windsurf/User/settings.json 
+2024-11-16 02:49:54.933 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:49:54.934 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:49:56.784 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/spaced/.config/ags/desktop-shell/widgets/bar/widget.js 
+2024-11-16 02:49:57.222 [info] Started local extension host with pid 21300.
+2024-11-16 02:49:59.234 [error] [Extension Host] Error processing image: Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:49:59.234 [error] [Extension Host] Error: Could not load Buffer from URL: 
+	at i.read (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2792175)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async t.prepareProfilePictureBase64 (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1679293)
+2024-11-16 02:50:00.208 [info] [perf] Render performance baseline is 57ms
+2024-11-16 02:55:19.620 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:36.958 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:37.397 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:37.550 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:37.697 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:37.956 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:38.123 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:38.290 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:38.765 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:38.931 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:39.100 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:39.378 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:55:41.508 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 02:55:59.666 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 02:56:04.955 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 02:57:17.611 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:57:32.655 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 02:58:02.290 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:00:09.180 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:00:11.410 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:00:12.502 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:00:42.006 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:00:48.503 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:00:51.036 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:00:57.239 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:00:57.341 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:02:37.617 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:04:22.814 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:05:24.088 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:06:52.501 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:06:54.375 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:06:57.298 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:08:00.569 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:08:13.475 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:08:25.759 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:08:29.719 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] empty edit summary
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-16 03:08:39.280 [error] command 'extension.vim_escape' not found: Error: command 'extension.vim_escape' not found
+    at vde.n (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4921)
+    at vde.executeCommand (vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1237:4853)
+2024-11-16 03:08:53.041 [error] [Extension Host] Error getting supercomplete response ConnectError: [unknown] document has less than 3 lines, skipping supercomplete
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

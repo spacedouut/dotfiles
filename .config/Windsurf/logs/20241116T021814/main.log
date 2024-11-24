@@ -1,0 +1,9 @@
+2024-11-16 02:18:14.777 [info] update#setState idle
+2024-11-16 02:18:15.431 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/index.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab&origin=e5237803-f22d-4387-a73e-9fee82dd5c4d&swVersion=4&extensionId=codeium.windsurf&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&purpose=webviewView
+2024-11-16 02:18:17.164 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:17.175 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:17.185 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:17.195 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:17.205 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:17.215 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/fake.html?id=fbe07928-e157-42fe-bbe6-26e095ac95ab
+2024-11-16 02:18:21.016 [info] Extension host with pid 2211 exited with code: 0, signal: unknown.

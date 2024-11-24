@@ -12,7 +12,7 @@ swww_options = [
 ]
 
 [config.reload_apps_list]
-gtk_theme = true
+gtk_theme = false
 alacritty = true
 
 [templates]
@@ -23,3 +23,7 @@ css = { input_path = '~/.config/matugen/templates/colors.css', output_path = '~/
 sass = { input_path = '~/.config/matugen/templates/colors.scss', output_path = '~/.cache/matugen/compiled/colors.scss' }
 gradience = { input_path = '~/.config/matugen/templates/gradience.json', output_path = '~/.cache/matugen/compiled/gradience.json' }
 lua = { input_path = '~/.config/matugen/templates/colors.lua', output_path = '~/.cache/matugen/compiled/colors.lua' }
+gtk = { input_path = '~/.config/matugen/templates/gtk-colors.css', output_path = '~/.cache/matugen/compiled/gtk-colors.css' }
+json = { input_path = '~/.config/matugen/templates/colors.json', output_path = '~/.cache/matugen/compiled/colors.json' }
+
+firefox = { input_path = '~/.config/matugen/templates/userChrome.css', output_path = '~/.mozilla/firefox/sf7y5l4l.default/chrome/userChrome.css' }

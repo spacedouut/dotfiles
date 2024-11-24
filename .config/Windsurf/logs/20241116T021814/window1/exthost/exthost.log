@@ -1,0 +1,24 @@
+2024-11-16 02:18:15.604 [info] Extension host with pid 2211 started
+2024-11-16 02:18:15.604 [info] Skipping acquiring lock for /home/spaced/.config/Windsurf/User/workspaceStorage/691dcb165dd3b5627ae338e012ef1398.
+2024-11-16 02:18:15.750 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2024-11-16 02:18:15.753 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-16 02:18:15.763 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-11-16 02:18:15.926 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onView:windsurf.chatPanelView', root cause: codeium.windsurf
+2024-11-16 02:18:16.056 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: false, activationEvent: 'onView:windsurf.chatPanelView'
+2024-11-16 02:18:16.613 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-16 02:18:17.109 [info] Eager extensions activated
+2024-11-16 02:18:17.112 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 02:18:17.117 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 02:18:17.130 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 02:18:18.137 [error] ConnectError: [invalid_argument] validation error:
+ - metadata.api_key: value length must be at least 1 characters [string.min_len]: validation error:
+ - metadata.api_key: value length must be at least 1 characters [string.min_len]
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2649030)
+	at next (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2655252)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Object.unary (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2654220)
+	at async Object.refreshContextForIdeAction (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2641868)
+	at async /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1744395
+2024-11-16 02:18:20.995 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-16 02:18:21.015 [info] Extension host with pid 2211 exiting with code 0

@@ -4,6 +4,7 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set nu")
 vim.cmd("set noswapfile")
+-- vim.cmd("set autochdir")
 vim.g.mapleader = " "
 
 if vim.g.neovide then
@@ -17,6 +18,9 @@ if vim.g.neovide then
     vim.cmd("noremap <C-V> \"+p")
     vim.cmd("cnoremap <C-V> <C-r>+")
     vim.cmd("imap <C-v> <C-r>+")
+
+    vim.keymap.set("n", "<C-z>", "u")
+
 
     vim.o.guifont = "JetBrainsMono Nerd Font:h14"
 end

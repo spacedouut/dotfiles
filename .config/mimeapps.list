@@ -1,4 +1,5 @@
 [Default Applications]
+text/plain=neovide.desktop;
 application/x-zerosize=nvim.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
@@ -10,6 +11,9 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/fleet=jetbrains-fleet.desktop
+application/vnd.efi.iso=gnome-disk-image-writer.desktop
 
 [Added Associations]
 application/x-zerosize=nvim.desktop;
@@ -23,3 +27,4 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+application/vnd.efi.iso=gnome-disk-image-writer.desktop;

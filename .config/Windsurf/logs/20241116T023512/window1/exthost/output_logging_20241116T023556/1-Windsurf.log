@@ -1,0 +1,163 @@
+2024/11/16 02:35:57 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+I1116 02:35:57.411943 20227 main.go:566] Setting GOMAXPROCS to 8
+I1116 02:35:57.412011 20227 main.go:776] Starting language server process with pid 20227
+I1116 02:35:57.412035 20227 server.go:199] Language server will attempt to listen on host 127.0.0.1
+I1116 02:35:57.412172 20227 server.go:206] Language server listening on random port at 45805
+I1116 02:35:57.412202 20227 unleash.go:94] Initializing Unleash
+I1116 02:35:57.552946 20227 unleash.go:114] Successfully initialized Unleash
+I1116 02:35:57.553030 20227 server.go:267] Created extension server client at port 36147
+E1116 02:35:57.560997 20227 client_manager.go:275] Metadata is nil when trying to refresh user JWT
+I1116 02:35:57.561315 20227 server.go:490] Successfully created API server client
+I1116 02:35:57.590505 20227 server.go:505] Successfully initialized tokenizer
+I1116 02:35:57.689670 20227 server.go:668] Local search is enabled, will index local files.
+I1116 02:35:57.689691 20227 server.go:672] Using 2 indexer workers
+I1116 02:35:57.691100 20227 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 1ms
+I1116 02:35:57.691297 20227 indexer.go:213] Using 8 embed workers
+I1116 02:35:57.691318 20227 search_provider.go:274] Successfully created and started indexer
+I1116 02:35:57.691334 20227 search_provider.go:304] Successfully created embedding search provider
+I1116 02:35:57.694148 20227 server.go:759] Successfully created completion provider
+I1116 02:35:57.698060 20227 server.go:323] LSP listening on random port at 41381
+(VSCode) 2024-11-16 02:35:57.704 [INFO]: Language server started
+(VSCode) 2024-11-16 02:35:57.765 [INFO]: LS lspClient started successfully
+(VSCode) 2024-11-16 02:37:12.875 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:37:12.878 [INFO]: Completion request succeeded (1257.87ms)
+(VSCode) 2024-11-16 02:37:17.668 [INFO]: Completion request was cancelled by token (20.69ms)
+(VSCode) 2024-11-16 02:37:17.669 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:17.974 [INFO]: Completion request was cancelled by token (250.25ms)
+(VSCode) 2024-11-16 02:37:17.974 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:18.038 [INFO]: Completion request was cancelled by token (5.58ms)
+(VSCode) 2024-11-16 02:37:18.038 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:18.375 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:37:18.379 [INFO]: Completion request succeeded (228.16ms)
+(VSCode) 2024-11-16 02:37:18.715 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:18.715 [INFO]: Completion request succeeded (10.65ms)
+(VSCode) 2024-11-16 02:37:19.013 [INFO]: Completion request was cancelled by token (163.57ms)
+(VSCode) 2024-11-16 02:37:19.013 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:19.175 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:19.175 [INFO]: Completion request succeeded (87.87ms)
+(VSCode) 2024-11-16 02:37:19.705 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:19.705 [INFO]: Completion request succeeded (6.67ms)
+(VSCode) 2024-11-16 02:37:20.214 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:20.214 [INFO]: Completion request succeeded (7.61ms)
+(VSCode) 2024-11-16 02:37:21.211 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:21.212 [INFO]: Completion request succeeded (463.08ms)
+(VSCode) 2024-11-16 02:37:22.982 [INFO]: Completion request was cancelled by token (100.72ms)
+(VSCode) 2024-11-16 02:37:22.982 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:23.081 [INFO]: Completion request was cancelled by token (47.15ms)
+(VSCode) 2024-11-16 02:37:23.081 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:23.157 [INFO]: Completion request was cancelled by token (24.01ms)
+(VSCode) 2024-11-16 02:37:23.157 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:23.261 [INFO]: Completion request was cancelled by token (53.04ms)
+(VSCode) 2024-11-16 02:37:23.262 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:23.402 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:23.403 [INFO]: Completion request succeeded (66.52ms)
+(VSCode) 2024-11-16 02:37:23.758 [INFO]: Completion request was cancelled by token (48.77ms)
+(VSCode) 2024-11-16 02:37:23.759 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:24.128 [INFO]: Completion request was cancelled by token (318.47ms)
+(VSCode) 2024-11-16 02:37:24.128 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:24.206 [INFO]: Completion request was cancelled by token (26.1ms)
+(VSCode) 2024-11-16 02:37:24.206 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:24.348 [INFO]: Completion request was cancelled by token (91.43ms)
+(VSCode) 2024-11-16 02:37:24.348 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:24.463 [INFO]: Completion request was cancelled by token (57.03ms)
+(VSCode) 2024-11-16 02:37:24.463 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:24.583 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:37:24.583 [INFO]: Completion request succeeded (68.51ms)
+(VSCode) 2024-11-16 02:37:24.871 [INFO]: Completion request was cancelled by token (89.08ms)
+(VSCode) 2024-11-16 02:37:24.872 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:25.046 [INFO]: Completion request was cancelled by token (122.64ms)
+(VSCode) 2024-11-16 02:37:25.047 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:25.266 [INFO]: Completion request was cancelled by token (168.95ms)
+(VSCode) 2024-11-16 02:37:25.267 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:25.366 [INFO]: Generated 3 completions
+(VSCode) 2024-11-16 02:37:25.367 [INFO]: Completion request succeeded (49.45ms)
+(VSCode) 2024-11-16 02:37:25.516 [INFO]: Completion request was cancelled by token (60.79ms)
+(VSCode) 2024-11-16 02:37:25.516 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:37:25.929 [INFO]: Generated 3 completions
+(VSCode) 2024-11-16 02:37:25.930 [INFO]: Completion request succeeded (341.99ms)
+(VSCode) 2024-11-16 02:37:26.064 [INFO]: Generated 3 completions
+(VSCode) 2024-11-16 02:37:26.064 [INFO]: Completion request succeeded (9.01ms)
+(VSCode) 2024-11-16 02:37:26.264 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:37:26.264 [INFO]: Completion request succeeded (11.35ms)
+(VSCode) 2024-11-16 02:37:26.329 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:37:26.329 [INFO]: Completion request succeeded (5.86ms)
+(VSCode) 2024-11-16 02:37:29.424 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:37:29.425 [INFO]: Completion request succeeded (274.3ms)
+(VSCode) 2024-11-16 02:39:41.094 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:41.094 [INFO]: Completion request succeeded (303.91ms)
+(VSCode) 2024-11-16 02:39:42.141 [INFO]: Completion request was cancelled by token (296.59ms)
+(VSCode) 2024-11-16 02:39:42.141 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:42.335 [INFO]: Completion request was cancelled by token (131.93ms)
+(VSCode) 2024-11-16 02:39:42.336 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:42.519 [INFO]: Completion request was cancelled by token (134.15ms)
+(VSCode) 2024-11-16 02:39:42.520 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:42.910 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:39:42.911 [INFO]: Completion request succeeded (336.42ms)
+(VSCode) 2024-11-16 02:39:43.279 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:43.280 [INFO]: Completion request succeeded (305.01ms)
+(VSCode) 2024-11-16 02:39:45.655 [INFO]: Completion request was cancelled by token (123.26ms)
+(VSCode) 2024-11-16 02:39:45.655 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:45.728 [INFO]: Completion request was cancelled by token (19.68ms)
+(VSCode) 2024-11-16 02:39:45.729 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:45.821 [INFO]: Completion request was cancelled by token (30.96ms)
+(VSCode) 2024-11-16 02:39:45.822 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:46.151 [INFO]: Generated 4 completions
+(VSCode) 2024-11-16 02:39:46.151 [INFO]: Completion request succeeded (277.26ms)
+(VSCode) 2024-11-16 02:39:46.244 [INFO]: Generated 4 completions
+(VSCode) 2024-11-16 02:39:46.244 [INFO]: Completion request succeeded (3.82ms)
+(VSCode) 2024-11-16 02:39:46.735 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:39:46.735 [INFO]: Completion request succeeded (310.19ms)
+(VSCode) 2024-11-16 02:39:47.295 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:47.295 [INFO]: Completion request succeeded (11.32ms)
+(VSCode) 2024-11-16 02:39:47.923 [INFO]: Completion request was cancelled by token (367.09ms)
+(VSCode) 2024-11-16 02:39:47.923 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:48.039 [INFO]: Completion request was cancelled by token (66.02ms)
+(VSCode) 2024-11-16 02:39:48.040 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:48.104 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:48.105 [INFO]: Completion request succeeded (13.87ms)
+(VSCode) 2024-11-16 02:39:48.576 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:48.576 [INFO]: Completion request succeeded (12.18ms)
+(VSCode) 2024-11-16 02:39:48.807 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:48.807 [INFO]: Completion request succeeded (4.85ms)
+(VSCode) 2024-11-16 02:39:48.892 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:48.893 [INFO]: Completion request succeeded (15.35ms)
+(VSCode) 2024-11-16 02:39:48.991 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:48.991 [INFO]: Completion request succeeded (11.99ms)
+(VSCode) 2024-11-16 02:39:49.667 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:49.667 [INFO]: Completion request succeeded (428.81ms)
+(VSCode) 2024-11-16 02:39:50.541 [INFO]: Completion request was cancelled by token (455.21ms)
+(VSCode) 2024-11-16 02:39:50.541 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:50.603 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:50.604 [INFO]: Completion request succeeded (9.76ms)
+(VSCode) 2024-11-16 02:39:51.020 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:51.020 [INFO]: Completion request succeeded (4.99ms)
+(VSCode) 2024-11-16 02:39:51.263 [INFO]: Generated 1 completion
+(VSCode) 2024-11-16 02:39:51.264 [INFO]: Completion request succeeded (11.89ms)
+(VSCode) 2024-11-16 02:39:51.638 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:39:51.638 [INFO]: Completion request succeeded (299.09ms)
+(VSCode) 2024-11-16 02:39:53.307 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:39:53.308 [INFO]: Completion request succeeded (436.77ms)
+(VSCode) 2024-11-16 02:39:56.759 [INFO]: Completion request was cancelled by token (91ms)
+(VSCode) 2024-11-16 02:39:56.759 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:56.913 [INFO]: Completion request was cancelled by token (103.16ms)
+(VSCode) 2024-11-16 02:39:56.914 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:57.068 [INFO]: Completion request was cancelled by token (105.11ms)
+(VSCode) 2024-11-16 02:39:57.069 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:57.235 [INFO]: Completion request was cancelled by token (116.01ms)
+(VSCode) 2024-11-16 02:39:57.236 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:57.657 [INFO]: Completion request was cancelled by token (370.85ms)
+(VSCode) 2024-11-16 02:39:57.657 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:39:58.016 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:39:58.016 [INFO]: Completion request succeeded (309.96ms)
+(VSCode) 2024-11-16 02:40:06.721 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:40:06.721 [INFO]: Completion request succeeded (299.37ms)
+(VSCode) 2024-11-16 02:40:07.222 [INFO]: Completion request was cancelled by token (77.12ms)
+(VSCode) 2024-11-16 02:40:07.222 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:40:07.326 [INFO]: Completion request was cancelled by token (53.32ms)
+(VSCode) 2024-11-16 02:40:07.326 [INFO]: Completion request was cancelled.
+(VSCode) 2024-11-16 02:40:07.710 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:40:07.711 [INFO]: Completion request succeeded (333.41ms)
+(VSCode) 2024-11-16 02:40:53.725 [INFO]: No completions were generated
+(VSCode) 2024-11-16 02:40:53.726 [INFO]: Completion request succeeded (322.41ms)
+(VSCode) 2024-11-16 02:40:58.309 [INFO]: Generated 2 completions
+(VSCode) 2024-11-16 02:40:58.310 [INFO]: Completion request succeeded (618.53ms)

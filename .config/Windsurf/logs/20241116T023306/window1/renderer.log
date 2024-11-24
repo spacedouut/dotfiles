@@ -1,0 +1,17 @@
+2024-11-16 02:33:06.770 [info] Started local extension host with pid 18977.
+2024-11-16 02:33:09.852 [info] [perf] Render performance baseline is 46ms
+2024-11-16 02:34:57.145 [error] User Cancelled: Error: User Cancelled
+	at R0.h (file:///home/spaced/Windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:33192)
+2024-11-16 02:34:58.149 [error] User Cancelled: Error: User Cancelled
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1672853
+	at async /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:1672650
+2024-11-16 02:35:07.709 [error] [Extension Host] Error getting supercomplete response ConnectError: [invalid_argument] validation error:
+ - metadata.api_key: value length must be at least 1 characters [string.min_len]
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2648634)
+	at c (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647258)
+	at Object.parse (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2647735)
+	at /home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2667299
+	at Generator.next (<anonymous>)
+	at a (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664266)
+	at u (/home/spaced/Windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2664382)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

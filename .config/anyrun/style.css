@@ -10,6 +10,7 @@
 #plugin,
 #main {
     background: transparent;
+    color: @on_background;
 }
 
 #match.activatable {
@@ -35,12 +36,12 @@
 #match:hover,
 #plugin:hover {
     background: @primary_container;
-    color: @on_primary_container;
+    color: @primary;
 }
 
 #entry {
     background: @primary_container;
-    color: @on_primary_container;
+    color: @primary_container;
     border-radius: 16px;
     margin: 0.5rem;
     padding: 0.3rem 1rem;
@@ -58,6 +59,8 @@ list > #plugin:last-child {
 }
 list > #plugin:hover {
     padding: 0.6rem;
+    color: @on_primary;
+    background: @primary
 }
 
 box#main {

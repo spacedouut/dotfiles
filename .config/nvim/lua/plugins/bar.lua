@@ -10,7 +10,7 @@ return {
         require 'barbar'.setup {
             sidebar_filetypes = {
                 -- Use the default values: {event = 'BufWinLeave', text = '', align = 'left'}
-                NvimTree = true,
+                ['neo-tree'] = {event = 'BufWipeout'},
             }
         }
     end,
