@@ -2,10 +2,14 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
+vim.cmd("set clipboard=unnamedplus")
+vim.cmd("set undofile")
 vim.cmd("set nu")
 vim.cmd("set noswapfile")
 -- vim.cmd("set autochdir")
 vim.g.mapleader = " "
+
+
 
 if vim.g.neovide then
     --vim.o.guifont = "JetBrainsMono Nerd Font Regular:h11"
@@ -14,12 +18,19 @@ if vim.g.neovide then
     vim.g.neovide_cursor_smooth_blink = true
  
     vim.cmd("se mouse+=a")
+
+    -- Copy & Paste
     vim.cmd("noremap <C-C> \"+y")
     vim.cmd("noremap <C-V> \"+p")
-    vim.cmd("cnoremap <C-V> <C-r>+")
-    vim.cmd("imap <C-v> <C-r>+")
 
-    vim.keymap.set("n", "<C-z>", "u")
+    -- Undo & Redo
+    vim.cmd("noremap <C-z> u")
+    vim.cmd("noremap <C-y> <C-r>")
+
+    -- Save
+    vim.cmd("nnoremap <C-s> :w<CR>")
+    vim.cmd("nnoremap <C-S> :wa<CR>")
+    vim.cmd("nnoremap <C-S-A-S> :wqa!<CR>")
 
 
     vim.o.guifont = "JetBrainsMono Nerd Font:h14"

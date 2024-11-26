@@ -1,4 +1,0 @@
-2024-11-16 02:17:21.655 [info] update#setState idle
-2024-11-16 02:17:22.545 [error] Allowed vscode-webview request vscode-webview://1t0i43rftvl6b8nvb6uaphhvjqgghbaaa8pdcbi5jgeoncftgffi/index.html?id=36cd8dc4-18bb-4895-87ee-2c29cf25f4c9&origin=e5237803-f22d-4387-a73e-9fee82dd5c4d&swVersion=4&extensionId=codeium.windsurf&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&purpose=webviewView
-2024-11-16 02:17:22.889 [error] Blocked vscode-file request vscode-file://vscode-app/home/spaced/Windsurf/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.worker.esm.js#TextMateWorker
-2024-11-16 02:17:22.900 [info] Extension host with pid 1690 exited with code: 0, signal: unknown.
