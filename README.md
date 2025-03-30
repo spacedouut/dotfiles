@@ -1,2 +1,2 @@
 # Dotfiles
-Welcome to my dotfiles repo! This contains config files along with various other things. Right now, only Arch Linux and NixOS (which im in the process of switching to) are included. Check the other branches.
+i dont actually use these anymore, ill unarchive if i start using these again or care to maintain it
